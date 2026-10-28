@@ -26,7 +26,8 @@ type DoctorsWidgetProps = {
   showDetailsLink?: boolean;
 };
 
-const PLACEHOLDER_PHOTO = "/images/doctors/NonPhoto.jpg";
+const PLACEHOLDER_PHOTO = `${import.meta.env.BASE_URL}images/doctors/NonPhoto.jpg`;
+
 const PLACEHOLDER_PHOTO_NAMES = new Set([
   "nonphotoman.png",
   "nonphotowoman.png",
@@ -35,8 +36,11 @@ const PLACEHOLDER_PHOTO_NAMES = new Set([
 
 function hasRealPhoto(photo: string): boolean {
   const path = photo.trim().toLowerCase();
+
   if (!path) return false;
+
   const fileName = path.split(/[?#]/)[0].split("/").pop();
+
   return Boolean(fileName && !PLACEHOLDER_PHOTO_NAMES.has(fileName));
 }
 
@@ -58,32 +62,48 @@ function getDoctorUrl(
   preferredSpecializationIds?: string[],
 ): string | undefined {
   const ids = getSpecializationIds(doctor.specializationId);
+
   const preferred = preferredSpecializationIds
     ?.filter((id) => ids.includes(id))
     .map((id) => specializationsData.find((item) => item.id === id))
     .find((item) => item !== undefined);
+
   const specialization =
     preferred ??
     ids
       .map((id) => specializationsData.find((item) => item.id === id))
       .find((item) => item !== undefined);
+
   if (!specialization) return undefined;
-  return `/doctors/${encodeURIComponent(specialization.slug)}/${encodeURIComponent(doctor.slug.trim())}`;
+
+  return `/doctors/${encodeURIComponent(
+    specialization.slug,
+  )}/${encodeURIComponent(doctor.slug.trim())}`;
 }
 
 function getPhotoPath(photo: string): string {
-  const path = photo.trim().replace(/^\/?public\//, "/");
+  const path = photo
+    .trim()
+    .replace(/^\/?public\//, "")
+    .replace(/^\/+/, "");
+
   if (!path) return PLACEHOLDER_PHOTO;
-  return path.startsWith("/") ? path : `/${path}`;
+
+  return `${import.meta.env.BASE_URL}${path}`;
 }
 
 const seenSlugs = new Set<string>();
+
 const doctors: Doctor[] = doctorsData
   .filter((doctor) => {
     const slug = doctor.slug.trim();
-    if (!doctor.id || !slug || !doctor.lastName.trim() || seenSlugs.has(slug))
+
+    if (!doctor.id || !slug || !doctor.lastName.trim() || seenSlugs.has(slug)) {
       return false;
+    }
+
     seenSlugs.add(slug);
+
     return true;
   })
   .map((doctor) => ({
@@ -94,12 +114,16 @@ const doctors: Doctor[] = doctorsData
 
 function shuffleDoctors(list: Doctor[]): Doctor[] {
   const shuffled = [...list];
+
   for (let i = shuffled.length - 1; i > 0; i--) {
     const randomIndex = Math.floor(Math.random() * (i + 1));
+
     [shuffled[i], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[i]];
   }
+
   return shuffled;
 }
+
 const shuffledDoctors = shuffleDoctors(doctors);
 
 function ArrowIcon({ left = false }: { left?: boolean }) {
@@ -135,6 +159,7 @@ export function DoctorsWidget({
   const titleId = useId();
   const listId = useId();
   const listRef = useRef<HTMLUListElement>(null);
+
   const [scrollState, setScrollState] = useState({
     overflow: false,
     previous: false,
@@ -142,6 +167,7 @@ export function DoctorsWidget({
   });
 
   const sourceDoctors = randomize ? shuffledDoctors : doctors;
+
   const matchingDoctors =
     specializationIds === undefined
       ? sourceDoctors
@@ -150,6 +176,7 @@ export function DoctorsWidget({
             specializationIds.includes(id),
           ),
         );
+
   const visibleDoctors = matchingDoctors
     .filter(
       (doctor) =>
@@ -157,19 +184,25 @@ export function DoctorsWidget({
         Boolean(getDoctorUrl(doctor, specializationIds)),
     )
     .slice(0, Math.max(0, limit));
+
   const visibleKey = visibleDoctors.map((doctor) => doctor.slug).join("|");
 
   useEffect(() => {
     const list = listRef.current;
+
     if (!list) return;
+
     function updateScrollState() {
       if (!list) return;
+
       const maxScroll = list.scrollWidth - list.clientWidth;
+
       const next = {
         overflow: maxScroll > 2,
         previous: list.scrollLeft > 2,
         next: list.scrollLeft < maxScroll - 2,
       };
+
       setScrollState((current) =>
         current.overflow === next.overflow &&
         current.previous === next.previous &&
@@ -178,12 +211,17 @@ export function DoctorsWidget({
           : next,
       );
     }
+
     list.scrollTo({ left: 0, behavior: "instant" });
     updateScrollState();
+
     const observer = new ResizeObserver(updateScrollState);
+
     observer.observe(list);
     Array.from(list.children).forEach((child) => observer.observe(child));
+
     list.addEventListener("scroll", updateScrollState, { passive: true });
+
     return () => {
       observer.disconnect();
       list.removeEventListener("scroll", updateScrollState);
@@ -193,11 +231,15 @@ export function DoctorsWidget({
   function move(direction: -1 | 1) {
     const list = listRef.current;
     const first = list?.firstElementChild;
+
     if (!list || !(first instanceof HTMLElement)) return;
+
     const gap = parseFloat(window.getComputedStyle(list).columnGap) || 0;
+
     const reducedMotion = window.matchMedia(
       "(prefers-reduced-motion: reduce)",
     ).matches;
+
     list.scrollBy({
       left: direction * (first.getBoundingClientRect().width + gap),
       behavior: reducedMotion ? "instant" : "smooth",
@@ -211,6 +253,7 @@ export function DoctorsWidget({
       <div className={styles.container}>
         <div className={styles.heading}>
           {eyebrow && <p className={styles.eyebrow}>{eyebrow}</p>}
+
           <h2 className={styles.title} id={titleId}>
             {title}
           </h2>
@@ -232,8 +275,11 @@ export function DoctorsWidget({
             ]
               .filter(Boolean)
               .join(" ");
+
             const doctorUrl = getDoctorUrl(doctor, specializationIds);
+
             if (!doctorUrl) return null;
+
             return (
               <li className={styles.item} key={doctor.slug}>
                 <Link
@@ -251,17 +297,22 @@ export function DoctorsWidget({
                         decoding="async"
                         onError={(event) => {
                           const image = event.currentTarget;
+
                           if (image.dataset.fallback === "true") return;
+
                           image.dataset.fallback = "true";
                           image.src = PLACEHOLDER_PHOTO;
                         }}
                       />
                     </div>
+
                     <div className={styles.content}>
                       <h3 className={styles.name}>{fullName}</h3>
+
                       <p className={styles.specialization}>
                         {getSpecializations(doctor.specializationId)}
                       </p>
+
                       {showDetailsLink && (
                         <span className={styles.detailsLink}>
                           Подробнее
@@ -281,6 +332,7 @@ export function DoctorsWidget({
             <p className={styles.swipeHint}>
               Листайте, чтобы посмотреть врачей
             </p>
+
             <div className={styles.buttons}>
               <button
                 className={styles.scrollButton}
@@ -292,6 +344,7 @@ export function DoctorsWidget({
               >
                 <ArrowIcon left />
               </button>
+
               <button
                 className={styles.scrollButton}
                 type="button"

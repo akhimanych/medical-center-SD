@@ -12,22 +12,22 @@ const documents: LicenseDocument[] = [
   {
     id: "license-front",
     title: "Лицензия",
-    src: "/images/licenses/license-front.jpg",
+    src: `${import.meta.env.BASE_URL}images/licenses/license-front.jpg`,
   },
   {
     id: "license-back",
     title: "Оборотная сторона",
-    src: "/images/licenses/license-back.jpg",
+    src: `${import.meta.env.BASE_URL}images/licenses/license-back.jpg`,
   },
   {
     id: "license-appendix-1",
     title: "Приложение · стр. 1",
-    src: "/images/licenses/license-appendix-1.jpg",
+    src: `${import.meta.env.BASE_URL}images/licenses/license-appendix-1.jpg`,
   },
   {
     id: "license-appendix-2",
     title: "Приложение · стр. 2",
-    src: "/images/licenses/license-appendix-2.jpg",
+    src: `${import.meta.env.BASE_URL}images/licenses/license-appendix-2.jpg`,
   },
 ];
 

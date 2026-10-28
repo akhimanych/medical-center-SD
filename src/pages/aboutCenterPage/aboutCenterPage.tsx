@@ -13,16 +13,30 @@ const defaultImages: AboutCenterImages & {
   reception: { src: string; alt?: string };
 } = {
   reception: {
-    src: "/images/center/resepshen.jpg",
+    src: `${import.meta.env.BASE_URL}images/center/resepshen.jpg`,
     alt: "Регистратура медицинского центра «Семейный доктор»",
   },
-  ultrasound: { src: "/images/center/ultrasound-room.jpeg" },
-  diagnostics: { src: "/images/center/functional-diagnostics-room.jpeg" },
-  consultation: { src: "/images/center/consultation-room.jpeg" },
-  procedure: { src: "/images/center/procedure-room.jpeg" },
-  bloodCollection: { src: "/images/center/blood-collection-room.jpeg" },
-  tubes: { src: "/images/center/blood-sample-tubes.jpeg" },
-  gynecology: { src: "/images/center/gynecology-room.jpeg" },
+  ultrasound: {
+    src: `${import.meta.env.BASE_URL}images/center/ultrasound-room.jpeg`,
+  },
+  diagnostics: {
+    src: `${import.meta.env.BASE_URL}images/center/functional-diagnostics-room.jpeg`,
+  },
+  consultation: {
+    src: `${import.meta.env.BASE_URL}images/center/consultation-room.jpeg`,
+  },
+  procedure: {
+    src: `${import.meta.env.BASE_URL}images/center/procedure-room.jpeg`,
+  },
+  bloodCollection: {
+    src: `${import.meta.env.BASE_URL}images/center/blood-collection-room.jpeg`,
+  },
+  tubes: {
+    src: `${import.meta.env.BASE_URL}images/center/blood-sample-tubes.jpeg`,
+  },
+  gynecology: {
+    src: `${import.meta.env.BASE_URL}images/center/gynecology-room.jpeg`,
+  },
 };
 
 const defaultLinks = {

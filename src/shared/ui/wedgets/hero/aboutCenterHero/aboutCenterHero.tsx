@@ -10,7 +10,7 @@ type AboutCenterHeroProps = {
 };
 
 export function AboutCenterHero({
-  imageSrc = "public/images/center/resepshen.jpg",
+  imageSrc = `${import.meta.env.BASE_URL}images/center/resepshen.jpg`,
   imageAlt = "Регистратура медицинского центра «Семейный доктор»",
   homeHref = "/",
   galleryHref = "#center-gallery",

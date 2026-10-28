@@ -7,7 +7,7 @@ import { Footer } from "@/shared/ui/wedgets/footer";
 
 import medicalCenterImage from "@/assets/images/medical-center.png";
 
-import styles from "./AuthoritiesPage.module.css";
+import styles from "./authoritiesPage.module.css";
 
 export function AuthoritiesPage() {
   return (

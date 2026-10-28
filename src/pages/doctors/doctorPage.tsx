@@ -12,7 +12,7 @@ import { AppointmentBanner } from "@/shared/ui/wedgets/appointmentBanner";
 import { Footer } from "@/shared/ui/wedgets/footer";
 
 import medicalCenterImage from "@/assets/images/medical-center.png";
-import styles from "./DoctorPage.module.css";
+import styles from "./doctorPage.module.css";
 
 const doctors: Doctor[] = doctorsData;
 

@@ -1,5 +1,5 @@
 import { AdministratorIcon } from "@/shared/ui/icons/administrator";
-import styles from "./DoctorHelp.module.css";
+import styles from "./doctorHelp.module.css";
 
 export function DoctorHelp() {
   return (

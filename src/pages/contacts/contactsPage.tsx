@@ -6,7 +6,7 @@ import { Footer } from "@/shared/ui/wedgets/footer";
 
 import medicalCenterImage from "@/assets/images/medical-center.png";
 
-import styles from "./ContactsPage.module.css";
+import styles from "./contactsPage.module.css";
 
 const DIRECTIONS_URL = "https://yandex.ru/maps/-/CXeXNR6n";
 

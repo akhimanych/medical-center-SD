@@ -1,6 +1,6 @@
 import { LaboratoryIcon } from "@/shared/ui/icons/laboratoryHeroIcon";
 
-import styles from "./LaboratoryHero.module.css";
+import styles from "./laboratoryHero.module.css";
 
 type LaboratoryHeroProps = {
   title?: string;

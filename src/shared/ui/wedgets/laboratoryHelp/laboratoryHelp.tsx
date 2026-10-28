@@ -1,4 +1,4 @@
-import styles from "./LaboratoryHelp.module.css";
+import styles from "./laboratoryHelp.module.css";
 
 export function LaboratoryHelp() {
   return (

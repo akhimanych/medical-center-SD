@@ -1,6 +1,6 @@
 import { useId } from "react";
 
-import styles from "./LocationMap.module.css";
+import styles from "./locationMap.module.css";
 
 const MAP_EMBED_URL =
   "https://yandex.ru/map-widget/v1/?ll=39.855114%2C64.560932&mode=whatshere&rtext=~64.561036%2C39.856884&rtt=auto&ruri=~&utm_source=share&whatshere%5Bpoint%5D=39.856864%2C64.561134&whatshere%5Bzoom%5D=17.12&z=17.04";

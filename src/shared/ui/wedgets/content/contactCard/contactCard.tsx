@@ -1,7 +1,7 @@
 import { useId } from "react";
 import type { SVGProps } from "react";
 
-import styles from "./ContactCard.module.css";
+import styles from "./contactCard.module.css";
 
 type ContactCardProps = {
   imageSrc?: string;

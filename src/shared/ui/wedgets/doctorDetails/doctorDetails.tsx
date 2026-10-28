@@ -1,5 +1,5 @@
 import type { Doctor } from "@/shared/Types/doctor";
-import styles from "./DoctorDetails.module.css";
+import styles from "./doctorDetails.module.css";
 
 type DoctorDetailsProps = {
   doctor: Pick<

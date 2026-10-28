@@ -1,0 +1,1 @@
+export { ManagementHero } from "./managementHero";

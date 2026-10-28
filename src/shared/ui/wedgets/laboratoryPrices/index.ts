@@ -1,0 +1,1 @@
+export { LaboratoryPrices } from "./laboratoryPrices";

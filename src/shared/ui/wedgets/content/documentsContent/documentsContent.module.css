@@ -1,0 +1,266 @@
+.section {
+  padding: 44px 0 56px;
+
+  background: #fff;
+  color: #1c4036;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1240px;
+
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+
+/* Заголовок секции */
+
+.title {
+  margin: 0 0 28px;
+
+  color: #105744;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-align: left;
+
+  overflow-wrap: break-word;
+}
+
+/* Сетка */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 24px;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+/* Карточка */
+
+.card {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+
+  min-width: 0;
+  min-height: 190px;
+  padding: 28px;
+
+  border: 1px solid #c9e2d9;
+  border-radius: 9px;
+
+  background: #f5fbf8;
+}
+
+.icon {
+  display: flex;
+  flex: 0 0 46px;
+  align-items: flex-start;
+  justify-content: center;
+
+  width: 46px;
+  height: 54px;
+
+  color: #146d58;
+}
+
+.icon svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.cardContent {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+
+  align-self: stretch;
+  min-width: 0;
+
+  text-align: left;
+}
+
+.cardTitle {
+  margin: 0 0 26px;
+
+  color: #1c4036;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: left;
+
+  overflow-wrap: break-word;
+}
+
+/* Кнопка открытия */
+
+.button {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  max-width: 100%;
+  min-height: 44px;
+
+  margin-top: auto;
+  padding: 11px 18px;
+
+  border: 1px solid transparent;
+  border-radius: 7px;
+
+  background: #009d76;
+  color: #fff;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: none;
+
+  transition: background-color 160ms ease;
+}
+
+.button:hover {
+  background: #008563;
+}
+
+.button:focus-visible {
+  outline: 2px solid #008563;
+  outline-offset: 4px;
+}
+
+.button svg {
+  flex-shrink: 0;
+}
+
+/* Планшеты */
+
+@media (max-width: 1023px) {
+  .section {
+    padding-block: 36px 44px;
+  }
+
+  .grid {
+    gap: 18px;
+  }
+
+  .card {
+    gap: 18px;
+    min-height: 200px;
+    padding: 22px;
+  }
+
+  .icon {
+    flex-basis: 40px;
+    width: 40px;
+    height: 48px;
+  }
+
+  .cardTitle {
+    font-size: 19px;
+  }
+
+  .button {
+    gap: 8px;
+    padding-inline: 14px;
+    font-size: 13px;
+  }
+}
+
+/* Телефоны */
+
+@media (max-width: 767px) {
+  .section {
+    padding-block: 28px 36px;
+  }
+
+  .container {
+    padding-inline: 20px;
+  }
+
+  .title {
+    margin-bottom: 20px;
+    font-size: 27px;
+  }
+
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+
+  .card {
+    gap: 16px;
+    min-height: 170px;
+    padding: 22px 20px;
+  }
+
+  .icon {
+    flex-basis: 38px;
+    width: 38px;
+    height: 46px;
+  }
+
+  .cardTitle {
+    margin-bottom: 22px;
+    font-size: 19px;
+  }
+
+  .button {
+    min-height: 44px;
+    font-size: 14px;
+  }
+}
+
+/* Узкие телефоны */
+
+@media (max-width: 374px) {
+  .container {
+    padding-inline: 16px;
+  }
+
+  .title {
+    font-size: 25px;
+  }
+
+  .card {
+    gap: 12px;
+    padding: 20px 16px;
+  }
+
+  .icon {
+    flex-basis: 32px;
+    width: 32px;
+    height: 40px;
+  }
+
+  .cardTitle {
+    font-size: 18px;
+  }
+
+  .button {
+    gap: 7px;
+    padding-inline: 10px;
+    font-size: 13px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .button {
+    transition: none;
+  }
+}

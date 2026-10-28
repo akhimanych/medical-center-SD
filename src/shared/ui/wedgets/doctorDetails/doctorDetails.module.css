@@ -1,0 +1,37 @@
+.details {
+  min-width: 0;
+  text-align: left;
+}
+
+.section + .section {
+  margin-top: 28px;
+}
+
+.title {
+  margin: 0 0 14px;
+
+  color: #104d3b;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.text {
+  margin: 0;
+
+  color: #174f43;
+  font-size: 16px;
+  line-height: 1.65;
+  white-space: pre-line;
+  overflow-wrap: break-word;
+  text-align: left;
+}
+
+@media (max-width: 599px) {
+.title {
+  text-align: center;
+}
+
+}

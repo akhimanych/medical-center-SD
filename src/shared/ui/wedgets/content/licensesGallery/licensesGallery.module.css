@@ -1,0 +1,391 @@
+.section {
+  padding: 8px 0 48px;
+  background: #fff;
+  color: #1c4036;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1240px;
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+
+/* Заголовок */
+
+.heading {
+  margin-bottom: 24px;
+}
+
+.title {
+  margin: 0 0 10px;
+
+  color: #105744;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+
+  overflow-wrap: break-word;
+}
+
+.description {
+  margin: 0;
+
+  color: #718b81;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* Сетка документов */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 20px;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.card {
+  display: flex;
+  min-width: 0;
+}
+
+.cardButton {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  width: 100%;
+  min-width: 0;
+  padding: 18px;
+
+  border: 1px solid #c9e2d9;
+  border-radius: 9px;
+
+  background: #f1faf5;
+  color: inherit;
+
+  font: inherit;
+  text-align: left;
+
+  cursor: pointer;
+
+  transition:
+    border-color 160ms ease,
+    background-color 160ms ease;
+}
+
+.cardButton:hover {
+  border-color: #59ad91;
+  background: #eaf7f0;
+}
+
+.cardButton:focus-visible {
+  outline: 2px solid #169b73;
+  outline-offset: 4px;
+}
+
+/* Превью без обрезки документа */
+
+.preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  aspect-ratio: 3 / 4;
+
+  margin-bottom: 20px;
+}
+
+.previewImage {
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+}
+
+.documentTitle {
+  display: block;
+
+  margin-bottom: 14px;
+
+  color: #1c4036;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+
+  overflow-wrap: break-word;
+}
+
+.viewLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  margin-top: auto;
+
+  color: #169b73;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.viewLink svg {
+  flex-shrink: 0;
+}
+
+.cardButton:hover .viewLink {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* Окно просмотра */
+
+.dialog {
+  position: fixed;
+  inset: 0;
+
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 24px;
+
+  overflow: auto;
+
+  border: 0;
+
+  background: transparent;
+  color: #1c4036;
+}
+
+.dialog[open] {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.dialog::backdrop {
+  background: rgb(13 35 28 / 75%);
+}
+
+.modal {
+  box-sizing: border-box;
+  flex-shrink: 0;
+
+  width: 100%;
+  max-width: 900px;
+  margin-block: auto;
+
+  overflow: hidden;
+
+  border-radius: 12px;
+
+  background: #fff;
+}
+
+.modalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+
+  padding: 16px 20px;
+
+  border-bottom: 1px solid #dfebe5;
+}
+
+.modalTitle {
+  min-width: 0;
+  margin: 0;
+
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+
+  overflow-wrap: break-word;
+}
+
+.closeButton {
+  display: inline-flex;
+  flex: 0 0 44px;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+  padding: 0;
+
+  border: 0;
+  border-radius: 8px;
+
+  background: #edf7f2;
+  color: #1c4036;
+
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  background: #dcefe4;
+}
+
+.closeButton:focus-visible,
+.originalLink:focus-visible {
+  outline: 2px solid #169b73;
+  outline-offset: 3px;
+}
+
+.modalBody {
+  padding: 20px;
+  background: #f4f7f5;
+}
+
+.fullImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-inline: auto;
+}
+
+.modalFooter {
+  padding: 16px 20px;
+  text-align: center;
+}
+
+.originalLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  color: #16876c;
+  font-size: 14px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.originalLink:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* Планшеты */
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .cardButton {
+    padding: 20px;
+  }
+
+  .preview {
+    max-width: 260px;
+    align-self: center;
+  }
+    .documentTitle {
+    width: 100%;
+    text-align: center;
+  }
+
+  .viewLink {
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* Телефоны */
+
+@media (max-width: 767px) {
+  .section {
+    padding-bottom: 32px;
+  }
+
+  .container {
+    padding-inline: 20px;
+  }
+
+  .heading {
+    margin-bottom: 20px;
+  }
+
+  .title {
+    font-size: 27px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+
+  .cardButton {
+    padding: 20px;
+  }
+
+  .preview {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .dialog {
+    padding: 12px;
+  }
+
+  .modal {
+    border-radius: 9px;
+  }
+
+  .modalHeader {
+    gap: 10px;
+    padding: 12px;
+  }
+
+  .modalTitle {
+    font-size: 16px;
+  }
+
+  .modalBody {
+    padding: 10px;
+  }
+
+  .modalFooter {
+    padding: 14px 12px;
+  }
+}
+
+@media (max-width: 374px) {
+  .container {
+    padding-inline: 16px;
+  }
+
+  .title {
+    font-size: 25px;
+  }
+
+  .cardButton {
+    padding: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cardButton {
+    transition: none;
+  }
+}

@@ -1,0 +1,1 @@
+export { IconPartners } from "./pathersIcon";

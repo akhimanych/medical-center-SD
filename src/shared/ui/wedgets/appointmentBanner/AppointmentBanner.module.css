@@ -1,0 +1,140 @@
+.banner {
+  border-radius: 14px;
+  width: 100%;
+  background:
+    radial-gradient(
+      circle at 10% 50%,
+      rgba(255, 255, 255, 0.1) 0,
+      rgba(255, 255, 255, 0) 25%
+    ),
+    linear-gradient(90deg, #18a85a 0%, #41b476 45%, #50a779 100%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  width: 100%;
+  min-height: 64px;
+  margin: 0;
+  padding: 22px 11px;
+  gap: 40px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  gap: 20px;
+  text-align: left;
+}
+
+.text {
+  color: #ffffff;
+  text-align: left;
+}
+
+.eyebrow {
+  margin: 0 0 7px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 0 0 auto;
+  gap: 14px;
+}
+
+.field {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 160px;
+  height: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.field:focus-within {
+  border-color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.22);
+}
+
+.field input {
+  width: 100%;
+  height: 100%;
+  padding: 0 16px 0 43px;
+  border: 0;
+  outline: 0;
+  color: #225c59;
+  background: transparent;
+  font: inherit;
+  font-size: 14px;
+}
+
+.field input::placeholder {
+  color: #99b4b0;
+  opacity: 1;
+}
+
+.userIcon,
+.phoneIcon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  z-index: 1;
+  color: #4d9590;
+  font-size: 18px;
+  line-height: 1;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+
+.phoneIcon {
+  font-size: 17px;
+}
+
+.submitButton {
+  min-width: 160px;
+  height: 40px;
+  border-color: #ffffff;
+  color: #087d7c;
+  background-color: #ffffff;
+}
+
+.submitButton:hover {
+  border-color: #d8f2ed;
+  color: #056568;
+  background-color: #d8f2ed;
+}
+
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}

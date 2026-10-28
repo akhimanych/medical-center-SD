@@ -1,0 +1,1 @@
+export { DocumentsHero } from "./documentsHero";

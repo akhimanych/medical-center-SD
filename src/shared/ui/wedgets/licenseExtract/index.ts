@@ -1,0 +1,1 @@
+export { LicenseExtract } from "./licenseExtract";

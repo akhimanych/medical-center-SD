@@ -1,0 +1,2325 @@
+{
+  "id": "invitro",
+  "slug": "invitro",
+  "title": "Инвитро",
+  "currency": "RUB",
+  "priceVerifiedAt": null,
+  "categories": [
+    {
+      "id": "laboratory-tests",
+      "title": "Лабораторные исследования"
+    }
+  ],
+  "tests": [
+    {
+      "id": "invitro-001",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.139",
+      "title": "17-ОН-Прогестерон",
+      "price": 650
+    },
+    {
+      "id": "invitro-002",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.221",
+      "title": "25-ОН витамин D",
+      "price": 2000
+    },
+    {
+      "id": "invitro-003",
+      "categoryId": "laboratory-tests",
+      "code": "A12.06.010",
+      "title": "ANA (антиядерные, антинуклеарные антитела)",
+      "price": 1560
+    },
+    {
+      "id": "invitro-004",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.018",
+      "title": "Anti-Chlamydia trachomatis Ig A в крови",
+      "price": 660
+    },
+    {
+      "id": "invitro-005",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Anti-Chlamidia trachomatis Ig G в крови",
+      "price": 660
+    },
+    {
+      "id": "invitro-006",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.015",
+      "title": "Anti-Chlamydia trachomatis Ig M",
+      "price": 690
+    },
+    {
+      "id": "invitro-007",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Anti-CMV Ig G в крови",
+      "price": 520
+    },
+    {
+      "id": "invitro-008",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Anti-CMV Ig M в крови",
+      "price": 690
+    },
+    {
+      "id": "invitro-009",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Anti-HAV Ig G (ВГА)",
+      "price": 700
+    },
+    {
+      "id": "invitro-010",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Anti-HAV Ig М (ВГА)",
+      "price": 1000
+    },
+    {
+      "id": "invitro-011",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.039",
+      "title": "Anti-HBc Ig M (антитела класса Ig M к НВ-соrе антигену вируса гепатита В)",
+      "price": 860
+    },
+    {
+      "id": "invitro-012",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Anti-HBc-total",
+      "price": 650
+    },
+    {
+      "id": "invitro-013",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.040",
+      "title": "Anti-HBs",
+      "price": 820
+    },
+    {
+      "id": "invitro-014",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Anti-HBе",
+      "price": 630
+    },
+    {
+      "id": "invitro-015",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Anti-HVS Ig G 1, 2 тип герпес в крови",
+      "price": 570
+    },
+    {
+      "id": "invitro-016",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Anti-HVS Ig M 1, 2 тип герпес в крови",
+      "price": 610
+    },
+    {
+      "id": "invitro-017",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Anti-Helicobacter pylori Ig G",
+      "price": 580
+    },
+    {
+      "id": "invitro-018",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Anti-Rubella Ig G (иммуноблот)",
+      "price": 6800
+    },
+    {
+      "id": "invitro-019",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.071.001",
+      "title": "Anti-Rubella Ig G кровь",
+      "price": 490
+    },
+    {
+      "id": "invitro-020",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.071.002",
+      "title": "Anti-Rubella Ig M кровь",
+      "price": 660
+    },
+    {
+      "id": "invitro-021",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.081.001",
+      "title": "Anti-TOXO Ig G",
+      "price": 490
+    },
+    {
+      "id": "invitro-022",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Anti-TOXO Ig M",
+      "price": 660
+    },
+    {
+      "id": "invitro-023",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Beta-Cross laps",
+      "price": 1170
+    },
+    {
+      "id": "invitro-024",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.090",
+      "title": "b-ХГЧ",
+      "price": 460
+    },
+    {
+      "id": "invitro-025",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Candida albicans ПЦР",
+      "price": 350
+    },
+    {
+      "id": "invitro-026",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.018",
+      "title": "Chlamydia Ig A + Chlamydia Ig G",
+      "price": 1050
+    },
+    {
+      "id": "invitro-027",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Chlamydia pneumonia ПЦР кровь",
+      "price": 760
+    },
+    {
+      "id": "invitro-028",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Chlamydia trachomatis, определение ДНК в моче",
+      "price": 340
+    },
+    {
+      "id": "invitro-029",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Chlamydia tractomatis, определение ДНК в соскобе",
+      "price": 340
+    },
+    {
+      "id": "invitro-030",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.051.001",
+      "title": "D-димер",
+      "price": 1350
+    },
+    {
+      "id": "invitro-031",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.083",
+      "title": "Hb А 1 гликированный Hb",
+      "price": 600
+    },
+    {
+      "id": "invitro-032",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.036",
+      "title": "HBsAg (HBe-антиген вируса гепатита В)",
+      "price": 690
+    },
+    {
+      "id": "invitro-033",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.036.001",
+      "title": "HBsAg (качественный тест)",
+      "price": 360
+    },
+    {
+      "id": "invitro-034",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "HBsAg (количественный тест)",
+      "price": 1710
+    },
+    {
+      "id": "invitro-035",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "HDV anti (суммарные)",
+      "price": 970
+    },
+    {
+      "id": "invitro-036",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Herpes simplex virus 1, 2 тип, определение ДНК в крови",
+      "price": 510
+    },
+    {
+      "id": "invitro-037",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Herpes simplex virus 1, 2 тип в соскобе",
+      "price": 390
+    },
+    {
+      "id": "invitro-038",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Human papillomavirus (высокий онкогенный риск) 14 типов (16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66, 68) в соскобе",
+      "price": 1670
+    },
+    {
+      "id": "invitro-039",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Human papillomavirus 16, 18, определение ДНК в соскобе",
+      "price": 540
+    },
+    {
+      "id": "invitro-040",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.054.002",
+      "title": "Ig A",
+      "price": 330
+    },
+    {
+      "id": "invitro-041",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.054.001",
+      "title": "Ig E общий",
+      "price": 540
+    },
+    {
+      "id": "invitro-042",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.054.004",
+      "title": "Ig G",
+      "price": 340
+    },
+    {
+      "id": "invitro-043",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.100",
+      "title": "Ig M",
+      "price": 330
+    },
+    {
+      "id": "invitro-044",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.031.000.01",
+      "title": "K/Na/Cl",
+      "price": 360
+    },
+    {
+      "id": "invitro-045",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Mycoplasma genitalium, определение ДНК в моче",
+      "price": 340
+    },
+    {
+      "id": "invitro-046",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Mycoplasma genitalium, определение ДНК в соскобе",
+      "price": 340
+    },
+    {
+      "id": "invitro-047",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Mycoplasma hominis, определение ДНК в моче",
+      "price": 340
+    },
+    {
+      "id": "invitro-048",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Mycoplasma hominis, определение ДНК в соскобе",
+      "price": 340
+    },
+    {
+      "id": "invitro-049",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Mycoplasma pneumonia Ig M/G в крови",
+      "price": 1310
+    },
+    {
+      "id": "invitro-050",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Mycoplasma pneumonia, определение ДНК в крови",
+      "price": 520
+    },
+    {
+      "id": "invitro-051",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "PAPP-A",
+      "price": 890
+    },
+    {
+      "id": "invitro-052",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Penicillinum notatum (плесень)",
+      "price": 610
+    },
+    {
+      "id": "invitro-053",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "SMA Антитела к гладкой мускулатуре",
+      "price": 1780
+    },
+    {
+      "id": "invitro-054",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "TORCH-инфекции (антитела к токсоплазмозу, краснухе, цитомегаловирусу, герпесу)",
+      "price": 4300
+    },
+    {
+      "id": "invitro-055",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Toxoplasma gondii, определение ДНК",
+      "price": 740
+    },
+    {
+      "id": "invitro-056",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Treponema pallidum, определение ДНК в соскобе",
+      "price": 360
+    },
+    {
+      "id": "invitro-057",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Trichomonas vaginalis, определение ДНК в соскобе",
+      "price": 340
+    },
+    {
+      "id": "invitro-058",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Ureaplasma parvum, определение ДНК в соскобе",
+      "price": 340
+    },
+    {
+      "id": "invitro-059",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Ureaplasma parvum, определение ДНК в моче",
+      "price": 340
+    },
+    {
+      "id": "invitro-060",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Ureaplasma spp, определение ДНК в соскобе",
+      "price": 340
+    },
+    {
+      "id": "invitro-061",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Ureaplasma urealyticum, определение ДНК в моче",
+      "price": 340
+    },
+    {
+      "id": "invitro-062",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Ureaplasma, определение ДНК в соскобе",
+      "price": 340
+    },
+    {
+      "id": "invitro-063",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Авидность антител к вирусу герпеса",
+      "price": 900
+    },
+    {
+      "id": "invitro-064",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Авидность антител класса Ig G к вирусу краснухи",
+      "price": 1270
+    },
+    {
+      "id": "invitro-065",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.081.003",
+      "title": "Авидность антител класса Ig G к токсоплазмозу",
+      "price": 1230
+    },
+    {
+      "id": "invitro-066",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Авидность антител класса Ig G к цитомегаловирусу",
+      "price": 1350
+    },
+    {
+      "id": "invitro-067",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.067",
+      "title": "АКТГ (Адренокортитропный гормон, кортикотропин, АСТН)",
+      "price": 820
+    },
+    {
+      "id": "invitro-068",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.042",
+      "title": "АлАТ",
+      "price": 240
+    },
+    {
+      "id": "invitro-069",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Аллоиммунные антитела",
+      "price": 1040
+    },
+    {
+      "id": "invitro-070",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.011",
+      "title": "Альбумин",
+      "price": 280
+    },
+    {
+      "id": "invitro-071",
+      "categoryId": "laboratory-tests",
+      "code": "A09.28.003",
+      "title": "Альбумин (суточная моча)",
+      "price": 460
+    },
+    {
+      "id": "invitro-072",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.069",
+      "title": "Альдостерон",
+      "price": 1170
+    },
+    {
+      "id": "invitro-073",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.045",
+      "title": "Альфа-амилаза в крови",
+      "price": 280
+    },
+    {
+      "id": "invitro-074",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Альфа-амилаза в моче",
+      "price": 300
+    },
+    {
+      "id": "invitro-075",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.045",
+      "title": "Альфа-амилаза панкреатическая",
+      "price": 330
+    },
+    {
+      "id": "invitro-076",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Анализ мочи по Нечипоренко",
+      "price": 310
+    },
+    {
+      "id": "invitro-077",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Андрогенный статус",
+      "price": 1890
+    },
+    {
+      "id": "invitro-078",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.146",
+      "title": "Андростендион",
+      "price": 1350
+    },
+    {
+      "id": "invitro-079",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Анти-описторхис кровь Ig G",
+      "price": 1030
+    },
+    {
+      "id": "invitro-080",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.024",
+      "title": "Анти-эхинококк кровь Ig G",
+      "price": 1030
+    },
+    {
+      "id": "invitro-081",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.225",
+      "title": "Антимюллеров гормон",
+      "price": 1400
+    },
+    {
+      "id": "invitro-082",
+      "categoryId": "laboratory-tests",
+      "code": "A12.06.010",
+      "title": "Антинуклеарный фактор АНФ",
+      "price": 1420
+    },
+    {
+      "id": "invitro-083",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Антиовариальные антитела",
+      "price": 1650
+    },
+    {
+      "id": "invitro-084",
+      "categoryId": "laboratory-tests",
+      "code": "A12.06.028",
+      "title": "Антиспермальные антитела",
+      "price": 1350
+    },
+    {
+      "id": "invitro-085",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Антитела к Entamoeba Histolitica Ig G",
+      "price": 870
+    },
+    {
+      "id": "invitro-086",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.041",
+      "title": "Антитела к антигенам вируса гепатита С",
+      "price": 540
+    },
+    {
+      "id": "invitro-087",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.032",
+      "title": "Антитела к антигенам лямблий кровь",
+      "price": 740
+    },
+    {
+      "id": "invitro-088",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.121",
+      "title": "Антитела к аскаридам кровь",
+      "price": 1160
+    },
+    {
+      "id": "invitro-089",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Антитела к базальной мембране клеток почек (anti-GBM)",
+      "price": 2030
+    },
+    {
+      "id": "invitro-090",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Антитела к бета-клеткам поджелудочной железы",
+      "price": 1700
+    },
+    {
+      "id": "invitro-091",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.084",
+      "title": "Антитела к вирусу ветряной оспы и опоясывающего лишая Ig G",
+      "price": 930
+    },
+    {
+      "id": "invitro-092",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.084",
+      "title": "Антитела к вирусу ветряной оспы и опоясывающего лишая Ig М",
+      "price": 1020
+    },
+    {
+      "id": "invitro-093",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Антитела к глутаматдекарбоксилазе",
+      "price": 1870
+    },
+    {
+      "id": "invitro-094",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Антитела к инсулину",
+      "price": 900
+    },
+    {
+      "id": "invitro-095",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Антитела к кардиолипину Ig A",
+      "price": 1100
+    },
+    {
+      "id": "invitro-096",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Антитела к кардиолипину Ig G",
+      "price": 1060
+    },
+    {
+      "id": "invitro-097",
+      "categoryId": "laboratory-tests",
+      "code": "A12.06.029",
+      "title": "Антитела к кардиолипину скрининг",
+      "price": 1440
+    },
+    {
+      "id": "invitro-098",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Антитела к класса Ig A к иерсиниозу",
+      "price": 680
+    },
+    {
+      "id": "invitro-099",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Антитела к класса Ig G к иерсиниозу",
+      "price": 680
+    },
+    {
+      "id": "invitro-100",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.088",
+      "title": "Антитела к клещевому энцефалиту Ig G",
+      "price": 620
+    },
+    {
+      "id": "invitro-101",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.088",
+      "title": "Антитела к клещевому энцефалиту Ig M",
+      "price": 810
+    },
+    {
+      "id": "invitro-102",
+      "categoryId": "laboratory-tests",
+      "code": "A12.06.036",
+      "title": "Антитела к микросомам печени и почки",
+      "price": 1850
+    },
+    {
+      "id": "invitro-103",
+      "categoryId": "laboratory-tests",
+      "code": "A12.06.035",
+      "title": "Антитела к митохондриям (АМА)",
+      "price": 1780
+    },
+    {
+      "id": "invitro-104",
+      "categoryId": "laboratory-tests",
+      "code": "A12.06.026",
+      "title": "Антитела к париетальным клеткам желудка ПСА",
+      "price": 1950
+    },
+    {
+      "id": "invitro-105",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Антитела к ретикулину",
+      "price": 1890
+    },
+    {
+      "id": "invitro-106",
+      "categoryId": "laboratory-tests",
+      "code": "A12.06.046",
+      "title": "Антитела к рецепторам ТТГ",
+      "price": 1820
+    },
+    {
+      "id": "invitro-107",
+      "categoryId": "laboratory-tests",
+      "code": "A12.06.017",
+      "title": "Антитела к тиреоглобулину",
+      "price": 580
+    },
+    {
+      "id": "invitro-108",
+      "categoryId": "laboratory-tests",
+      "code": "A12.06.045",
+      "title": "Антитела к тиреоидной пероксидазе (АТ-ТПО)",
+      "price": 560
+    },
+    {
+      "id": "invitro-109",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.080",
+      "title": "Антитела к токсокаре кровь Ig G",
+      "price": 620
+    },
+    {
+      "id": "invitro-110",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.079",
+      "title": "Антитела к трихинелле кровь Ig G",
+      "price": 620
+    },
+    {
+      "id": "invitro-111",
+      "categoryId": "laboratory-tests",
+      "code": "A12.06.013",
+      "title": "Антитела к тромбоцитам Ig G непрямой тест",
+      "price": 3840
+    },
+    {
+      "id": "invitro-112",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Антитела к хеликобактер пилори (блот) Ig A",
+      "price": 3610
+    },
+    {
+      "id": "invitro-113",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.016",
+      "title": "Антитела к хламидиям пневмония Ig A",
+      "price": 810
+    },
+    {
+      "id": "invitro-114",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.016",
+      "title": "Антитела к хламидиям пневмония Ig G",
+      "price": 690
+    },
+    {
+      "id": "invitro-115",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.016",
+      "title": "Антитела к хламидиям пневмония Ig M",
+      "price": 690
+    },
+    {
+      "id": "invitro-116",
+      "categoryId": "laboratory-tests",
+      "code": "A12.06.037",
+      "title": "Антитела к цитоплазме нейтрофилов ANCA",
+      "price": 2530
+    },
+    {
+      "id": "invitro-117",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Антитела к эндомизию",
+      "price": 1580
+    },
+    {
+      "id": "invitro-118",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Антитела класса Ig A к глиадину",
+      "price": 920
+    },
+    {
+      "id": "invitro-119",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Антитела класса Ig G к Borrelia burgdorferi (Боррелиоз)",
+      "price": 750
+    },
+    {
+      "id": "invitro-120",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Антитела класса Ig G к глиадину",
+      "price": 920
+    },
+    {
+      "id": "invitro-121",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Антитела класса Ig G к двуспиральной нативной ДНК",
+      "price": 1290
+    },
+    {
+      "id": "invitro-122",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.011.001",
+      "title": "Антитела класса Ig М Borrelia burgdorferi (Боррелиоз)",
+      "price": 740
+    },
+    {
+      "id": "invitro-123",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.047",
+      "title": "Антитромбин III",
+      "price": 560
+    },
+    {
+      "id": "invitro-124",
+      "categoryId": "laboratory-tests",
+      "code": "A12.06.030",
+      "title": "Антифосфолипидные антитела",
+      "price": 1150
+    },
+    {
+      "id": "invitro-125",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.041",
+      "title": "АсАТ",
+      "price": 240
+    },
+    {
+      "id": "invitro-126",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Асл-О",
+      "price": 450
+    },
+    {
+      "id": "invitro-127",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.089",
+      "title": "АФП",
+      "price": 470
+    },
+    {
+      "id": "invitro-128",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "АЦЦП антитела к циклическому цитрулллинированному пептиду",
+      "price": 1750
+    },
+    {
+      "id": "invitro-129",
+      "categoryId": "laboratory-tests",
+      "code": "A12.05.039",
+      "title": "АЧТВ",
+      "price": 290
+    },
+    {
+      "id": "invitro-130",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.014",
+      "title": "Белковые фракции",
+      "price": 420
+    },
+    {
+      "id": "invitro-131",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.021",
+      "title": "Билирубин общий",
+      "price": 240
+    },
+    {
+      "id": "invitro-132",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.021",
+      "title": "Билирубин прямой",
+      "price": 240
+    },
+    {
+      "id": "invitro-133",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.049.001",
+      "title": "ВИЧ 1/2 (Антигнен+Антитела)",
+      "price": 390
+    },
+    {
+      "id": "invitro-134",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "ВПЧ расширенный скрининг (15+КВМ) урогенитальный",
+      "price": 1750
+    },
+    {
+      "id": "invitro-135",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "ВПЧ скрининг (4+КВМ) урогенитальный",
+      "price": 710
+    },
+    {
+      "id": "invitro-136",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Вальпроевая кислота (лекарственный мониторинг)",
+      "price": 2100
+    },
+    {
+      "id": "invitro-137",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Вирус Эпштейна-Барр (определение ДНК)",
+      "price": 720
+    },
+    {
+      "id": "invitro-138",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Вирус гепатита A, определение ДНК",
+      "price": 680
+    },
+    {
+      "id": "invitro-139",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Вирус гепатита B, определение ДНК (качественное)",
+      "price": 820
+    },
+    {
+      "id": "invitro-140",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Вирус гепатита B, определение ДНК (количественное)",
+      "price": 4390
+    },
+    {
+      "id": "invitro-141",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Вирус гепатита C, количественное определение РНК",
+      "price": 4060
+    },
+    {
+      "id": "invitro-142",
+      "categoryId": "laboratory-tests",
+      "code": "A26.05.019.001",
+      "title": "Вирус гепатита C, определение РНК (качественное)",
+      "price": 970
+    },
+    {
+      "id": "invitro-143",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Вирус гепатита D, определение РНК",
+      "price": 830
+    },
+    {
+      "id": "invitro-144",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Вирус папилломы человека 6,11,44 тип",
+      "price": 540
+    },
+    {
+      "id": "invitro-145",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Вирусы папилломы человека HPV общий, определение ДНК (генотип 14 типов)",
+      "price": 790
+    },
+    {
+      "id": "invitro-146",
+      "categoryId": "laboratory-tests",
+      "code": "A12.06.060",
+      "title": "Витамин В 12",
+      "price": 850
+    },
+    {
+      "id": "invitro-147",
+      "categoryId": "laboratory-tests",
+      "code": "A12.06.003",
+      "title": "Волчаночный антикоагулянт",
+      "price": 1840
+    },
+    {
+      "id": "invitro-148",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Выявление возбудителей ИППП (7+КВМ) урогенитальный",
+      "price": 1920
+    },
+    {
+      "id": "invitro-149",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.044",
+      "title": "Гамма-ГТ",
+      "price": 230
+    },
+    {
+      "id": "invitro-150",
+      "categoryId": "laboratory-tests",
+      "code": "A26.20.032.000.03",
+      "title": "Гарднелла (Gardnerella vaginalis) соскоб определение ДНК",
+      "price": 400
+    },
+    {
+      "id": "invitro-151",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.057",
+      "title": "Гастрин",
+      "price": 1240
+    },
+    {
+      "id": "invitro-152",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Гепатит G",
+      "price": 1020
+    },
+    {
+      "id": "invitro-153",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.023",
+      "title": "Глюкоза",
+      "price": 240
+    },
+    {
+      "id": "invitro-154",
+      "categoryId": "laboratory-tests",
+      "code": "A09.28.011",
+      "title": "Глюкоза (в моче)",
+      "price": 220
+    },
+    {
+      "id": "invitro-155",
+      "categoryId": "laboratory-tests",
+      "code": "A12.22.005",
+      "title": "Глюкозо-толерантный тест с определением глюкозы и С-пептида натощак и после нагрузки",
+      "price": 1520
+    },
+    {
+      "id": "invitro-156",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.214",
+      "title": "Гомоцистеин",
+      "price": 1570
+    },
+    {
+      "id": "invitro-157",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Гонококк (Neisseria gonorrhoeae) соскоб определение ДНК",
+      "price": 370
+    },
+    {
+      "id": "invitro-158",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Госпитализация в хирургический стационар",
+      "price": 6440
+    },
+    {
+      "id": "invitro-159",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "ГП гены фибриногена",
+      "price": 2360
+    },
+    {
+      "id": "invitro-160",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "ГП тромбозы-минимум сокращенная панель",
+      "price": 2770
+    },
+    {
+      "id": "invitro-161",
+      "categoryId": "laboratory-tests",
+      "code": "A12.05.005",
+      "title": "Группа крови",
+      "price": 330
+    },
+    {
+      "id": "invitro-162",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.160",
+      "title": "ГСПГ глобулин связывающий половые гормоны",
+      "price": 500
+    },
+    {
+      "id": "invitro-163",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.150",
+      "title": "Дигидротестостерон",
+      "price": 1690
+    },
+    {
+      "id": "invitro-164",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "ДНК ВПЧ (14 типов)",
+      "price": 530
+    },
+    {
+      "id": "invitro-165",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.149",
+      "title": "ДЭА-SО4",
+      "price": 530
+    },
+    {
+      "id": "invitro-166",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.007",
+      "title": "Железо",
+      "price": 280
+    },
+    {
+      "id": "invitro-167",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Женский гормональный профиль (планирование беременности, дисфункция, бесплодие)",
+      "price": 4390
+    },
+    {
+      "id": "invitro-168",
+      "categoryId": "laboratory-tests",
+      "code": "A08.20.017.002",
+      "title": "Жидкостная онкоцитология",
+      "price": 1710
+    },
+    {
+      "id": "invitro-169",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.218",
+      "title": "Ингибин В",
+      "price": 1520
+    },
+    {
+      "id": "invitro-170",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.056",
+      "title": "Инсулин",
+      "price": 660
+    },
+    {
+      "id": "invitro-171",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.204",
+      "title": "Инсулиноподобный фактор роста Соматомедин",
+      "price": 1290
+    },
+    {
+      "id": "invitro-172",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Исследование биоматериала (Окраска по Папаниколау)",
+      "price": 1300
+    },
+    {
+      "id": "invitro-173",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Исследование кариотипа (количественные и структурные аномалии хромосом)",
+      "price": 8900
+    },
+    {
+      "id": "invitro-174",
+      "categoryId": "laboratory-tests",
+      "code": "A09.19.012",
+      "title": "Кал на углеводы",
+      "price": 730
+    },
+    {
+      "id": "invitro-175",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Калий, натрий в моче",
+      "price": 270
+    },
+    {
+      "id": "invitro-176",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.032",
+      "title": "Кальций",
+      "price": 270
+    },
+    {
+      "id": "invitro-177",
+      "categoryId": "laboratory-tests",
+      "code": "A09.28.012",
+      "title": "Кальций в моче",
+      "price": 270
+    },
+    {
+      "id": "invitro-178",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.206",
+      "title": "Кальций ионизированный",
+      "price": 485
+    },
+    {
+      "id": "invitro-179",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.119",
+      "title": "Кальцитонин",
+      "price": 1140
+    },
+    {
+      "id": "invitro-180",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Камни почечные",
+      "price": 4120
+    },
+    {
+      "id": "invitro-181",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Карбамазепин в крови",
+      "price": 3080
+    },
+    {
+      "id": "invitro-182",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Кардиориск (скрининг)",
+      "price": 3540
+    },
+    {
+      "id": "invitro-183",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Кариотипирование",
+      "price": 8900
+    },
+    {
+      "id": "invitro-184",
+      "categoryId": "laboratory-tests",
+      "code": "A09.28.034",
+      "title": "Катехоламины (адреналин, норадреналин, дофамин) в моче",
+      "price": 2780
+    },
+    {
+      "id": "invitro-185",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.133",
+      "title": "Катехоламины в плазме",
+      "price": 2700
+    },
+    {
+      "id": "invitro-186",
+      "categoryId": "laboratory-tests",
+      "code": "B03.016.003",
+      "title": "Клинический анализ крови: общий анализ, лейкоформула, СОЭ",
+      "price": 580
+    },
+    {
+      "id": "invitro-187",
+      "categoryId": "laboratory-tests",
+      "code": "B03.002.004",
+      "title": "Коровье молоко IgE (аллерген)",
+      "price": 560
+    },
+    {
+      "id": "invitro-188",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.135",
+      "title": "Кортизол",
+      "price": 460
+    },
+    {
+      "id": "invitro-189",
+      "categoryId": "laboratory-tests",
+      "code": "B03.002.004",
+      "title": "Кошка (аллерген)",
+      "price": 670
+    },
+    {
+      "id": "invitro-190",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Краснуха кровь определение РНК",
+      "price": 900
+    },
+    {
+      "id": "invitro-191",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.020",
+      "title": "Креатинин",
+      "price": 240
+    },
+    {
+      "id": "invitro-192",
+      "categoryId": "laboratory-tests",
+      "code": "A09.28.006",
+      "title": "Креатинин в моче",
+      "price": 240
+    },
+    {
+      "id": "invitro-193",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.043",
+      "title": "Креатинкиназа",
+      "price": 320
+    },
+    {
+      "id": "invitro-194",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.043",
+      "title": "Креатинкиназа-МВ",
+      "price": 560
+    },
+    {
+      "id": "invitro-195",
+      "categoryId": "laboratory-tests",
+      "code": "A12.05.011.000.01",
+      "title": "Латентная железосвязывающая способность сыворотки крови (ЛЖСС, ОЖСС)",
+      "price": 240
+    },
+    {
+      "id": "invitro-196",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.031",
+      "title": "ЛГ (Лютеинизирующий гормон)",
+      "price": 470
+    },
+    {
+      "id": "invitro-197",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.039",
+      "title": "ЛДГ",
+      "price": 220
+    },
+    {
+      "id": "invitro-198",
+      "categoryId": "laboratory-tests",
+      "code": "A12.05.121",
+      "title": "Лейкоцитарная формула",
+      "price": 250
+    },
+    {
+      "id": "invitro-199",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.159",
+      "title": "Лептин",
+      "price": 1040
+    },
+    {
+      "id": "invitro-200",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.173",
+      "title": "Липаза",
+      "price": 390
+    },
+    {
+      "id": "invitro-201",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.024",
+      "title": "Липидный профиль",
+      "price": 3720
+    },
+    {
+      "id": "invitro-202",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.024",
+      "title": "Липидный профиль (скрининг)",
+      "price": 910
+    },
+    {
+      "id": "invitro-203",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.004",
+      "title": "Липопротеин (А)",
+      "price": 1290
+    },
+    {
+      "id": "invitro-204",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.086",
+      "title": "Литий",
+      "price": 1290
+    },
+    {
+      "id": "invitro-205",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.127",
+      "title": "Магний",
+      "price": 280
+    },
+    {
+      "id": "invitro-206",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.210",
+      "title": "Макропролактин",
+      "price": 1310
+    },
+    {
+      "id": "invitro-207",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.273",
+      "title": "Медь в крови",
+      "price": 390
+    },
+    {
+      "id": "invitro-208",
+      "categoryId": "laboratory-tests",
+      "code": "A09.28.057",
+      "title": "Медь в моче",
+      "price": 390
+    },
+    {
+      "id": "invitro-209",
+      "categoryId": "laboratory-tests",
+      "code": "A26.28.028.001",
+      "title": "Микобактерии туберкулеза в моче",
+      "price": 540
+    },
+    {
+      "id": "invitro-210",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Микобактерии туберкулёза, определение ДНК в крови",
+      "price": 640
+    },
+    {
+      "id": "invitro-211",
+      "categoryId": "laboratory-tests",
+      "code": "A12.20.001.000.01",
+      "title": "Микроскопическое (бактериологическое) исследование нативного мазка, окрашенного по Граму",
+      "price": 480
+    },
+    {
+      "id": "invitro-212",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Микроскопическое исследование проб кожи/ногтей на присутствие клеток грибов",
+      "price": 990
+    },
+    {
+      "id": "invitro-213",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Микроэлементы в сыворотке и цельной крови",
+      "price": 4260
+    },
+    {
+      "id": "invitro-214",
+      "categoryId": "laboratory-tests",
+      "code": "A12.30.014",
+      "title": "МНО+Протромбин",
+      "price": 300
+    },
+    {
+      "id": "invitro-215",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.018",
+      "title": "Мочевая кислота (в крови)",
+      "price": 240
+    },
+    {
+      "id": "invitro-216",
+      "categoryId": "laboratory-tests",
+      "code": "A09.28.010",
+      "title": "Мочевая кислота (в моче)",
+      "price": 260
+    },
+    {
+      "id": "invitro-217",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.017",
+      "title": "Мочевина",
+      "price": 240
+    },
+    {
+      "id": "invitro-218",
+      "categoryId": "laboratory-tests",
+      "code": "A09.28.009",
+      "title": "Мочевина (в суточной моче)",
+      "price": 240
+    },
+    {
+      "id": "invitro-219",
+      "categoryId": "laboratory-tests",
+      "code": "A12.06.052",
+      "title": "Натриуретический гормон (В-типа)",
+      "price": 3290
+    },
+    {
+      "id": "invitro-220",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Обследование печени (полное)",
+      "price": 3260
+    },
+    {
+      "id": "invitro-221",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Обследование печени скрининг",
+      "price": 1230
+    },
+    {
+      "id": "invitro-222",
+      "categoryId": "laboratory-tests",
+      "code": "B03.016.002",
+      "title": "Общий анализ крови (без лейкоформулы и СОЭ)",
+      "price": 260
+    },
+    {
+      "id": "invitro-223",
+      "categoryId": "laboratory-tests",
+      "code": "B03.016.006",
+      "title": "Общий анализ мочи",
+      "price": 290
+    },
+    {
+      "id": "invitro-224",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.010",
+      "title": "Общий белок",
+      "price": 240
+    },
+    {
+      "id": "invitro-225",
+      "categoryId": "laboratory-tests",
+      "code": "A09.28.003",
+      "title": "Общий белок в моче",
+      "price": 400
+    },
+    {
+      "id": "invitro-226",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Онкоцитология Рар-тест",
+      "price": 1300
+    },
+    {
+      "id": "invitro-227",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Остеокальцин",
+      "price": 940
+    },
+    {
+      "id": "invitro-228",
+      "categoryId": "laboratory-tests",
+      "code": "B03.002.004",
+      "title": "Панель \"Педиатрическая\" индивидуальные пищевые аллегенны (Ig G)",
+      "price": 9490
+    },
+    {
+      "id": "invitro-229",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Панель \"Хочу стать мамой\"",
+      "price": 9520
+    },
+    {
+      "id": "invitro-230",
+      "categoryId": "laboratory-tests",
+      "code": "B03.002.004",
+      "title": "Панель деревья",
+      "price": 1280
+    },
+    {
+      "id": "invitro-231",
+      "categoryId": "laboratory-tests",
+      "code": "B03.002.004",
+      "title": "Панель пищевых аллергенов (определение специфических IGE)",
+      "price": 10780
+    },
+    {
+      "id": "invitro-232",
+      "categoryId": "laboratory-tests",
+      "code": "B03.002.004",
+      "title": "Панель пищевых аллергенов № 1 (апельсин, банан, яблоко, персик)",
+      "price": 1230
+    },
+    {
+      "id": "invitro-233",
+      "categoryId": "laboratory-tests",
+      "code": "B03.002.004",
+      "title": "Панель пищевых аллергенов № 2 (киви, манго, банан, ананас)",
+      "price": 1230
+    },
+    {
+      "id": "invitro-234",
+      "categoryId": "laboratory-tests",
+      "code": "B03.002.004",
+      "title": "Панель пищевых аллергенов № 3 (свинина, куриное мясо, говядина, баранина)",
+      "price": 1230
+    },
+    {
+      "id": "invitro-235",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.058",
+      "title": "Паратгормон",
+      "price": 870
+    },
+    {
+      "id": "invitro-236",
+      "categoryId": "laboratory-tests",
+      "code": "A26.28.003.000.01",
+      "title": "Посев мочи на микрофлору и определение чувствительности к антибиотикам",
+      "price": 1290
+    },
+    {
+      "id": "invitro-237",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Посев на Candida и определение чувствительности к антибиотикам",
+      "price": 750
+    },
+    {
+      "id": "invitro-238",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Посев на анаэробную микрофлору и определение чувствительности к антибиотикам",
+      "price": 2020
+    },
+    {
+      "id": "invitro-239",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Посев на коклюш",
+      "price": 1110
+    },
+    {
+      "id": "invitro-240",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Посев на микоплазмы и определение чувствительности к антибиотикам",
+      "price": 1140
+    },
+    {
+      "id": "invitro-241",
+      "categoryId": "laboratory-tests",
+      "code": "A26.20.008.000.01",
+      "title": "Посев на микрофлору и определение чувствительности к антибиотикам",
+      "price": 1220
+    },
+    {
+      "id": "invitro-242",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Посев на уреаплазмы и определение чувствительности к антибиотикам",
+      "price": 1160
+    },
+    {
+      "id": "invitro-243",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Посев пункции и определение чувствительности к антибиотикам",
+      "price": 740
+    },
+    {
+      "id": "invitro-244",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Пренатальный скрининг трисомий 1 триместр (PRISKA-1)",
+      "price": 1950
+    },
+    {
+      "id": "invitro-245",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Пренатальный скрининг трисомий 2 триместр (PRISKA-2)",
+      "price": 1540
+    },
+    {
+      "id": "invitro-246",
+      "categoryId": "laboratory-tests",
+      "code": "A09.28.006",
+      "title": "Проба Реберга",
+      "price": 270
+    },
+    {
+      "id": "invitro-247",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Проба Сулковича (моча)",
+      "price": 230
+    },
+    {
+      "id": "invitro-248",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Проблемы невынашивания: аутоиммунный профиль",
+      "price": 6640
+    },
+    {
+      "id": "invitro-249",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.153",
+      "title": "Прогестерон",
+      "price": 470
+    },
+    {
+      "id": "invitro-250",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Программа скрининга рака шейки матки – определение ДНК ВПЧ (14 типов), цитологическое исследование соскоба шейки матки и цервикального канала методом жидкостной цитологии",
+      "price": 2130
+    },
+    {
+      "id": "invitro-251",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.087",
+      "title": "Пролактин",
+      "price": 460
+    },
+    {
+      "id": "invitro-252",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.126",
+      "title": "Протеин S",
+      "price": 3430
+    },
+    {
+      "id": "invitro-253",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.125",
+      "title": "Протеин С",
+      "price": 2330
+    },
+    {
+      "id": "invitro-254",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Профиль ВИЧ, сифилис, гепатит В, С",
+      "price": 1690
+    },
+    {
+      "id": "invitro-255",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Профиль ревматологический скрининг",
+      "price": 2980
+    },
+    {
+      "id": "invitro-256",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.130",
+      "title": "ПСА (чувствительный) общий",
+      "price": 600
+    },
+    {
+      "id": "invitro-257",
+      "categoryId": "laboratory-tests",
+      "code": "A12.06.019",
+      "title": "Ревматоидный фактор",
+      "price": 450
+    },
+    {
+      "id": "invitro-258",
+      "categoryId": "laboratory-tests",
+      "code": "A12.05.006",
+      "title": "Резус фактор",
+      "price": 330
+    },
+    {
+      "id": "invitro-259",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.121",
+      "title": "Ренин",
+      "price": 1350
+    },
+    {
+      "id": "invitro-260",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "РПГА к Y.enterocolitica 03",
+      "price": 610
+    },
+    {
+      "id": "invitro-261",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "РПГА к Y.enterocolitica 09",
+      "price": 610
+    },
+    {
+      "id": "invitro-262",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "РПГА к Y.pseudotuberculosis",
+      "price": 610
+    },
+    {
+      "id": "invitro-263",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.195",
+      "title": "РЭА",
+      "price": 740
+    },
+    {
+      "id": "invitro-264",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.205",
+      "title": "С-пептид",
+      "price": 620
+    },
+    {
+      "id": "invitro-265",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.009",
+      "title": "С-реактивный белок",
+      "price": 400
+    },
+    {
+      "id": "invitro-266",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.202",
+      "title": "СА-125",
+      "price": 750
+    },
+    {
+      "id": "invitro-267",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.231",
+      "title": "СА-15-3",
+      "price": 820
+    },
+    {
+      "id": "invitro-268",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.201",
+      "title": "СА-19-9",
+      "price": 820
+    },
+    {
+      "id": "invitro-269",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Свинец в крови",
+      "price": 390
+    },
+    {
+      "id": "invitro-270",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.090",
+      "title": "Свободная бета субъединица ХГЧ",
+      "price": 780
+    },
+    {
+      "id": "invitro-271",
+      "categoryId": "laboratory-tests",
+      "code": "A09.28.035",
+      "title": "Свободный кортизол в моче",
+      "price": 1060
+    },
+    {
+      "id": "invitro-272",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.078",
+      "title": "Свободный тестостерон",
+      "price": 1170
+    },
+    {
+      "id": "invitro-273",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Секс в большом городе: 14 инфекций + мазок на флору",
+      "price": 4670
+    },
+    {
+      "id": "invitro-274",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Секс в большом городе: 6 инфекций (анализ крови)",
+      "price": 4160
+    },
+    {
+      "id": "invitro-275",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Секс в большом городе: 8 инфекций + мазок на флору",
+      "price": 2930
+    },
+    {
+      "id": "invitro-276",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Селен (в крови)",
+      "price": 390
+    },
+    {
+      "id": "invitro-277",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Синдром Жильбера",
+      "price": 4280
+    },
+    {
+      "id": "invitro-278",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Система комплимента",
+      "price": 930
+    },
+    {
+      "id": "invitro-279",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.082.001",
+      "title": "Сифилис (Антикардиолипиновый тест)",
+      "price": 280
+    },
+    {
+      "id": "invitro-280",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.082.002",
+      "title": "Сифилис - EIA (ИФА) Ig M + Ig G",
+      "price": 550
+    },
+    {
+      "id": "invitro-281",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Скрининг болезней соединительной ткани",
+      "price": 2370
+    },
+    {
+      "id": "invitro-282",
+      "categoryId": "laboratory-tests",
+      "code": "A12.05.001",
+      "title": "СОЭ",
+      "price": 200
+    },
+    {
+      "id": "invitro-283",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.066",
+      "title": "СТГ",
+      "price": 620
+    },
+    {
+      "id": "invitro-284",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.060",
+      "title": "Т3",
+      "price": 460
+    },
+    {
+      "id": "invitro-285",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.061",
+      "title": "Т3 свободный",
+      "price": 460
+    },
+    {
+      "id": "invitro-286",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.064",
+      "title": "Т4",
+      "price": 460
+    },
+    {
+      "id": "invitro-287",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.063",
+      "title": "Т4 свободный",
+      "price": 460
+    },
+    {
+      "id": "invitro-288",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.117",
+      "title": "ТГ (Тиреоглобулин)",
+      "price": 870
+    },
+    {
+      "id": "invitro-289",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.078",
+      "title": "Тестостерон",
+      "price": 460
+    },
+    {
+      "id": "invitro-290",
+      "categoryId": "laboratory-tests",
+      "code": "A26.21.008.000.01",
+      "title": "Типирование ВПЧ (21+КВМ) урогенитальный",
+      "price": 3150
+    },
+    {
+      "id": "invitro-291",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.008",
+      "title": "Трасферрин",
+      "price": 700
+    },
+    {
+      "id": "invitro-292",
+      "categoryId": "laboratory-tests",
+      "code": "B03.002.004",
+      "title": "Треска (аллерген)",
+      "price": 560
+    },
+    {
+      "id": "invitro-293",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.025",
+      "title": "Триглицериды",
+      "price": 240
+    },
+    {
+      "id": "invitro-294",
+      "categoryId": "laboratory-tests",
+      "code": "A12.05.028",
+      "title": "Тромбиновое время",
+      "price": 320
+    },
+    {
+      "id": "invitro-295",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Тромбозы: расширенная панель",
+      "price": 4520
+    },
+    {
+      "id": "invitro-296",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Тромбозы: сокращенная панель",
+      "price": 2800
+    },
+    {
+      "id": "invitro-297",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.065",
+      "title": "ТТГ",
+      "price": 420
+    },
+    {
+      "id": "invitro-298",
+      "categoryId": "laboratory-tests",
+      "code": "A12.26.014",
+      "title": "ФНО (фактор некроза опухоли)",
+      "price": 2510
+    },
+    {
+      "id": "invitro-299",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.132",
+      "title": "ФСГ",
+      "price": 460
+    },
+    {
+      "id": "invitro-300",
+      "categoryId": "laboratory-tests",
+      "code": "A26.20.032.000.01",
+      "title": "Фемофлор (16+КВМ) вагинальный/уретральный/цервикальный",
+      "price": 2820
+    },
+    {
+      "id": "invitro-301",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Фемофлор (8+КВМ) вагинальный/уретральный/цервикальный",
+      "price": 1960
+    },
+    {
+      "id": "invitro-302",
+      "categoryId": "laboratory-tests",
+      "code": "A26.20.032.000.02",
+      "title": "Фемофлор скрин. Скрининг микрофлоры урогенитального тракта.",
+      "price": 2460
+    },
+    {
+      "id": "invitro-303",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.076",
+      "title": "Ферритин",
+      "price": 600
+    },
+    {
+      "id": "invitro-304",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.050",
+      "title": "Фибриноген",
+      "price": 300
+    },
+    {
+      "id": "invitro-305",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.080",
+      "title": "Фолиевая кислота",
+      "price": 1150
+    },
+    {
+      "id": "invitro-306",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.046",
+      "title": "Фосфатаза щелочная",
+      "price": 230
+    },
+    {
+      "id": "invitro-307",
+      "categoryId": "laboratory-tests",
+      "code": "A09.28.026",
+      "title": "Фосфор в моче",
+      "price": 270
+    },
+    {
+      "id": "invitro-308",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.033",
+      "title": "Фосфор крови",
+      "price": 270
+    },
+    {
+      "id": "invitro-309",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Фракция холестерина",
+      "price": 470
+    },
+    {
+      "id": "invitro-310",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Фруктозамин",
+      "price": 1000
+    },
+    {
+      "id": "invitro-311",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.015",
+      "title": "Хламидиоз Ig A, Ig G",
+      "price": 1050
+    },
+    {
+      "id": "invitro-312",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.026",
+      "title": "Холестерин общий",
+      "price": 250
+    },
+    {
+      "id": "invitro-313",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.004",
+      "title": "Холестерин-ЛПВП",
+      "price": 270
+    },
+    {
+      "id": "invitro-314",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.028",
+      "title": "Холестерин-ЛПНП",
+      "price": 290
+    },
+    {
+      "id": "invitro-315",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.077",
+      "title": "Церулоплазмин",
+      "price": 760
+    },
+    {
+      "id": "invitro-316",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.274",
+      "title": "Цинк (в крови)",
+      "price": 390
+    },
+    {
+      "id": "invitro-317",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Цитологическое исследование биоматериала шейки матки",
+      "price": 1300
+    },
+    {
+      "id": "invitro-318",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Цитомегаловирус, определение ДНК в крови",
+      "price": 510
+    },
+    {
+      "id": "invitro-319",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Цитомегаловирус, определение ДНК в моче",
+      "price": 470
+    },
+    {
+      "id": "invitro-320",
+      "categoryId": "laboratory-tests",
+      "code": "A26.21.010.001.01",
+      "title": "Цитомегаловирус, определение ДНК в соскобе",
+      "price": 470
+    },
+    {
+      "id": "invitro-321",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Щитовидная железа скрининг (ТТГ, АТ-ТПО, Т 4св)",
+      "price": 1320
+    },
+    {
+      "id": "invitro-322",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Щитовидная железа скрининг (ТТГ, АТ-ТПО, Т4 св, Т3 св, АТ-ТГ)",
+      "price": 2260
+    },
+    {
+      "id": "invitro-323",
+      "categoryId": "laboratory-tests",
+      "code": "A09.19.010",
+      "title": "Эластаза 1, панкреатическая",
+      "price": 3260
+    },
+    {
+      "id": "invitro-324",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.029.002",
+      "title": "Эпштейн-Барра G",
+      "price": 880
+    },
+    {
+      "id": "invitro-325",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.029.001",
+      "title": "Эпштейн-Барра М",
+      "price": 630
+    },
+    {
+      "id": "invitro-326",
+      "categoryId": "laboratory-tests",
+      "code": "A26.06.030",
+      "title": "Эпштейна-Барра",
+      "price": 740
+    },
+    {
+      "id": "invitro-327",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.154",
+      "title": "Эстрадиол",
+      "price": 470
+    },
+    {
+      "id": "invitro-328",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.157",
+      "title": "Эстриол свободный",
+      "price": 610
+    },
+    {
+      "id": "invitro-329",
+      "categoryId": "laboratory-tests",
+      "code": "B03.002.004",
+      "title": "Яичный белок (аллерген)",
+      "price": 560
+    },
+    {
+      "id": "invitro-330",
+      "categoryId": "laboratory-tests",
+      "code": "B03.002.004",
+      "title": "Яичный желток Ig E",
+      "price": 1120
+    }
+  ]
+}

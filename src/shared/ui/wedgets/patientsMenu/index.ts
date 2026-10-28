@@ -1,0 +1,1 @@
+export { PatientsMenu } from "./patientsMenu";

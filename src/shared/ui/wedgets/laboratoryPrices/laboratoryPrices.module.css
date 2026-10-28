@@ -1,0 +1,663 @@
+.section {
+  min-width: 0;
+  padding: 40px 0 32px;
+  color: #163d32;
+  text-align: left;
+}
+
+.section,
+.section *,
+.section *::before,
+.section *::after {
+  box-sizing: border-box;
+}
+
+/* Вкладки лабораторий */
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.tabButton {
+  min-height: 46px;
+  padding: 11px 24px;
+
+  border: 1px solid #d5e7de;
+  border-radius: 8px;
+  background: #fff;
+
+  color: #105744;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+
+  cursor: pointer;
+}
+
+.tabButton:hover {
+  background: #edf8f3;
+}
+
+.tabButtonActive,
+.tabButtonActive:hover {
+  border-color: #18a85a;
+  background: #18a85a;
+  color: #fff;
+}
+
+/* Поиск и фильтр категорий */
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.searchField {
+  flex: 2 1 360px;
+  min-width: 0;
+}
+
+.categoryField {
+  flex: 1 1 260px;
+  min-width: 0;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+
+  color: #163d32;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.inputWrapper {
+  position: relative;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+
+  transform: translateY(-50%);
+
+  color: #789088;
+  pointer-events: none;
+}
+
+.input,
+.select {
+  width: 100%;
+  min-height: 48px;
+
+  border: 1px solid #d5e7de;
+  border-radius: 8px;
+  background: #fff;
+
+  color: #163d32;
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.input {
+  padding: 12px 16px 12px 48px;
+}
+
+.select {
+  padding: 12px 16px;
+}
+
+.input::placeholder {
+  color: #82968e;
+}
+
+/* Заголовок и информация о результатах */
+
+.headingRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  margin-bottom: 10px;
+}
+
+.headingRow > div {
+  min-width: 0;
+}
+
+.title {
+  margin: 0;
+
+  color: #105744;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+.laboratoryName {
+  margin: 8px 0 0;
+
+  color: #668176;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.resultStatus {
+  margin: 0 0 20px;
+
+  color: #668176;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.resetButton {
+  padding: 0;
+
+  border: 0;
+  background: transparent;
+
+  color: #10945e;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.5;
+  text-decoration: underline;
+
+  cursor: pointer;
+}
+
+/* Таблица */
+
+.tableWrapper {
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+
+  border: 1px solid #dceee7;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.table {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+
+  background: #fff;
+  color: #163d32;
+  text-align: left;
+}
+
+.table thead th {
+  padding: 16px 20px;
+
+  border: 0;
+  border-bottom: 1px solid #dceee7;
+  background: #e8f5ed;
+
+  color: #105744;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.table thead .codeColumn {
+  width: 170px;
+}
+
+.table thead .priceColumn {
+  width: 150px;
+  text-align: right;
+}
+
+.desktopHeading {
+  display: inline;
+}
+
+.mobileHeading {
+  display: none;
+}
+
+/* Категории исследований */
+
+.categoryRow th {
+  padding: 13px 20px;
+
+  border: 0;
+  border-bottom: 1px solid #dceee7;
+  background: #f1f8f4;
+
+  color: #105744;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+/* Строки исследований */
+
+.testRow {
+  background: #fff;
+}
+
+.testRowAlternate {
+  background: #f3faf7;
+}
+
+.testRow td {
+  padding: 17px 20px;
+
+  border: 0;
+  border-bottom: 1px solid #e7efea;
+
+  color: #163d32;
+  font-size: 14px;
+  line-height: 1.6;
+  vertical-align: middle;
+}
+
+.table tbody tr:last-child td,
+.table tbody tr:last-child th {
+  border-bottom: 0;
+}
+
+.testRow .code {
+  color: #789088;
+  overflow-wrap: anywhere;
+}
+
+.testName {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.testTitle {
+  display: block;
+
+  color: #163d32;
+  font-size: inherit;
+  font-weight: 400;
+  line-height: inherit;
+  overflow-wrap: anywhere;
+}
+
+.mobileCode {
+  display: none;
+}
+
+.testRow .price {
+  color: #105744;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: right;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Счётчик и кнопка загрузки */
+
+.tableFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  margin-top: 20px;
+}
+
+.shownCount {
+  margin: 0;
+
+  color: #789088;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.moreButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 180px;
+  min-height: 48px;
+  padding: 12px 24px;
+
+  border: 1px solid #16745b;
+  border-radius: 10px;
+  background: #fff;
+
+  color: #105744;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.moreButton:hover {
+  background: #edf8f3;
+}
+
+/* Пустой результат и примечание */
+
+.empty {
+  padding: 28px;
+
+  border-radius: 10px;
+  background: #edf8f3;
+}
+
+.empty p {
+  margin: 0 0 12px;
+  line-height: 1.6;
+}
+
+.priceNote {
+  margin: 24px 0 0;
+
+  color: #789088;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+/* Доступность */
+
+.visuallyHidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.tabButton:focus-visible,
+.input:focus-visible,
+.select:focus-visible,
+.resetButton:focus-visible,
+.moreButton:focus-visible {
+  outline: 2px solid #18a85a;
+  outline-offset: 3px;
+}
+
+/* Планшет: три колонки */
+
+@media (min-width: 600px) and (max-width: 1023px) {
+  .table thead .codeColumn {
+    width: 135px;
+  }
+
+  .table thead .priceColumn {
+    width: 125px;
+  }
+
+  .table thead th {
+    padding: 15px 16px;
+    font-size: 13px;
+  }
+
+  .categoryRow th {
+    padding: 12px 16px;
+    font-size: 13px;
+  }
+
+  .testRow td {
+    padding: 17px 16px;
+    font-size: 14px;
+  }
+
+  .testRow .price {
+    font-size: 16px;
+  }
+}
+
+/* Телефон: две колонки, код под названием */
+
+@media (max-width: 599px) {
+  .section {
+    padding: 28px 0;
+  }
+
+  .tabs {
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+
+  .tabButton {
+    flex: 1 1 auto;
+    min-height: 44px;
+    padding: 10px 14px;
+    font-size: 13px;
+  }
+
+  .filters {
+    gap: 16px;
+    margin-bottom: 26px;
+  }
+
+  .searchField,
+  .categoryField {
+    flex-basis: 100%;
+  }
+
+  .input,
+  .select {
+    font-size: 16px;
+  }
+
+  .headingRow {
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .title {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  .laboratoryName {
+    margin-top: 6px;
+    font-size: 13px;
+  }
+
+  .resultStatus {
+    margin-bottom: 16px;
+    font-size: 12px;
+  }
+
+  .table .codeColumn {
+    display: none;
+  }
+
+  .desktopHeading {
+    display: none;
+  }
+
+  .mobileHeading {
+    display: inline;
+  }
+
+  .table thead th {
+    padding: 13px 14px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .table thead .priceColumn {
+    width: 112px;
+    text-align: right;
+  }
+
+  .categoryRow th {
+    padding: 12px 14px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .testRow td {
+    padding: 15px 14px;
+    font-size: 14px;
+    line-height: 1.5;
+    vertical-align: middle;
+  }
+
+  .testRow .testName {
+    padding-right: 6px;
+  }
+
+  .testTitle {
+    font-size: 15px;
+    line-height: 1.45;
+  }
+
+  .mobileCode {
+    display: block;
+    margin-top: 3px;
+
+    color: #789088;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+  }
+
+  .testRow .price {
+    padding-left: 6px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .tableFooter {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    margin-top: 14px;
+  }
+
+  .shownCount {
+    font-size: 13px;
+  }
+
+  .moreButton {
+    width: 100%;
+    min-width: 0;
+    min-height: 48px;
+    padding: 12px 18px;
+  }
+
+  .empty {
+    padding: 20px 16px;
+  }
+
+  .priceNote {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 1.7;
+  }
+}
+
+/* Узкие телефоны */
+
+@media (max-width: 359px) {
+  .table thead th {
+    padding: 12px;
+    font-size: 12px;
+  }
+
+  .table thead .priceColumn {
+    width: 100px;
+  }
+
+  .categoryRow th {
+    padding: 12px;
+    font-size: 12px;
+  }
+
+  .testRow td {
+    padding: 14px 12px;
+  }
+
+  .testTitle {
+    font-size: 14px;
+  }
+
+  .mobileCode {
+    font-size: 11px;
+  }
+
+  .testRow .price {
+    font-size: 15px;
+  }
+}
+
+/* Подсветка при наведении мышью */
+
+@media (hover: hover) and (pointer: fine) {
+  .testRow:hover {
+    background: #edf8f3;
+  }
+}
+
+/* Категория для трёхколоночной таблицы */
+.categoryRow .desktopCategoryCell {
+  display: table-cell;
+}
+
+/* На планшете и компьютере мобильная ячейка скрыта */
+.categoryRow .mobileCategoryCell {
+  display: none;
+}
+
+@media (max-width: 599px) {
+  /* На телефоне остаются ровно две колонки */
+  .categoryRow .desktopCategoryCell {
+    display: none;
+  }
+
+  .categoryRow .mobileCategoryCell {
+    display: table-cell;
+  }
+
+  .table thead .nameColumn {
+    width: auto;
+  }
+
+  .table thead .priceColumn {
+    width: 112px;
+  }
+}
+
+@media (max-width: 359px) {
+  .table thead .priceColumn {
+    width: 100px;
+  }
+}

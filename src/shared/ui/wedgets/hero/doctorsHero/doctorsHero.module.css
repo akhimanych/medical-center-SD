@@ -1,0 +1,307 @@
+.section,
+.section *,
+.section *::before,
+.section *::after {
+  box-sizing: border-box;
+}
+
+.section {
+  overflow: hidden;
+
+  border-radius: 14px;
+  background-color: #fff;
+  background-image: linear-gradient(rgb(24 168 90 / 20%), rgb(24 168 90 / 10%));
+}
+
+.container {
+  position: relative;
+  isolation: isolate;
+
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+
+  width: 100%;
+  max-width: 1280px;
+  min-height: 360px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* Текст всегда находится выше иллюстрации */
+
+.content {
+  position: relative;
+  z-index: 2;
+
+  min-width: 0;
+  text-align: left;
+}
+
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+
+  margin-bottom: 24px;
+
+  color: #667b73;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.homeLink {
+  color: inherit;
+  text-decoration: none;
+}
+
+.homeLink:hover {
+  color: #18a85a;
+}
+
+.homeLink:focus-visible {
+  outline: 2px solid #18a85a;
+  outline-offset: 4px;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+
+  color: #15966c;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+}
+
+.title {
+  margin: 0;
+
+  color: #163d32;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 0.98;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+.description {
+  max-width: 500px;
+  margin: 26px 0 0;
+
+  color: #386858;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Иллюстрация на компьютере */
+
+.visual {
+  position: relative;
+  z-index: 0;
+
+  align-self: stretch;
+  min-width: 0;
+  min-height: 312px;
+
+  pointer-events: none;
+}
+
+.visual::before,
+.visual::after {
+  position: absolute;
+  z-index: 0;
+  content: "";
+
+  background: rgb(24 168 90 / 8%);
+}
+
+.visual::before {
+  top: -48px;
+  left: 30px;
+
+  width: 310px;
+  height: 330px;
+
+  border-radius: 48% 52% 46% 54%;
+  transform: rotate(30deg);
+}
+
+.visual::after {
+  top: 46px;
+  right: -8px;
+
+  width: 360px;
+  height: 250px;
+
+  border-radius: 52% 48% 55% 45%;
+  transform: rotate(-24deg);
+}
+
+.doctor {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 312px;
+}
+
+.doctor svg {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+}
+
+/* Планшет: иллюстрация становится фоном текста */
+
+@media (max-width: 1024px) {
+  .container {
+    grid-template-columns: minmax(0, 1fr);
+
+    min-height: 340px;
+    padding: 28px 24px;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .title {
+    max-width: 620px;
+    font-size: 48px;
+    line-height: 1.05;
+  }
+
+  .description {
+    max-width: 480px;
+    margin-top: 22px;
+    font-size: 17px;
+  }
+
+  .visual {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+
+    min-width: 0;
+    min-height: 0;
+    margin: 0;
+  }
+
+  .visual::before {
+    top: -50px;
+    right: 20px;
+    left: auto;
+
+    width: 340px;
+    height: 350px;
+  }
+
+  .visual::after {
+    top: auto;
+    right: -45px;
+    bottom: -30px;
+
+    width: 360px;
+    height: 270px;
+  }
+
+  .doctor {
+    right: -15px;
+    bottom: 0;
+
+    width: 440px;
+    height: 330px;
+
+    opacity: 0.18;
+  }
+}
+
+/* Телефон */
+
+@media (max-width: 599px) {
+  .container {
+    min-height: 320px;
+    padding: 24px 18px 28px;
+  }
+
+  .breadcrumbs {
+    gap: 6px;
+    margin-bottom: 24px;
+    font-size: 11px;
+  }
+
+  .eyebrow {
+    margin-bottom: 12px;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+  }
+
+  .title {
+    max-width: 100%;
+    font-size: clamp(32px, 8vw, 44px);
+    line-height: 1.08;
+  }
+
+  .description {
+    max-width: 340px;
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  .visual::before {
+    top: 10px;
+    right: -80px;
+
+    width: 290px;
+    height: 310px;
+  }
+
+  .visual::after {
+    right: -110px;
+    bottom: -35px;
+
+    width: 300px;
+    height: 230px;
+  }
+
+  .doctor {
+    right: -65px;
+    bottom: 0;
+
+    width: 350px;
+    height: 290px;
+
+    opacity: 0.13;
+  }
+}
+
+/* Небольшие телефоны */
+
+@media (max-width: 359px) {
+  .container {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .doctor {
+    right: -85px;
+    width: 330px;
+    height: 275px;
+  }
+}

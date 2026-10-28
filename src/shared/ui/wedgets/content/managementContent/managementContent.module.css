@@ -1,0 +1,344 @@
+.content {
+  --brand-color: #18a85a;
+  --heading-color: #103f38;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 32px;
+  min-width: 0;
+  padding: 38px 0 52px;
+  text-align: left;
+}
+.management,
+.about {
+  display: block;
+  min-width: 0;
+}
+.sectionTitle {
+  margin: 0 0 26px;
+  padding: 0;
+  color: var(--heading-color);
+  font-family: var(--font-heading, Georgia, "Times New Roman", serif);
+  font-size: clamp(28px, 3.2vw, 38px);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.personCard {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid #cde9dd;
+  border-radius: 10px;
+  background: #fff;
+}
+.photoWrapper {
+  flex-shrink: 0;
+  height: clamp(220px, 22vw, 280px);
+  overflow: hidden;
+  background: #eef8f3;
+}
+.photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+}
+.photoPlaceholder {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 24px;
+  background: linear-gradient(135deg, #f0faf5, #e3f3ea);
+  color: #78958a;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: center;
+}
+.personInfo {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 24px 20px 28px;
+  text-align: center;
+}
+.personPosition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 2.7em;
+  margin: 0;
+  color: var(--heading-color);
+  font-family: var(--font-heading, Georgia, "Times New Roman", serif);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: center;
+}
+.personName {
+  max-width: 250px;
+  margin: 12px 0 0;
+  color: #254b41;
+  font-size: 16px;
+  line-height: 1.65;
+  text-align: center;
+}
+.message {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
+  align-items: start;
+  gap: 20px;
+  box-sizing: border-box;
+  padding: 32px;
+  border-radius: 14px;
+  background: linear-gradient(115deg, #edf9f3, #f2faf6);
+  text-align: left;
+}
+.quoteMark {
+  display: block;
+  height: 52px;
+  color: var(--brand-color);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: left;
+}
+.messageContent {
+  display: block;
+  min-width: 0;
+  text-align: left;
+}
+.messageTitle {
+  margin: 0 0 18px;
+  color: var(--heading-color);
+  font-family: var(--font-heading, Georgia, "Times New Roman", serif);
+  font-size: clamp(25px, 2.8vw, 32px);
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: left;
+}
+.messageText {
+  max-width: 980px;
+  color: #254b41;
+  font-size: 17px;
+  line-height: 1.8;
+  text-align: left;
+}
+.messageText p {
+  margin: 0;
+  text-align: left;
+}
+.messageText p + p {
+  margin-top: 16px;
+}
+.aboutGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 48px;
+  margin-top: 8px;
+}
+.about {
+  padding-top: 12px;
+  text-align: left;
+}
+.about .sectionTitle {
+  margin-bottom: 22px;
+}
+.aboutText {
+  color: #254b41;
+  font-size: 17px;
+  line-height: 1.8;
+  text-align: left;
+}
+.aboutText p {
+  margin: 0;
+  text-align: left;
+}
+.aboutText p + p {
+  margin-top: 22px;
+}
+.principles {
+  min-width: 0;
+  padding: 28px 30px;
+  border-radius: 14px;
+  background: #eff9f4;
+  text-align: left;
+}
+.principlesTitle {
+  margin: 0 0 24px;
+  color: var(--heading-color);
+  font-family: var(--font-heading, Georgia, "Times New Roman", serif);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: left;
+}
+.principlesList {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 22px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.principle {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  align-items: center;
+  gap: 18px;
+  padding: 0;
+  border: 0;
+  text-align: left;
+}
+.principleIcon {
+  display: block;
+  width: 48px;
+  height: 48px;
+  color: var(--brand-color);
+}
+.principleContent {
+  min-width: 0;
+}
+.principleTitle {
+  margin: 0;
+  color: #173a36;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: left;
+}
+.principleDescription {
+  margin: 5px 0 0;
+  color: #58756a;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: left;
+}
+@media (max-width: 1000px) {
+  .teamGrid {
+    gap: 18px;
+  }
+  .personInfo {
+    padding: 20px 16px 24px;
+  }
+  .personPosition {
+    font-size: 20px;
+  }
+  .personName {
+    font-size: 15px;
+  }
+  .aboutGrid {
+    gap: 28px;
+  }
+  .principles {
+    padding: 24px;
+  }
+}
+@media (max-width: 720px) {
+  .content {
+    gap: 28px;
+    padding: 30px 0 36px;
+  }
+  .sectionTitle {
+    margin-bottom: 20px;
+  }
+  .teamGrid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+  }
+  .personCard {
+    justify-self: center;
+    width: 100%;
+    max-width: 420px;
+  }
+  .photoWrapper {
+    height: 280px;
+  }
+  .personPosition {
+    min-height: 0;
+    font-size: 22px;
+  }
+  .personName {
+    font-size: 16px;
+  }
+  .message {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+    padding: 24px;
+  }
+  .quoteMark {
+    height: 38px;
+    font-size: 64px;
+  }
+  .messageTitle {
+    margin-bottom: 16px;
+  }
+  .messageText,
+  .aboutText {
+    font-size: 16px;
+    line-height: 1.75;
+  }
+  .aboutGrid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+    margin-top: 0;
+  }
+  .about {
+    padding-top: 0;
+  }
+  .principlesTitle {
+    font-size: 26px;
+  }
+}
+@media (max-width: 420px) {
+  .principle {
+    grid-template-columns: 40px minmax(0, 1fr);
+    gap: 14px;
+  }
+  .principleIcon {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 380px) {
+  .message,
+  .principles {
+    padding: 20px;
+  }
+  .photoWrapper {
+    height: 240px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .management > .sectionTitle {
+    width: 100%;
+    text-align: center;
+  }
+  .messageTitle,
+  .about > .sectionTitle,
+  .principlesTitle {
+    width: 100%;
+    text-align: center;
+  }
+}

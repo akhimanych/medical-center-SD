@@ -1,0 +1,1 @@
+export { LicensesGallery } from "./licensesGallery";

@@ -1,0 +1,221 @@
+.contactCard {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 24px;
+
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+
+  color: #163d32;
+  text-align: left;
+}
+
+.contactCard,
+.contactCard * {
+  box-sizing: border-box;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  min-width: 0;
+  padding: 24px;
+
+  border-radius: 10px;
+  background: rgb(24 168 90 / 12%);
+}
+
+.title {
+  margin: 0 0 22px;
+
+  color: #105744;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+
+  width: 100%;
+  margin: 0 0 28px;
+
+  font-style: normal;
+}
+
+.contactItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+
+  min-width: 0;
+}
+
+.icon {
+  display: block;
+  flex: 0 0 24px;
+
+  width: 24px;
+  height: 24px;
+
+  color: #10945e;
+}
+
+.contactText,
+.contactLink {
+  margin: 0;
+
+  color: #142c25;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.contactGroup {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.contactLink {
+  text-decoration: none;
+}
+
+.contactLink:hover {
+  color: #10945e;
+  text-decoration: underline;
+}
+
+.callButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  min-height: 48px;
+  margin-top: auto;
+  padding: 12px 28px;
+
+  border: 1px solid #109b61;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #12a56b, #079b5b);
+
+  color: #fff;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: none;
+
+  transition:
+    background 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.callButton:visited {
+  color: #fff;
+}
+
+.callButton:hover {
+  background: #078c51;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgb(7 140 81 / 15%);
+}
+
+.buttonIcon {
+  display: block;
+  flex: 0 0 22px;
+
+  width: 22px;
+  height: 22px;
+}
+
+.visual {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+
+  min-width: 0;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.imagePlaceholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  padding: 24px;
+
+  border-radius: 10px;
+  background: #edf8f3;
+
+  color: #66818a;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.directionsButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+
+  min-height: 44px;
+  padding: 10px 30px;
+
+  border: 1px solid #10945e;
+  border-radius: 8px;
+  background: #fff;
+
+  color: #10945e;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+
+  transition:
+    background 180ms ease,
+    color 180ms ease;
+}
+
+.directionsButton:visited {
+  color: #10945e;
+}
+
+.directionsButton:hover {
+  background: #edf8f3;
+  color: #08794b;
+  text-decoration: none;
+}
+
+.contactLink:focus-visible,
+.callButton:focus-visible,
+.directionsButton:focus-visible {
+  outline: 2px solid #10945e;
+  outline-offset: 4px;
+}

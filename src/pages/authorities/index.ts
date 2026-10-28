@@ -1,0 +1,1 @@
+export { AuthoritiesPage } from "./authoritiesPage";

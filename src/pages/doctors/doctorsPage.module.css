@@ -1,0 +1,407 @@
+.block {
+  min-width: 0;
+  padding: 32px 24px 0;
+  background: #fff;
+}
+
+.container {
+  width: 100%;
+  min-width: 0;
+  margin-inline: auto;
+}
+
+.section {
+  padding: 32px 0 64px;
+}
+
+.section,
+.section *,
+.section *::before,
+.section *::after {
+  box-sizing: border-box;
+}
+
+/* Возврат к специальностям */
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  min-height: 44px;
+  margin-bottom: 24px;
+
+  color: #123f35;
+  font-size: 15px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.backLink:focus-visible {
+  outline: 3px solid #18a85a;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+/* Сетка: компьютер */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 24px;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.grid > li {
+  min-width: 0;
+}
+
+/* Ссылка на страницу врача */
+
+.cardLink {
+  display: block;
+  height: 100%;
+
+  border-radius: 18px;
+
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cardLink:hover,
+.cardLink:visited,
+.cardLink:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cardLink:focus-visible {
+  outline: 2px solid #18a85a;
+  outline-offset: 4px;
+}
+
+/* Карточка */
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  min-width: 0;
+  overflow: hidden;
+
+  border: 1px solid #e7efea;
+  border-radius: 18px;
+  background: #f1faf5;
+  box-shadow: 0 4px 16px rgb(22 61 50 / 4%);
+
+  text-align: left;
+
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease;
+}
+
+/* Фотография */
+
+.photoWrapper {
+  flex-shrink: 0;
+  min-width: 0;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+
+  background: #f8f9f8;
+}
+
+.photo {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center top;
+}
+
+.photoPlaceholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+
+  color: #18a85a;
+  font-size: 56px;
+  font-weight: 600;
+}
+
+/* Информация о враче */
+
+.cardContent {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+
+  min-width: 0;
+  padding: 24px;
+}
+
+.cardContent > :last-child {
+  margin-bottom: 0;
+}
+
+.specialization {
+  margin: 0 0 10px;
+
+  color: #36594b;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.name {
+  width: 100%;
+  margin: 0 0 14px;
+
+  color: #123f35;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+.qualifications {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.qualifications p {
+  margin: 0;
+
+  color: #61756b;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+.qualifications p + p {
+  margin-top: 8px;
+}
+
+/* Пустое состояние */
+
+.empty {
+  padding: 28px;
+
+  border: 1px solid #dce9e1;
+  border-radius: 16px;
+  background: #f5fcf7;
+}
+
+.empty p {
+  margin: 0;
+
+  color: #36594b;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Планшет: две карточки в ряд */
+
+@media (min-width: 600px) and (max-width: 1023px) {
+  .block {
+    padding: 24px 20px 0;
+  }
+
+  .section {
+    padding: 24px 0 48px;
+  }
+
+  .backLink {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+
+  .card,
+  .cardLink {
+    border-radius: 16px;
+  }
+
+  .photoWrapper {
+    height: clamp(220px, 30vw, 290px);
+    aspect-ratio: auto;
+  }
+
+  .photo {
+    object-fit: contain;
+    object-position: center bottom;
+  }
+
+  .cardContent {
+    padding: 20px;
+    align-items: center;
+  }
+
+  .specialization {
+    margin-bottom: 10px;
+    font-size: 13px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .name {
+    margin-bottom: 12px;
+    font-size: 20px;
+    line-height: 1.35;
+    width: 100%;
+    text-align: center;
+  }
+
+  .qualifications p {
+    font-size: 13px;
+  }
+}
+
+/* Телефон: одна карточка в ряд */
+
+@media (max-width: 599px) {
+  .block {
+    padding: 16px 16px 0;
+  }
+
+  .section {
+    padding: 20px 0 36px;
+  }
+
+  .backLink {
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+  }
+
+  .card,
+  .cardLink {
+    border-radius: 16px;
+  }
+
+  .photoWrapper {
+    height: clamp(230px, 65vw, 300px);
+    aspect-ratio: auto;
+  }
+
+  .photo {
+    object-fit: contain;
+    object-position: center bottom;
+  }
+
+  .photoPlaceholder {
+    font-size: 52px;
+  }
+
+  .cardContent {
+    padding: 18px 20px 20px;
+    align-items: center;
+  }
+
+  .specialization {
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 1.5;
+    width: 100%;
+    text-align: center;
+  }
+
+  .name {
+    margin-bottom: 12px;
+    font-size: 21px;
+    line-height: 1.35;
+    width: 100%;
+    text-align: center;
+  }
+
+  .qualifications p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .empty {
+    padding: 20px;
+  }
+
+  .empty p {
+    font-size: 14px;
+  }
+}
+
+/* Небольшие телефоны */
+
+@media (max-width: 359px) {
+  .block {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .photoWrapper {
+    height: 220px;
+  }
+
+  .cardContent {
+    padding: 16px;
+  }
+
+  .specialization {
+    font-size: 12px;
+  }
+
+  .name {
+    font-size: 19px;
+  }
+}
+
+/* Эффекты наведения только для устройств с мышью */
+
+@media (hover: hover) and (pointer: fine) {
+  .backLink:hover {
+    text-decoration: underline;
+  }
+
+  .cardLink:hover .card {
+    transform: translateY(-3px);
+    border-color: #b8dfc9;
+    background: #e8f6ee;
+    box-shadow: 0 10px 24px rgb(22 61 50 / 9%);
+  }
+}
+
+/* Снижение анимации */
+
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: none;
+  }
+
+  .cardLink:hover .card {
+    transform: none;
+  }
+}

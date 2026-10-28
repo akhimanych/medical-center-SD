@@ -1,0 +1,132 @@
+[
+  {
+    "id": "gynecologist",
+    "slug": "gynecologist",
+    "title": "Гинеколог"
+  },
+  {
+    "id": "hirudotherapist",
+    "slug": "hirudotherapist",
+    "title": "Гирудотерапевт"
+  },
+
+  {
+    "id": "pediatrician",
+    "slug": "pediatrician",
+    "title": "Педиатр"
+  },
+
+  {
+    "id": "allergist-immunologist",
+    "slug": "allergist-immunologist",
+    "title": "Аллерголог"
+  },
+
+  {
+    "id": "gastroenterologist",
+    "slug": "gastroenterologist",
+    "title": "Гастроэнтеролог"
+  },
+
+  {
+    "id": "therapist",
+    "slug": "therapist",
+    "title": "Терапевт"
+  },
+
+  {
+    "id": "dermatovenereologist",
+    "slug": "dermatovenereologist",
+    "title": "Дерматовенеролог"
+  },
+
+  {
+    "id": "dermatologist",
+    "slug": "dermatologist",
+    "title": "Дерматолог"
+  },
+
+  {
+    "id": "cardiologist",
+    "slug": "cardiologist",
+    "title": "Кардиолог"
+  },
+
+  {
+    "id": "neurologist",
+    "slug": "neurologist",
+    "title": "Невролог"
+  },
+
+  {
+    "id": "oncologist",
+    "slug": "oncologist",
+    "title": "Онколог"
+  },
+
+  {
+    "id": "breastOncologist",
+    "slug": "breastOncologist",
+    "title": "Онколог-маммолог"
+  },
+
+  {
+    "id": "otolaryngologist",
+    "slug": "otolaryngologist",
+    "title": "Отоларинголог"
+  },
+
+  {
+    "id": "ophthalmologist",
+    "slug": "ophthalmologist",
+    "title": "Офтальмолог"
+  },
+
+  {
+    "id": "allergist",
+    "slug": "allergist",
+    "title": "Аллерголог"
+  },
+
+  {
+    "id": "pulmonologist",
+    "slug": "pulmonologist",
+    "title": "Пульмонолог"
+  },
+
+  {
+    "id": "orthopedicTraumatologist",
+    "slug": "orthopedicTraumatologist",
+    "title": "Травматолог-ортопед"
+  },
+
+  {
+    "id": "urologist",
+    "slug": "urologist",
+    "title": "Уролог"
+  },
+
+  {
+    "id": "surgeon",
+    "slug": "surgeon",
+    "title": "Хирург"
+  },
+
+  {
+    "id": "endocrinologist",
+    "slug": "endocrinologist",
+    "title": "Эндокринолог"
+  },
+
+  {
+    "id": "rheumatologist",
+    "slug": "rheumatologist",
+    "title": "Ревматолог"
+  },
+
+  {
+    "id": "ultrasound",
+    "slug": "ultrasound",
+    "title": "Ультразвуковая диагностика"
+  }
+]

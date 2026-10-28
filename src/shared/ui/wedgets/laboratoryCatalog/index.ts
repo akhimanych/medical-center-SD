@@ -1,0 +1,1 @@
+export { LaboratoryCatalog } from "./laboratoryCatalog";

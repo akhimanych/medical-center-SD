@@ -1,0 +1,3035 @@
+[
+  {
+    "_comment": "ГИРУДОТЕРАПИЯ",
+    "id": "hirudotherapy-consultation-initial",
+    "serviceId": "hirudotherapy",
+    "specializationId": "hirudotherapist",
+    "title": "Прием (консультация) врача-гирудотерапевта первичный",
+    "price": 1650,
+    "isActive": true
+  },
+  {
+    "_comment": "ГИРУДОТЕРАПИЯ",
+    "id": "hirudotherapy-consultation-repeat",
+    "serviceId": "hirudotherapy",
+    "specializationId": "hirudotherapist",
+    "title": "Прием (консультация) врача-гирудотерапевта повторный",
+    "price": 1300,
+    "isActive": true
+  },
+  {
+    "_comment": "ГИРУДОТЕРАПИЯ",
+    "id": "hirudotherapy-leeches-1-vaginal",
+    "serviceId": "hirudotherapy",
+    "specializationId": "hirudotherapist",
+    "title": "Постановка пиявок (1 шт. вагинально)",
+    "price": 1050,
+    "isActive": true
+  },
+  {
+    "_comment": "ГИРУДОТЕРАПИЯ",
+    "id": "hirudotherapy-leeches-1",
+    "serviceId": "hirudotherapy",
+    "specializationId": "hirudotherapist",
+    "title": "Постановка пиявок (1 шт.)",
+    "price": 950,
+    "isActive": true
+  },
+  {
+    "_comment": "ГИРУДОТЕРАПИЯ",
+    "id": "hirudotherapy-leeches-2-vaginal",
+    "serviceId": "hirudotherapy",
+    "specializationId": "hirudotherapist",
+    "title": "Постановка пиявок (2 шт. вагинально)",
+    "price": 1300,
+    "isActive": true
+  },
+  {
+    "_comment": "ГИРУДОТЕРАПИЯ",
+    "id": "hirudotherapy-leeches-2",
+    "serviceId": "hirudotherapy",
+    "specializationId": "hirudotherapist",
+    "title": "Постановка пиявок (2 шт.)",
+    "price": 1200,
+    "isActive": true
+  },
+  {
+    "_comment": "ГИРУДОТЕРАПИЯ",
+    "id": "hirudotherapy-leeches-3-vaginal",
+    "serviceId": "hirudotherapy",
+    "specializationId": "hirudotherapist",
+    "title": "Постановка пиявок (3 шт. вагинально)",
+    "price": 1600,
+    "isActive": true
+  },
+  {
+    "_comment": "ГИРУДОТЕРАПИЯ",
+    "id": "hirudotherapy-leeches-3",
+    "serviceId": "hirudotherapy",
+    "specializationId": "hirudotherapist",
+    "title": "Постановка пиявок (3 шт.)",
+    "price": 1500,
+    "isActive": true
+  },
+  {
+    "_comment": "ГИРУДОТЕРАПИЯ",
+    "id": "hirudotherapy-leeches-4-vaginal",
+    "serviceId": "hirudotherapy",
+    "specializationId": "hirudotherapist",
+    "title": "Постановка пиявок (4 шт. вагинально)",
+    "price": 2000,
+    "isActive": true
+  },
+  {
+    "_comment": "ГИРУДОТЕРАПИЯ",
+    "id": "hirudotherapy-leeches-4",
+    "serviceId": "hirudotherapy",
+    "specializationId": "hirudotherapist",
+    "title": "Постановка пиявок (4 шт.)",
+    "price": 1900,
+    "isActive": true
+  },
+  {
+    "_comment": "ГИРУДОТЕРАПИЯ",
+    "id": "hirudotherapy-leeches-5-vaginal",
+    "serviceId": "hirudotherapy",
+    "specializationId": "hirudotherapist",
+    "title": "Постановка пиявок (5 шт. вагинально)",
+    "price": 2300,
+    "isActive": true
+  },
+  {
+    "_comment": "ГИРУДОТЕРАПИЯ",
+    "id": "hirudotherapy-leeches-5",
+    "serviceId": "hirudotherapy",
+    "specializationId": "hirudotherapist",
+    "title": "Постановка пиявок (5 шт.)",
+    "price": 2200,
+    "isActive": true
+  },
+  {
+    "_comment": "ГИРУДОТЕРАПИЯ",
+    "id": "hirudotherapy-leeches-6",
+    "serviceId": "hirudotherapy",
+    "specializationId": "hirudotherapist",
+    "title": "Постановка пиявок (6 шт.)",
+    "price": 2500,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "allergist-initial",
+    "serviceId": "specialist-consultation",
+    "specializationId": "allergist",
+    "title": "Приём (консультация) врача-аллерголога первичный",
+    "price": 1900,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "allergist-repeat",
+    "serviceId": "specialist-consultation",
+    "specializationId": "allergist",
+    "title": "Приём (консультация) врача-аллерголога повторный",
+    "price": 1550,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "gastroenterologist-initial",
+    "serviceId": "specialist-consultation",
+    "specializationId": "gastroenterologist",
+    "title": "Приём (консультация) врача-гастроэнтеролога первичный",
+    "price": 1800,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "gastroenterologist-repeat",
+    "serviceId": "specialist-consultation",
+    "specializationId": "gastroenterologist",
+    "title": "Приём (консультация) врача-гастроэнтеролога повторный",
+    "price": 1450,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "cardiologist-initial",
+    "serviceId": "specialist-consultation",
+    "specializationId": "cardiologist",
+    "title": "Приём (консультация) врача-кардиолога первичный",
+    "price": 1850,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "cardiologist-repeat",
+    "serviceId": "specialist-consultation",
+    "specializationId": "cardiologist",
+    "title": "Приём (консультация) врача-кардиолога повторный",
+    "price": 1500,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "neurologist-dementologist-initial",
+    "serviceId": "specialist-consultation",
+    "specializationId": "neurologist",
+    "title": "Приём (консультация) врача-невролога (дементолога) первичный",
+    "price": 2500,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "neurologist-dementologist-repeat",
+    "serviceId": "specialist-consultation",
+    "specializationId": "neurologist",
+    "title": "Приём (консультация) врача-невролога (дементолога) повторный",
+    "price": 2000,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "neurologist-epileptologist-initial",
+    "serviceId": "specialist-consultation",
+    "specializationId": "neurologist",
+    "title": "Приём (консультация) врача-невролога (эпилептолога) первичный",
+    "price": 2500,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "neurologist-epileptologist-repeat",
+    "serviceId": "specialist-consultation",
+    "specializationId": "neurologist",
+    "title": "Приём (консультация) врача-невролога (эпилептолога) повторный",
+    "price": 2000,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "neurologist-phd-initial",
+    "serviceId": "specialist-consultation",
+    "specializationId": "neurologist",
+    "title": "Приём (консультация) врача-невролога к.м.н. первичный",
+    "price": 1750,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "neurologist-phd-repeat",
+    "serviceId": "specialist-consultation",
+    "specializationId": "neurologist",
+    "title": "Приём (консультация) врача-невролога к.м.н. повторный",
+    "price": 1400,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "neurologist-initial",
+    "serviceId": "specialist-consultation",
+    "specializationId": "neurologist",
+    "title": "Приём (консультация) врача-невролога первичный",
+    "price": 1800,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "neurologist-repeat",
+    "serviceId": "specialist-consultation",
+    "specializationId": "neurologist",
+    "title": "Приём (консультация) врача-невролога повторный",
+    "price": 1450,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "neurologist-home-visit",
+    "serviceId": "specialist-consultation",
+    "specializationId": "neurologist",
+    "title": "Приём (консультация) врача-невролога с выездом на дом",
+    "price": 4000,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "nephrologist-initial",
+    "serviceId": "specialist-consultation",
+    "specializationId": "nephrologist",
+    "title": "Приём (консультация) врача-нефролога первичный",
+    "price": 1800,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "nephrologist-repeat",
+    "serviceId": "specialist-consultation",
+    "specializationId": "nephrologist",
+    "title": "Приём (консультация) врача-нефролога повторный",
+    "price": 1450,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "pediatrician-initial",
+    "serviceId": "specialist-consultation",
+    "specializationId": "pediatrician",
+    "title": "Приём (консультация) врача-педиатра первичный",
+    "price": 1550,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "pediatrician-repeat",
+    "serviceId": "specialist-consultation",
+    "specializationId": "pediatrician",
+    "title": "Приём (консультация) врача-педиатра повторный",
+    "price": 1200,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "pediatrician-phd-initial",
+    "serviceId": "specialist-consultation",
+    "specializationId": "pediatrician",
+    "title": "Приём (консультация) врача-педиатра к.м.н. первичный",
+    "price": 1650,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "pediatrician-phd-repeat",
+    "serviceId": "specialist-consultation",
+    "specializationId": "pediatrician",
+    "title": "Приём (консультация) врача-педиатра к.м.н. повторный",
+    "price": 1300,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "pulmonologist-initial",
+    "serviceId": "specialist-consultation",
+    "specializationId": "pulmonologist",
+    "title": "Приём (консультация) врача-пульмонолога первичный",
+    "price": 1800,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "pulmonologist-repeat",
+    "serviceId": "specialist-consultation",
+    "specializationId": "pulmonologist",
+    "title": "Приём (консультация) врача-пульмонолога повторный",
+    "price": 1450,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "rheumatologist-initial",
+    "serviceId": "specialist-consultation",
+    "specializationId": "rheumatologist",
+    "title": "Приём (консультация) врача-ревматолога первичный",
+    "price": 1900,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "rheumatologist-repeat",
+    "serviceId": "specialist-consultation",
+    "specializationId": "rheumatologist",
+    "title": "Приём (консультация) врача-ревматолога повторный",
+    "price": 1550,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "therapist-initial",
+    "serviceId": "specialist-consultation",
+    "specializationId": "therapist",
+    "title": "Приём (консультация) врача-терапевта первичный",
+    "price": 1750,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "therapist-repeat",
+    "serviceId": "specialist-consultation",
+    "specializationId": "therapist",
+    "title": "Приём (консультация) врача-терапевта повторный",
+    "price": 1350,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "therapist-home-visit",
+    "serviceId": "specialist-consultation",
+    "specializationId": "therapist",
+    "title": "Приём (консультация) врача-терапевта с выездом на дом",
+    "price": 4000,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "endocrinologist-initial",
+    "serviceId": "specialist-consultation",
+    "specializationId": "endocrinologist",
+    "title": "Приём (консультация) врача-эндокринолога первичный",
+    "price": 1850,
+    "isActive": true
+  },
+  {
+    "_comment": "КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ",
+    "id": "endocrinologist-repeat",
+    "serviceId": "specialist-consultation",
+    "specializationId": "endocrinologist",
+    "title": "Приём (консультация) врача-эндокринолога повторный",
+    "price": 1500,
+    "isActive": true
+  },
+  {
+    "_comment": "МЕДИКАМЕНТОЗНЫЕ БЛОКАДЫ",
+    "id": "medication-blockade-infiltration",
+    "serviceId": "medication-blockade",
+    "specializationId": null,
+    "title": "Инфильтрационная блокада",
+    "price": 2100,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ВРАЧА-ТРАВМАТОЛОГА-ОРТОПЕДА",
+    "id": "orthopedics-consultation-initial",
+    "serviceId": "orthopedics",
+    "specializationId": "orthopedicTraumatologist",
+    "title": "Приём (консультация) врача-травматолога-ортопеда первичный",
+    "price": 1800,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ВРАЧА-ТРАВМАТОЛОГА-ОРТОПЕДА",
+    "id": "orthopedics-consultation-repeat",
+    "serviceId": "orthopedics",
+    "specializationId": "orthopedicTraumatologist",
+    "title": "Приём (консультация) врача-травматолога-ортопеда повторный",
+    "price": 1450,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ВРАЧА-ТРАВМАТОЛОГА-ОРТОПЕДА",
+    "id": "orthopedics-consultation-home-visit",
+    "serviceId": "orthopedics",
+    "specializationId": "orthopedicTraumatologist",
+    "title": "Приём (консультация) врача-травматолога-ортопеда с выездом на дом",
+    "price": 4000,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ВРАЧА-ТРАВМАТОЛОГА-ОРТОПЕДА",
+    "id": "orthopedics-heel-blockade",
+    "serviceId": "orthopedics",
+    "specializationId": "orthopedicTraumatologist",
+    "title": "Блокада при пяточном бурсите или шпоре",
+    "price": 2530,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ВРАЧА-ТРАВМАТОЛОГА-ОРТОПЕДА",
+    "id": "orthopedics-knee-glucocorticoid-injection",
+    "serviceId": "orthopedics",
+    "specializationId": "orthopedicTraumatologist",
+    "title": "Внутрисуставное введение глюкокортикостероидных препаратов (дипроспан/кеналог) в коленный сустав (препарат пациента)",
+    "price": 2300,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ВРАЧА-ТРАВМАТОЛОГА-ОРТОПЕДА",
+    "id": "orthopedics-knee-glucocorticoid-injection-home-visit",
+    "serviceId": "orthopedics",
+    "specializationId": "orthopedicTraumatologist",
+    "title": "Внутрисуставное введение глюкокортикостероидных препаратов (дипроспан/кеналог) в коленный сустав (препарат пациента) с выездом на дом",
+    "price": 3100,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ВРАЧА-ТРАВМАТОЛОГА-ОРТОПЕДА",
+    "id": "orthopedics-upper-limb-glucocorticoid-injection",
+    "serviceId": "orthopedics",
+    "specializationId": "orthopedicTraumatologist",
+    "title": "Внутрисуставное введение глюкокортикостероидных препаратов (дипроспан/кеналог) в лучезапястный/локтевой/плечевой сустав (препарат пациента)",
+    "price": 2200,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ВРАЧА-ТРАВМАТОЛОГА-ОРТОПЕДА",
+    "id": "orthopedics-upper-limb-glucocorticoid-injection-home-visit",
+    "serviceId": "orthopedics",
+    "specializationId": "orthopedicTraumatologist",
+    "title": "Внутрисуставное введение глюкокортикостероидных препаратов (дипроспан/кеналог) в лучезапястный/локтевой/плечевой сустав (препарат пациента) с выездом на дом",
+    "price": 3000,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ВРАЧА-ТРАВМАТОЛОГА-ОРТОПЕДА",
+    "id": "orthopedics-knee-puncture",
+    "serviceId": "orthopedics",
+    "specializationId": "orthopedicTraumatologist",
+    "title": "Пункция коленного сустава",
+    "price": 2100,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ВРАЧА-ТРАВМАТОЛОГА-ОРТОПЕДА",
+    "id": "orthopedics-upper-limb-puncture",
+    "serviceId": "orthopedics",
+    "specializationId": "orthopedicTraumatologist",
+    "title": "Пункция лучезапястного/локтевого/плечевого сустава",
+    "price": 1900,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-consultation-initial",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Приём (консультация) врача-акушера-гинеколога первичный",
+    "price": 1800,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-consultation-repeat",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Приём (консультация) врача-акушера-гинеколога повторный",
+    "price": 1450,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-consultation-home-visit",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Приём (консультация) врача-акушера-гинеколога с выездом на дом",
+    "price": 4000,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-consultation-before-hsg",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Приём (консультация) врача-акушера-гинеколога перед ГСГ",
+    "price": 1450,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-medication-anesthesia",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Анестезия медикаментозная (1 ампула)",
+    "price": 380,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-cervical-biopsy-and-scraping",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Биопсия шейки матки, соскоб цервикального канала",
+    "price": 3300,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-endometrial-pipelle-biopsy",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Биопсия эндометрия кюреткой-пайпель",
+    "price": 2900,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-iud-insertion-patient-device",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Введение внутриматочной спирали (ВМС пациента)",
+    "price": 2750,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-iud-insertion-center-device",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Введение внутриматочной спирали (ВМС мед. центра)",
+    "price": 5000,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-intravaginal-medication",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Введение лекарственных препаратов интравагинально (без стоимости лекарств)",
+    "price": 770,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-bartholin-abscess-incision",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Вскрытие абсцесса бартолиниевой железы",
+    "price": 4600,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-furuncle-incision-and-drainage",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Вскрытие и дренирование фурункула",
+    "price": 4400,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-vulvoscopy",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Вульвоскопия",
+    "price": 2400,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-colposcopy",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Кольпоскопия",
+    "price": 2400,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-manual-vacuum-aspiration",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Мануальная вакуум-аспирация эндометрия",
+    "price": 3000,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-purulent-disease-dressing",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Наложение повязки при гнойных заболеваниях кожи и подкожной клетчатки",
+    "price": 1300,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-uninfected-wound-dressing",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Наложение повязки при нарушении целостности кожных покровов, перевязка неинфицированной раны",
+    "price": 970,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-polypectomy",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Полипэктомия",
+    "price": 2650,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-vaginal-smear",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Получение влагалищного мазка (на микрофлору)",
+    "price": 500,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-cervical-smear",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Получение мазка с шейки матки (на онкоцитологию, ИППП)",
+    "price": 500,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-radio-wave-cervical-biopsy",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Радиоволновая лечебная и диагностическая биопсия шейки матки",
+    "price": 5200,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-radio-wave-cervical-cyst-treatment",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Радиоволновое лечение шейки матки 1 киста",
+    "price": 700,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-radio-wave-ectopy-over-3-cm",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Радиоволновое лечение шейки матки (при эктопии более 3 см)",
+    "price": 5300,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-radio-wave-ectopy-up-to-1-5-cm",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Радиоволновое лечение шейки матки (при эктопии до 1,5 см)",
+    "price": 2750,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-radio-wave-ectopy-1-5-to-3-cm",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Радиоволновое лечение шейки матки (при эктопии от 1,5 до 3 см)",
+    "price": 4000,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-iud-removal-with-thread",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Удаление внутриматочной спирали (за нить)",
+    "price": 2500,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-iud-removal-without-thread",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Удаление внутриматочной спирали (при отсутствии нити)",
+    "price": 3800,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-skin-neoplasm-removal-fotek",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Удаление доброкачественного новообразования кожи (без стоимости гистологического исследования. с использованием аппарата ФОТЕК): 1 элемент",
+    "price": 480,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-skin-neoplasm-removal-scalpel",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Удаление доброкачественного новообразования кожи (без стоимости гистологического исследования с использованием скальпеля): 1 элемент",
+    "price": 490,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-subcutaneous-neoplasm-up-to-1-cm2",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Удаление доброкачественного новообразования подкожно-жировой клетчатки (без стоимости гистологического исследования) S до 1,0 см2",
+    "price": 2600,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-subcutaneous-neoplasm-1-to-5-cm2",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Удаление доброкачественного новообразования подкожно-жировой клетчатки (без стоимости гистологического исследования) S от 1,0 до 5,0 см2",
+    "price": 4200,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-subcutaneous-neoplasm-5-to-10-cm2",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Удаление доброкачественного новообразования подкожно-жировой клетчатки (без стоимости гистологического исследования) S от 5,0 до 10,0 см2",
+    "price": 6100,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-ultrasound-hysterosalpingoscopy",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Ультразвуковая эхогистеросальпингоскопия",
+    "price": 7300,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-vaginal-ph-test",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Экспресс-диагностика pH влагалищной среды",
+    "price": 150,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ГИНЕКОЛОГА",
+    "id": "gynecology-cervical-electrodiathermoconization",
+    "serviceId": "gynecology",
+    "specializationId": "gynecologist",
+    "title": "Электродиатермоконизация шейки матки",
+    "price": 7700,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ДЕРМАТОВЕНЕРОЛОГА",
+    "id": "dermatology-consultation-initial",
+    "serviceId": "dermatology",
+    "specializationId": "dermatovenereologist",
+    "title": "Приём (консультация) врача-дерматовенеролога первичный",
+    "price": 1800,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ДЕРМАТОВЕНЕРОЛОГА",
+    "id": "dermatology-consultation-repeat",
+    "serviceId": "dermatology",
+    "specializationId": "dermatovenereologist",
+    "title": "Приём (консультация) врача-дерматовенеролога повторный",
+    "price": 1450,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ДЕРМАТОВЕНЕРОЛОГА",
+    "id": "dermatology-consultation-home-visit",
+    "serviceId": "dermatology",
+    "specializationId": "dermatovenereologist",
+    "title": "Приём (консультация) врача-дерматовенеролога с выездом на дом",
+    "price": 4000,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ДЕРМАТОВЕНЕРОЛОГА",
+    "id": "dermatology-fungal-scale-sampling",
+    "serviceId": "dermatology",
+    "specializationId": "dermatovenereologist",
+    "title": "Забор чешуек на патогенные грибы",
+    "price": 550,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ДЕРМАТОВЕНЕРОЛОГА",
+    "id": "dermatology-vaginal-smear",
+    "serviceId": "dermatology",
+    "specializationId": "dermatovenereologist",
+    "title": "Получение влагалищного мазка (на микрофлору)",
+    "price": 500,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ДЕРМАТОВЕНЕРОЛОГА",
+    "id": "dermatology-cervical-smear",
+    "serviceId": "dermatology",
+    "specializationId": "dermatovenereologist",
+    "title": "Получение мазка с шейки матки (на онкоцитологию, ИППП)",
+    "price": 500,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ДЕРМАТОВЕНЕРОЛОГА",
+    "id": "dermatology-urethral-discharge-sampling",
+    "serviceId": "dermatology",
+    "specializationId": "dermatovenereologist",
+    "title": "Получение уретрального отделяемого",
+    "price": 500,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ДЕРМАТОВЕНЕРОЛОГА",
+    "id": "dermatology-molluscum-removal",
+    "serviceId": "dermatology",
+    "specializationId": "dermatovenereologist",
+    "title": "Удаление контагиозных моллюсков (1 элемент)",
+    "price": 500,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОНКОЛОГА",
+    "id": "oncology-consultation-initial",
+    "serviceId": "oncology",
+    "specializationId": "oncologist",
+    "title": "Приём (консультация) врача-онколога первичный",
+    "price": 1850,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОНКОЛОГА",
+    "id": "oncology-consultation-repeat",
+    "serviceId": "oncology",
+    "specializationId": "oncologist",
+    "title": "Приём (консультация) врача-онколога повторный",
+    "price": 1500,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОНКОЛОГА",
+    "id": "oncology-medication-anesthesia",
+    "serviceId": "oncology",
+    "specializationId": "oncologist",
+    "title": "Анестезия медикаментозная (1 ампула)",
+    "price": 380,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОНКОЛОГА",
+    "id": "oncology-secondary-suture",
+    "serviceId": "oncology",
+    "specializationId": "oncologist",
+    "title": "Наложение вторичных швов (1 единица)",
+    "price": 900,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОНКОЛОГА",
+    "id": "oncology-purulent-disease-dressing",
+    "serviceId": "oncology",
+    "specializationId": "oncologist",
+    "title": "Наложение повязки при гнойных заболеваниях кожи и подкожной клетчатки",
+    "price": 1300,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОНКОЛОГА",
+    "id": "oncology-uninfected-wound-dressing",
+    "serviceId": "oncology",
+    "specializationId": "oncologist",
+    "title": "Наложение повязки при нарушении целостности кожных покровов, перевязка неинфицированной раны",
+    "price": 970,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОНКОЛОГА",
+    "id": "oncology-cystic-neoplasm-puncture",
+    "serviceId": "oncology",
+    "specializationId": "oncologist",
+    "title": "Пункция кистозных новообразований",
+    "price": 1300,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОНКОЛОГА",
+    "id": "oncology-suture-removal",
+    "serviceId": "oncology",
+    "specializationId": "oncologist",
+    "title": "Снятие швов",
+    "price": 950,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОНКОЛОГА",
+    "id": "oncology-cosmetic-suturing",
+    "serviceId": "oncology",
+    "specializationId": "oncologist",
+    "title": "Сшивание кожи и подкожной клетчатки (косметические швы)",
+    "price": 5600,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОНКОЛОГА",
+    "id": "oncology-noncosmetic-suturing",
+    "serviceId": "oncology",
+    "specializationId": "oncologist",
+    "title": "Сшивание кожи и подкожной клетчатки (некосметические швы)",
+    "price": 4100,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОНКОЛОГА",
+    "id": "oncology-skin-neoplasm-removal-fotek",
+    "serviceId": "oncology",
+    "specializationId": "oncologist",
+    "title": "Удаление доброкачественного новообразования кожи (без стоимости гистологического исследования, с использованием аппарата ФОТЕК): 1 элемент",
+    "price": 480,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОНКОЛОГА",
+    "id": "oncology-skin-neoplasm-removal-scalpel",
+    "serviceId": "oncology",
+    "specializationId": "oncologist",
+    "title": "Удаление доброкачественного новообразования кожи (без стоимости гистологического исследования с использованием скальпеля): 1 элемент",
+    "price": 490,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОНКОЛОГА",
+    "id": "oncology-subcutaneous-neoplasm-up-to-1-cm2",
+    "serviceId": "oncology",
+    "specializationId": "oncologist",
+    "title": "Удаление доброкачественного новообразования подкожно-жировой клетчатки (без стоимости гистологического исследования) S до 1,0 см2",
+    "price": 2600,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОНКОЛОГА",
+    "id": "oncology-subcutaneous-neoplasm-1-to-5-cm2",
+    "serviceId": "oncology",
+    "specializationId": "oncologist",
+    "title": "Удаление доброкачественного новообразования подкожно-жировой клетчатки (без стоимости гистологического исследования) S от 1,0 до 5,0 см2",
+    "price": 4200,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОНКОЛОГА",
+    "id": "oncology-subcutaneous-neoplasm-5-to-10-cm2",
+    "serviceId": "oncology",
+    "specializationId": "oncologist",
+    "title": "Удаление доброкачественного новообразования подкожно-жировой клетчатки (без стоимости гистологического исследования) S от 5,0 до 10,0 см2",
+    "price": 6100,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-consultation-initial",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Приём (консультация) врача-оториноларинголога первичный",
+    "price": 1800,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-consultation-repeat",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Приём (консультация) врача-оториноларинголога повторный",
+    "price": 1450,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-videoendoscopy",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Видеоэндоскопическое исследование ЛОР органов",
+    "price": 1450,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-laryngeal-medication-instillation",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Вливание лекарственных веществ в гортань",
+    "price": 500,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-peritonsillar-abscess-incision",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Вскрытие паратонзиллярного абсцесса",
+    "price": 1870,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-furuncle-abscess-incision",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Вскрытие фурункула, абсцесса",
+    "price": 1320,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-auditory-tube-catheterization",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Катетеризация слуховых труб",
+    "price": 660,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-laser-polyp-vaporization-tubal-ridge-resection",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Лазерная вапоризация полипов полости носа, лазерная резекция трубных валиков",
+    "price": 6900,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-laser-polyp-vaporization-tubal-ridge-resection-repeat",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Лазерная вапоризация полипов полости носа, лазерная резекция трубных валиков (повторно)",
+    "price": 5100,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-laser-oropharyngeal-ridge-granule-destruction",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Лазерная деструкция боковых валиков ротоглотки и гранул",
+    "price": 4800,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-laser-oropharyngeal-ridge-granule-destruction-repeat",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Лазерная деструкция боковых валиков ротоглотки и гранул (повторно)",
+    "price": 3300,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-laser-nasal-turbinate-destruction",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Лазерная деструкция носовых раковин",
+    "price": 6500,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-laser-nasal-septum-vessel-destruction",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Лазерная деструкция сосудов носовой перегородки",
+    "price": 4800,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-laser-tonsil-lacunotomy",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Лазерная лакунотомия небных миндалин",
+    "price": 6500,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-laser-tonsil-lacunotomy-repeat",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Лазерная лакунотомия небных миндалин (повторно)",
+    "price": 4200,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-tonsillor-treatment-and-lavage",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Лечение и промывание небных миндалин с помощью аппарата Тонзилор М",
+    "price": 1100,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-tonsillor-treatment",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Лечение небных миндалин с помощью аппарата Тонзилор М",
+    "price": 650,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-nasal-turbinate-medialization",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Медиализация носовых раковин при рецидивирующих синуситах",
+    "price": 4700,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-novocaine-blockade",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Новокаиновые блокады",
+    "price": 630,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-ear-insufflation",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Продувание ушей",
+    "price": 400,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-tonsil-lacunae-lavage",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Промывание лакун миндалин",
+    "price": 850,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-tonsillor-lavage",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Промывание небных миндалин с помощью аппарата Тонзилор М",
+    "price": 800,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-paranasal-sinus-puncture",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Пункция придаточных пазух носа",
+    "price": 900,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-nasal-scar-dissection",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Рассечение рубцов в полости носа",
+    "price": 1500,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-nasal-bone-reposition",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Репозиция костей носа (перелом не осложнённый)",
+    "price": 1800,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-foreign-body-removal",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Удаление инородных тел",
+    "price": 600,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-papilloma-removal",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Удаление папиллом (ЛОР)",
+    "price": 2600,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-earwax-removal",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Удаление серных пробок (1 ухо)",
+    "price": 600,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-ear-blockade",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Ушные блокады",
+    "price": 600,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-endonasal-blockade",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Эндонозальные блокады",
+    "price": 600,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОТОРИНОЛАРИНГОЛОГА",
+    "id": "ent-endoscopic-postoperative-cavity-sanitation",
+    "serviceId": "ent",
+    "specializationId": "otolaryngologist",
+    "title": "Эндоскопическая санация послеоперационных полостей",
+    "price": 1200,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОФТАЛЬМОЛОГА",
+    "id": "ophthalmology-consultation-initial",
+    "serviceId": "ophthalmology",
+    "specializationId": "ophthalmologist",
+    "title": "Прием (осмотр, консультация) врача-офтальмолога первичный",
+    "price": 1800,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОФТАЛЬМОЛОГА",
+    "id": "ophthalmology-consultation-repeat",
+    "serviceId": "ophthalmology",
+    "specializationId": "ophthalmologist",
+    "title": "Прием (осмотр, консультация) врача-офтальмолога повторный",
+    "price": 1450,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОФТАЛЬМОЛОГА",
+    "id": "ophthalmology-autorefractometry-narrow-pupil",
+    "serviceId": "ophthalmology",
+    "specializationId": "ophthalmologist",
+    "title": "Авторефрактометрия с узким зрачком",
+    "price": 660,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОФТАЛЬМОЛОГА",
+    "id": "ophthalmology-conjunctival-medication",
+    "serviceId": "ophthalmology",
+    "specializationId": "ophthalmologist",
+    "title": "Введение лекарственных препаратов в конъюнктивную полость",
+    "price": 360,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОФТАЛЬМОЛОГА",
+    "id": "ophthalmology-lacrimal-sac-phlegmon-incision",
+    "serviceId": "ophthalmology",
+    "specializationId": "ophthalmologist",
+    "title": "Вскрытие флегмоны слезного мешка, разрез слезных точек и слезных канальцев",
+    "price": 2500,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОФТАЛЬМОЛОГА",
+    "id": "ophthalmology-stye-eyelid-abscess-incision",
+    "serviceId": "ophthalmology",
+    "specializationId": "ophthalmologist",
+    "title": "Вскрытие ячменя, абсцесса века",
+    "price": 2150,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОФТАЛЬМОЛОГА",
+    "id": "ophthalmology-lacrimal-pathway-probing",
+    "serviceId": "ophthalmology",
+    "specializationId": "ophthalmologist",
+    "title": "Зондирование слезных путей",
+    "price": 1320,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОФТАЛЬМОЛОГА",
+    "id": "ophthalmology-color-vision-test",
+    "serviceId": "ophthalmology",
+    "specializationId": "ophthalmologist",
+    "title": "Исследование цветоощущения по полихроматическим таблицам",
+    "price": 360,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОФТАЛЬМОЛОГА",
+    "id": "ophthalmology-tonometry",
+    "serviceId": "ophthalmology",
+    "specializationId": "ophthalmologist",
+    "title": "Офтальмотонометрия",
+    "price": 500,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОФТАЛЬМОЛОГА",
+    "id": "ophthalmology-parabulbar-injections",
+    "serviceId": "ophthalmology",
+    "specializationId": "ophthalmologist",
+    "title": "Парабульбарные инъекции",
+    "price": 900,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОФТАЛЬМОЛОГА",
+    "id": "ophthalmology-perimetry",
+    "serviceId": "ophthalmology",
+    "specializationId": "ophthalmologist",
+    "title": "Периметрия",
+    "price": 770,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОФТАЛЬМОЛОГА",
+    "id": "ophthalmology-eyeglass-prescription",
+    "serviceId": "ophthalmology",
+    "specializationId": "ophthalmologist",
+    "title": "Подбор очковой коррекции зрения",
+    "price": 850,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОФТАЛЬМОЛОГА",
+    "id": "ophthalmology-lacrimal-pathway-lavage",
+    "serviceId": "ophthalmology",
+    "specializationId": "ophthalmologist",
+    "title": "Промывание слёзоотводящих путей (1 глаз)",
+    "price": 990,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОФТАЛЬМОЛОГА",
+    "id": "ophthalmology-skiascopy",
+    "serviceId": "ophthalmology",
+    "specializationId": "ophthalmologist",
+    "title": "Скиаскопия",
+    "price": 880,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОФТАЛЬМОЛОГА",
+    "id": "ophthalmology-eyelid-foreign-body-or-neoplasm-removal",
+    "serviceId": "ophthalmology",
+    "specializationId": "ophthalmologist",
+    "title": "Удаление инородного тела или новообразования век",
+    "price": 1870,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОФТАЛЬМОЛОГА",
+    "id": "ophthalmology-conjunctival-foreign-body-removal",
+    "serviceId": "ophthalmology",
+    "specializationId": "ophthalmologist",
+    "title": "Удаление инородного тела конъюнктивы",
+    "price": 1100,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ОФТАЛЬМОЛОГА",
+    "id": "ophthalmology-corneal-foreign-body-removal",
+    "serviceId": "ophthalmology",
+    "specializationId": "ophthalmologist",
+    "title": "Удаление инородного тела роговицы",
+    "price": 1430,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ УРОЛОГА",
+    "id": "urology-consultation-initial",
+    "serviceId": "urology",
+    "specializationId": "urologist",
+    "title": "Прием (консультация) врача-уролога первичный",
+    "price": 1800,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ УРОЛОГА",
+    "id": "urology-consultation-repeat",
+    "serviceId": "urology",
+    "specializationId": "urologist",
+    "title": "Прием (консультация) врача-уролога повторный",
+    "price": 1450,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ УРОЛОГА",
+    "id": "urology-andrology-consultation-initial",
+    "serviceId": "urology",
+    "specializationId": "urologist",
+    "title": "Прием (консультация) врача-уролога-андролога первичный",
+    "price": 1850,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ УРОЛОГА",
+    "id": "urology-andrology-consultation-repeat",
+    "serviceId": "urology",
+    "specializationId": "urologist",
+    "title": "Прием (консультация) врача-уролога-андролога повторный",
+    "price": 1500,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ УРОЛОГА",
+    "id": "urology-consultation-home-visit",
+    "serviceId": "urology",
+    "specializationId": "urologist",
+    "title": "Прием (консультация) врача-уролога с выездом на дом",
+    "price": 4000,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ УРОЛОГА",
+    "id": "urology-medication-anesthesia",
+    "serviceId": "urology",
+    "specializationId": "urologist",
+    "title": "Анестезия медикаментозная (1 ампула)",
+    "price": 380,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ УРОЛОГА",
+    "id": "urology-male-genital-purulent-lesion-incision",
+    "serviceId": "urology",
+    "specializationId": "urologist",
+    "title": "Вскрытие гнойных образований мужских половых органов",
+    "price": 2860,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ УРОЛОГА",
+    "id": "urology-epicystostomy-replacement",
+    "serviceId": "urology",
+    "specializationId": "urologist",
+    "title": "Замена эпицистостомы (без стоимости катетера и мочеприемника)",
+    "price": 1320,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ УРОЛОГА",
+    "id": "urology-epicystostomy-replacement-home-visit",
+    "serviceId": "urology",
+    "specializationId": "urologist",
+    "title": "Замена эпицистостомы на дому (без стоимости катетера и мочеприемника)",
+    "price": 3600,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ УРОЛОГА",
+    "id": "urology-bladder-instillation",
+    "serviceId": "urology",
+    "specializationId": "urologist",
+    "title": "Инстилляция мочевого пузыря",
+    "price": 910,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ УРОЛОГА",
+    "id": "urology-prostate-massage",
+    "serviceId": "urology",
+    "specializationId": "urologist",
+    "title": "Массаж простаты",
+    "price": 810,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ УРОЛОГА",
+    "id": "urology-purulent-disease-dressing",
+    "serviceId": "urology",
+    "specializationId": "urologist",
+    "title": "Наложение повязки при гнойных заболеваниях кожи и подкожной клетчатки",
+    "price": 1300,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ УРОЛОГА",
+    "id": "urology-uninfected-wound-dressing",
+    "serviceId": "urology",
+    "specializationId": "urologist",
+    "title": "Наложение повязки при нарушении целостности кожных покровов, перевязка неинфицированной раны",
+    "price": 970,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ УРОЛОГА",
+    "id": "urology-circumcision",
+    "serviceId": "urology",
+    "specializationId": "urologist",
+    "title": "Обрезание крайней плоти (циркумцизио)",
+    "price": 12400,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ УРОЛОГА",
+    "id": "urology-sterile-urine-catheter-collection",
+    "serviceId": "urology",
+    "specializationId": "urologist",
+    "title": "Получение стерильного препарата мочи (катетером)",
+    "price": 710,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ УРОЛОГА",
+    "id": "urology-urethral-discharge-collection",
+    "serviceId": "urology",
+    "specializationId": "urologist",
+    "title": "Получение уретрального отделяемого",
+    "price": 500,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ УРОЛОГА",
+    "id": "urology-penile-frenuloplasty",
+    "serviceId": "urology",
+    "specializationId": "urologist",
+    "title": "Реконструктивная операция на половом члене (пластика уздечки)",
+    "price": 7400,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ УРОЛОГА",
+    "id": "urology-prostate-secretion-collection",
+    "serviceId": "urology",
+    "specializationId": "urologist",
+    "title": "Сбор секрета простаты",
+    "price": 830,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ УРОЛОГА",
+    "id": "urology-suture-removal",
+    "serviceId": "urology",
+    "specializationId": "urologist",
+    "title": "Снятие швов",
+    "price": 950,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ УРОЛОГА",
+    "id": "urology-cystoscopy",
+    "serviceId": "urology",
+    "specializationId": "urologist",
+    "title": "Цистоскопия",
+    "price": 3200,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-consultation-phd-initial",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Приём (консультация) врача-хирурга к.м.н. первичный",
+    "price": 1900,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-consultation-phd-repeat",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Приём (консультация) врача-хирурга к.м.н. повторный",
+    "price": 1550,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-consultation-initial",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Приём (консультация) врача-хирурга первичный",
+    "price": 1800,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-consultation-repeat",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Приём (консультация) врача-хирурга повторный",
+    "price": 1450,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-consultation-home-visit",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Приём (консультация) врача-хирурга с выездом на дом",
+    "price": 4000,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-rectal-disease-consultation-initial",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Приём (консультация) врача-хирурга первичный (при заболеваниях прямой кишки)",
+    "price": 1850,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-rectal-disease-consultation-repeat",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Приём (консультация) врача-хирурга повторный (при заболеваниях прямой кишки)",
+    "price": 1500,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-consultation-rectal-examination",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Приём (консультация) врача-хирурга (с ректальным осмотром)",
+    "price": 3850,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-medication-anesthesia",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Анестезия медикаментозная (1 ампула)",
+    "price": 380,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-acute-anal-fissure-blockade",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Блокада острой анальной трещины",
+    "price": 1750,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-paraarticular-blockade",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Блокада параартикулярная (без стоимости лекарственного препарата)",
+    "price": 660,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-heel-bursitis-spur-blockade",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Блокада при пяточном бурсите или шпоре",
+    "price": 2530,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-rectal-biopsy",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Взятие биопсии прямой кишки",
+    "price": 600,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-knee-glucocorticoid-injection",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Внутрисуставное введение глюкокортикостероидных препаратов (дипроспан/кеналог) в коленный сустав (препарат пациента)",
+    "price": 2300,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-wrist-elbow-shoulder-glucocorticoid-injection",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Внутрисуставное введение глюкокортикостероидных препаратов (дипроспан/кеналог) в лучезапястный/локтевой/плечевой сустав (препарат пациента)",
+    "price": 2200,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-hidradenitis-incision-drainage",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Вскрытие и дренирование гидраденита",
+    "price": 4400,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-carbuncle-incision-drainage",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Вскрытие и дренирование карбункула",
+    "price": 4400,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-felon-incision-drainage",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Вскрытие и дренирование панариция",
+    "price": 4400,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-furuncle-incision-drainage",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Вскрытие и дренирование фурункула",
+    "price": 4400,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-tendon-neoplasm-injection-treatment",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Инъекционное лечение новообразования сухожилия",
+    "price": 2640,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-ganglion-excision",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Иссечение нервных узлов (ганглиев)",
+    "price": 6000,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-bursitis-incision-drainage",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Вскрытие и дренирование бурситов",
+    "price": 3650,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-keloid-scar-injection-treatment",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Инъекционное лечение келоидных рубцов (без учета лекарственного препарата)",
+    "price": 1550,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-secondary-suture",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Наложение вторичных швов (1 единица)",
+    "price": 900,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-purulent-disease-dressing",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Наложение повязки при гнойных заболеваниях кожи и подкожной клетчатки",
+    "price": 1300,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-uninfected-wound-dressing",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Наложение повязки при нарушении целостности кожных покровов, перевязка неинфицированной раны",
+    "price": 970,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-cystic-neoplasm-puncture",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Пункция кистозных новообразований",
+    "price": 1300,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-knee-joint-puncture",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Пункция коленного сустава",
+    "price": 2100,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-wrist-elbow-shoulder-joint-puncture",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Пункция лучезапястного/локтевого/плечевого сустава",
+    "price": 1900,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-suture-removal",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Снятие швов",
+    "price": 950,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-cosmetic-suturing",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Сшивание кожи и подкожной клетчатки (косметические швы)",
+    "price": 5600,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-noncosmetic-suturing",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Сшивание кожи и подкожной клетчатки (некосметические швы)",
+    "price": 4100,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-lymph-node-ultrasound-guided-biopsy",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Тонкоигольная аспирационно-режущая биопсия лимфатических узлов под УЗ наведением",
+    "price": 3200,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-breast-ultrasound-guided-biopsy",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Тонкоигольная аспирационно-режущая биопсия молочной железы под УЗ наведением",
+    "price": 3200,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-soft-tissue-ultrasound-guided-biopsy",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Тонкоигольная аспирационно-режущая биопсия мягких тканей под УЗ наведением",
+    "price": 3200,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-thyroid-ultrasound-guided-biopsy",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Тонкоигольная аспирационно-режущая биопсия щитовидной железы под УЗ наведением",
+    "price": 3200,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-hemorrhoidal-node-thrombectomy",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Тромбэктомия геморроидального узла",
+    "price": 1650,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-anal-skin-tag-removal",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Удаление анальной бахромки с анестезией",
+    "price": 10000,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-anal-fissure-removal",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Удаление анальной трещины",
+    "price": 10000,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-skin-neoplasm-removal-fotek",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Удаление доброкачественного новообразования кожи (без стоимости гистологического исследования. с использованием аппарата ФОТЕК): 1 элемент",
+    "price": 480,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-skin-neoplasm-removal-scalpel",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Удаление доброкачественного новообразования кожи (без стоимости гистологического исследования с использованием скальпеля): 1 элемент",
+    "price": 490,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-subcutaneous-neoplasm-up-to-1-cm2",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Удаление доброкачественного новообразования подкожно-жировой клетчатки (без стоимости гистологического исследования) S до 1,0 см2",
+    "price": 2600,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-subcutaneous-neoplasm-1-to-5-cm2",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Удаление доброкачественного новообразования подкожно-жировой клетчатки (без стоимости гистологического исследования) S от 1,0 до 5,0 см2",
+    "price": 4200,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-subcutaneous-neoplasm-5-to-10-cm2",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Удаление доброкачественного новообразования подкожно-жировой клетчатки (без стоимости гистологического исследования) S от 5,0 до 10,0 см2",
+    "price": 6100,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-ingrown-nail-marginal-resection",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Малое оперативное лечение при вросшем ногте (краевая резекция)",
+    "price": 3500,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-ingrown-nail-radical-treatment",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Радикальное оперативное лечение при вросшем ногте (резекция ногтевого валика и удаление ростковой зоны)",
+    "price": 6100,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-superficial-foreign-body-removal",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Удаление поверхностно расположенного инородного тела",
+    "price": 2500,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-plantar-wart-removal",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Удаление подошвенной бородавки",
+    "price": 2300,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-wound-debridement",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Хирургическая обработка раны (без анестезии)",
+    "price": 6600,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-telangiectasia-sclerotherapy-category-1",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Удаление телеангиоэктазий склеротерапия категория 1 (в зависимости от количества используемого препарата)",
+    "price": 6500,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-telangiectasia-sclerotherapy-category-2",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Удаление телеангиоэктазий склеротерапия категория 2 (в зависимости от количества используемого препарата)",
+    "price": 8100,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-telangiectasia-sclerotherapy-category-3",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Удаление телеангиоэктазий склеротерапия категория 3 (в зависимости от количества используемого препарата)",
+    "price": 9200,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-telangiectasia-sclerotherapy-category-4",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Удаление телеангиоэктазий склеротерапия категория 4 (в зависимости от количества используемого препарата)",
+    "price": 10900,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-telangiectasia-sclerotherapy-category-5",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Удаление телеангиоэктазий склеротерапия категория 5 (в зависимости от количества используемого препарата)",
+    "price": 11400,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРИЕМ ХИРУРГА",
+    "id": "surgery-telangiectasia-sclerotherapy-category-6",
+    "serviceId": "surgery",
+    "specializationId": "surgeon",
+    "title": "Удаление телеангиоэктазий склеротерапия категория 6 (в зависимости от количества используемого препарата)",
+    "price": 12000,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРОФ. ОСМОТРЫ",
+    "id": "medical-checkups-pregnancy-examination",
+    "serviceId": "checkups",
+    "specializationId": null,
+    "title": "Диспансерный осмотр по беременности",
+    "price": 2350,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРОФ. ОСМОТРЫ",
+    "id": "medical-checkups-driver-examination-a-b",
+    "serviceId": "checkups",
+    "specializationId": null,
+    "title": "Медицинское освидетельствование граждан на право управление личным автотранспортом (категория А, В)",
+    "price": 1050,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРОЦЕДУРНЫЙ КАБИНЕТ",
+    "id": "treatment-room-venous-blood-collection",
+    "serviceId": "treatment-room",
+    "specializationId": null,
+    "title": "Взятие крови из периферической вены",
+    "price": 230,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРОЦЕДУРНЫЙ КАБИНЕТ",
+    "id": "treatment-room-home-sample-collection",
+    "serviceId": "treatment-room",
+    "specializationId": null,
+    "title": "Забор анализов на дому",
+    "price": 620,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРОЦЕДУРНЫЙ КАБИНЕТ",
+    "id": "treatment-room-intravenous-medication",
+    "serviceId": "treatment-room",
+    "specializationId": null,
+    "title": "Внутривенное введение лекарственных препаратов",
+    "price": 340,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРОЦЕДУРНЫЙ КАБИНЕТ",
+    "id": "treatment-room-intramuscular-medication",
+    "serviceId": "treatment-room",
+    "specializationId": null,
+    "title": "Внутримышечное введение лекарственных препаратов",
+    "price": 290,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРОЦЕДУРНЫЙ КАБИНЕТ",
+    "id": "treatment-room-swab-collection",
+    "serviceId": "treatment-room",
+    "specializationId": null,
+    "title": "Забор мазка",
+    "price": 220,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРОЦЕДУРНЫЙ КАБИНЕТ",
+    "id": "treatment-room-continuous-intravenous-infusion",
+    "serviceId": "treatment-room",
+    "specializationId": null,
+    "title": "Непрерывное внутривенное введение лекарственных препаратов",
+    "price": 720,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРОЦЕДУРНЫЙ КАБИНЕТ",
+    "id": "treatment-room-subcutaneous-medication",
+    "serviceId": "treatment-room",
+    "specializationId": null,
+    "title": "Подкожное введение лекарственных препаратов",
+    "price": 230,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРОЧИЕ УСЛУГИ",
+    "id": "other-services-driver-certificate-duplicate",
+    "serviceId": "other-services",
+    "specializationId": null,
+    "title": "Выписка дубликата водительской справки",
+    "price": 450,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРОЧИЕ УСЛУГИ",
+    "id": "other-services-sanatorium-card",
+    "serviceId": "other-services",
+    "specializationId": null,
+    "title": "Заполнение санаторно-курортной карты",
+    "price": 770,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРОЧИЕ УСЛУГИ",
+    "id": "other-services-gift-certificate-1000",
+    "serviceId": "other-services",
+    "specializationId": null,
+    "title": "Сертификат подарочный номиналом 1000 руб.",
+    "price": 1000,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРОЧИЕ УСЛУГИ",
+    "id": "other-services-gift-certificate-2000",
+    "serviceId": "other-services",
+    "specializationId": null,
+    "title": "Сертификат подарочный номиналом 2000 руб.",
+    "price": 2000,
+    "isActive": true
+  },
+  {
+    "_comment": "ПРОЧИЕ УСЛУГИ",
+    "id": "other-services-gift-certificate-500",
+    "serviceId": "other-services",
+    "specializationId": null,
+    "title": "Сертификат подарочный номиналом 500 руб.",
+    "price": 500,
+    "isActive": true
+  },
+  {
+    "_comment": "ТЕЙПИРОВАНИЕ",
+    "id": "taping-material-up-to-0-5-m",
+    "serviceId": "kinesio-taping",
+    "specializationId": null,
+    "title": "Тейпирование, расход материала до 0,5 м",
+    "price": 660,
+    "isActive": true
+  },
+  {
+    "_comment": "ТЕЙПИРОВАНИЕ",
+    "id": "taping-material-0-5-to-1-m",
+    "serviceId": "kinesio-taping",
+    "specializationId": null,
+    "title": "Тейпирование, расход материала от 0,5 до 1 м",
+    "price": 900,
+    "isActive": true
+  },
+  {
+    "_comment": "ТЕЙПИРОВАНИЕ",
+    "id": "taping-material-1-to-2-m",
+    "serviceId": "kinesio-taping",
+    "specializationId": null,
+    "title": "Тейпирование, расход материала от 1 до 2 м",
+    "price": 1200,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-upper-limb-veins-doppler",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Допплерография ультразвуковая вен верхних конечностей",
+    "price": 1700,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-lower-limb-veins-doppler",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Допплерография ультразвуковая вен нижних конечностей",
+    "price": 1870,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-pregnancy-doppler",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Допплерография ультразвуковая при беременности",
+    "price": 1640,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-aorta-duplex",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Дуплексное сканирование аорты",
+    "price": 1490,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-upper-limb-arteries-duplex",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Дуплексное сканирование артерий верхних конечностей",
+    "price": 1700,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-lower-limb-arteries-duplex",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Дуплексное сканирование артерий нижних конечностей",
+    "price": 1800,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-renal-arteries-duplex",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Дуплексное сканирование артерий почек",
+    "price": 1500,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-brachiocephalic-arteries-duplex",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Дуплексное сканирование брахиоцефальных артерий с цветным допплеровским картированием кровотока (БЦА)",
+    "price": 1450,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-pelvic-vessels-duplex",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Дуплексное сканирование сосудов малого таза",
+    "price": 1450,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-liver-vessels-duplex",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Дуплексное сканирование сосудов печени",
+    "price": 1450,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-penile-vessels-duplex-with-test",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Дуплексное сканирование сосудов полового члена с пробой (Виагра) без стоимости препарата",
+    "price": 2400,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-neurosonography",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Нейросонография",
+    "price": 1270,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-pregnancy-3-4d-11-16-weeks-twins-voluson-e8",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование 3-4D в первом триместре беременности 11-16 недель (двойня) (аппарат Voluson E8)",
+    "price": 3300,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-fetus-3-4d-from-17-weeks-voluson-e8",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование 3-4D плода с 17 недели - второй, третий триместр (аппарат Voluson E8)",
+    "price": 3200,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-fetus-3-4d-from-17-weeks-twins-voluson-e8",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование 3-4D плода с 17 недели - второй, третий триместр (двойня) (аппарат Voluson E8)",
+    "price": 3700,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-pregnancy-11-16-weeks-voluson-e8",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование в первом триместре беременности 11-16 недель (аппарат Voluson E8)",
+    "price": 2100,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-pregnancy-first-trimester-up-to-16-weeks",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование в первом триместре беременности до 16 недель",
+    "price": 1900,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-pregnancy-up-to-6-weeks",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование в ранние сроки беременности до 6 недель",
+    "price": 1550,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-hepatobiliary-zone",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование гепатобилиарной зоны",
+    "price": 1240,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-breast",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование грудных желез",
+    "price": 1250,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-stomach",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование желудка",
+    "price": 1050,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-lymph-nodes-1-zone",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование лимфатических узлов (1 анатомическая зона)",
+    "price": 1050,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-lymph-nodes-2-zones",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование лимфатических узлов (2 анатомические зоны)",
+    "price": 1550,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-lymph-nodes-3-or-more-zones",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование лимфатических узлов (3 и более анатомических зон)",
+    "price": 1850,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-lonnoe-sochlenenie",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование лонного сочленения",
+    "price": 1020,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-matka-pridatki-1-trimestr-doplata",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование матки и придатков в первом триместре беременности до 16 недель (ДОПЛАТА)",
+    "price": 350,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-matka-pridatki-opredelenie-beremennosti",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование матки и придатков для определения беременности",
+    "price": 1550,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-matka-pridatki-besplodie-krovotok-zheltoe-telo",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование матки и придатков по бесплодию с определением кровотока в жёлтом теле",
+    "price": 1550,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-matka-pridatki-transvaginalnoe",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование матки и придатков трансвагинальное",
+    "price": 1550,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-molochnye-zhelezy",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование молочных желез",
+    "price": 1450,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-mochevoy-puzyr",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование мочевого пузыря",
+    "price": 1100,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-mochevyvodyaschie-puti",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование мочевыводящих путей",
+    "price": 1400,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-myagkie-tkani-1-zona",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование мягких тканей (1 анатомическая зона)",
+    "price": 1100,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-nadpochechniki",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование надпочечников",
+    "price": 1000,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-bryushnaya-polost-doplata",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование органов брюшной полости (доплата)",
+    "price": 480,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-bryushnaya-polost-kompleksnoe",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование органов брюшной полости (комплексное)",
+    "price": 1500,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-bryushnaya-polost-zhelchegonny-zavtrak",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование органов брюшной полости с желчегонным завтраком",
+    "price": 1650,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-bryushnaya-polost-pochki-mochevoy-puzyr",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование органов брюшной полости, почек, мочевого пузыря",
+    "price": 1980,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-organy-moshonki",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование органов мошонки",
+    "price": 1600,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-plod-17-nedel-2-3-trimestr",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование плода с 17 недель - второй, третий триместр",
+    "price": 2400,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-plody-dvoynya-17-nedel-2-3-trimestr",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование плодов (двойня) с 17 недель - второй, третий триместр",
+    "price": 3500,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-podzheludochnaya-zheleza",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование поджелудочной железы",
+    "price": 990,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-podzheludochnaya-zheleza-probny-zavtrak",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование поджелудочной железы с пробным завтраком",
+    "price": 1270,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-polovoy-chlen",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование полового члена",
+    "price": 1280,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-pochki",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование почек",
+    "price": 1160,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-predstatelnaya-zheleza-transrektalnoe",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование предстательной железы трансректальное",
+    "price": 1580,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-prostata-mochevoy-puzyr-ostatochnaya-mocha",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование простаты, мочевого пузыря с определением объема остаточной мочи",
+    "price": 1580,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-selezenka",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование селезенки",
+    "price": 990,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-sustav-para",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование сустава (пара)",
+    "price": 1580,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-schitovidnaya-zheleza-paraschitovidnye",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Ультразвуковое исследование щитовидной железы и паращитовидных желез",
+    "price": 1280,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-follikulometriya",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Фолликулометрия",
+    "price": 1320,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-foto",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Фото (УЗИ)",
+    "price": 350,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-cervikometriya",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Цервикометрия",
+    "price": 1100,
+    "isActive": true
+  },
+  {
+    "_comment": "УЗИ",
+    "id": "ultrasound-ehokardiografiya",
+    "serviceId": "ultrasound",
+    "specializationId": "ultrasound-specialist",
+    "title": "Эхокардиография",
+    "price": 1930,
+    "isActive": true
+  },
+  {
+    "_comment": "ФУНКЦИОНАЛЬНАЯ ДИАГНОСТИКА",
+    "id": "functional-spirography-with-test",
+    "serviceId": "functional-diagnostics",
+    "specializationId": "functional-diagnostics-specialist",
+    "title": "Исследование дыхательных объемов с применением лекарственных препаратов (спирография с пробой)",
+    "price": 900,
+    "isActive": true
+  },
+  {
+    "_comment": "ФУНКЦИОНАЛЬНАЯ ДИАГНОСТИКА",
+    "id": "functional-spirography",
+    "serviceId": "functional-diagnostics",
+    "specializationId": "functional-diagnostics-specialist",
+    "title": "Исследование неспровоцированных дыхательных объемов и потоков (спирография)",
+    "price": 490,
+    "isActive": true
+  },
+  {
+    "_comment": "ФУНКЦИОНАЛЬНАЯ ДИАГНОСТИКА",
+    "id": "functional-ekg-decoding",
+    "serviceId": "functional-diagnostics",
+    "specializationId": "functional-diagnostics-specialist",
+    "title": "Расшифровка, описание и интерпретация электрокардиографических данных",
+    "price": 800,
+    "isActive": true
+  },
+  {
+    "_comment": "ФУНКЦИОНАЛЬНАЯ ДИАГНОСТИКА",
+    "id": "functional-ekg-registration",
+    "serviceId": "functional-diagnostics",
+    "specializationId": "functional-diagnostics-specialist",
+    "title": "Регистрация электрокардиограммы",
+    "price": 150,
+    "isActive": true
+  },
+  {
+    "_comment": "ФУНКЦИОНАЛЬНАЯ ДИАГНОСТИКА",
+    "id": "functional-smad",
+    "serviceId": "functional-diagnostics",
+    "specializationId": "functional-diagnostics-specialist",
+    "title": "Суточное мониторирование артериального давления (СМАД)",
+    "price": 1870,
+    "isActive": true
+  },
+  {
+    "_comment": "ФУНКЦИОНАЛЬНАЯ ДИАГНОСТИКА",
+    "id": "functional-holter-ekg",
+    "serviceId": "functional-diagnostics",
+    "specializationId": "functional-diagnostics-specialist",
+    "title": "Холтеровское мониторирование сердечного ритма (ХМ-ЭКГ)",
+    "price": 1950,
+    "isActive": true
+  },
+  {
+    "_comment": "ФУНКЦИОНАЛЬНАЯ ДИАГНОСТИКА",
+    "id": "functional-holter-ekg-cardiostimulator",
+    "serviceId": "functional-diagnostics",
+    "specializationId": "functional-diagnostics-specialist",
+    "title": "Холтеровское мониторирование сердечного ритма (ХМ-ЭКГ) для пациентов с кардиостимулятором",
+    "price": 2450,
+    "isActive": true
+  },
+  {
+    "_comment": "ФУНКЦИОНАЛЬНАЯ ДИАГНОСТИКА",
+    "id": "functional-holter-ekg-12-channel",
+    "serviceId": "functional-diagnostics",
+    "specializationId": "functional-diagnostics-specialist",
+    "title": "Холтеровское мониторирование сердечного ритма (ХМ-ЭКГ), 12-канальный",
+    "price": 2500,
+    "isActive": true
+  },
+  {
+    "_comment": "ФУНКЦИОНАЛЬНАЯ ДИАГНОСТИКА",
+    "id": "functional-holter-ekg-12-channel-cardiostimulator",
+    "serviceId": "functional-diagnostics",
+    "specializationId": "functional-diagnostics-specialist",
+    "title": "Холтеровское мониторирование сердечного ритма (ХМ-ЭКГ) для пациентов с кардиостимулятором, 12-канальный",
+    "price": 3000,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-g-point-augmentation-1ml",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Аугментация точки G (1мл)",
+    "price": 17000,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-g-point-augmentation-2ml",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Аугментация точки G (2мл)",
+    "price": 25500,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-labia-majora-volume-correction-1ml",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Восполнение объема и коррекция формы больших половых губ (1мл)",
+    "price": 17000,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-labia-majora-volume-correction-2ml",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Восполнение объема и коррекция формы больших половых губ (2мл)",
+    "price": 25500,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-labia-majora-volume-correction-3ml",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Восполнение объема и коррекция формы больших половых губ (3мл)",
+    "price": 31500,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-labia-majora-volume-correction-4ml",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Восполнение объема и коррекция формы больших половых губ (4мл)",
+    "price": 37500,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-labia-minora-volume-correction-1ml",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Восполнение объема и коррекция формы малых половых губ (1мл)",
+    "price": 17000,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-clitoroplasty-1ml",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Клиторопластика (1мл)",
+    "price": 17000,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-stress-incontinence-treatment-fillers-1ml",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Лечение стрессового недержания мочи филлерами (1мл)",
+    "price": 17000,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-stress-incontinence-treatment-fillers-2ml",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Лечение стрессового недержания мочи филлерами (2мл)",
+    "price": 25500,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-stress-incontinence-treatment-fillers-3ml",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Лечение стрессового недержания мочи филлерами (3мл)",
+    "price": 31500,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-stress-incontinence-treatment-fillers-4ml",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Лечение стрессового недержания мочи филлерами (4мл)",
+    "price": 37500,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-vaginal-lubrication-biorevitalization-1ml",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Лубрикация влагалища / Биоревитализация влагалища филлерами (1мл)",
+    "price": 17000,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-vaginal-lubrication-biorevitalization-2ml",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Лубрикация влагалища / Биоревитализация влагалища филлерами (2мл)",
+    "price": 25500,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-vaginal-lubrication-biorevitalization-3ml",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Лубрикация влагалища / Биоревитализация влагалища филлерами (3мл)",
+    "price": 31500,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-vaginal-lubrication-biorevitalization-4ml",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Лубрикация влагалища / Биоревитализация влагалища филлерами (4мл)",
+    "price": 37500,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-perineum-thread-lifting-1-thread",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Нитевой лифтинг промежности (1 нить)",
+    "price": 23000,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-perineum-thread-lifting-2-threads",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Нитевой лифтинг промежности (2 нити)",
+    "price": 42000,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-perineoplasty-fillers-1ml",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Перинеопластика филлерами (1мл)",
+    "price": 17000,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-perineoplasty-fillers-2ml",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Перинеопластика филлерами (2мл)",
+    "price": 25500,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-perineoplasty-fillers-3ml",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Перинеопластика филлерами (3мл)",
+    "price": 31500,
+    "isActive": true
+  },
+  {
+    "_comment": "ЭСТЕТИЧЕСКАЯ ГИНЕКОЛОГИЯ",
+    "id": "aesthetic-gynecology-perineoplasty-fillers-4ml",
+    "serviceId": "aesthetic-gynecology",
+    "specializationId": "aesthetic-gynecology-specialist",
+    "title": "Перинеопластика филлерами (4мл)",
+    "price": 37500,
+    "isActive": true
+  }
+]

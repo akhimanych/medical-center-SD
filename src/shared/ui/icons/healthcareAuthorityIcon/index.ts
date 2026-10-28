@@ -1,0 +1,1 @@
+export { IconHealthcareAuthority } from "./healthcareAuthorityIcon";

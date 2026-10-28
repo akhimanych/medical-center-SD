@@ -1,0 +1,120 @@
+{
+  "id": "sgb-smp",
+  "slug": "sgb-smp",
+  "title": "ГБУЗ АО «СГБ № 2» СМП",
+  "currency": "RUB",
+  "priceVerifiedAt": null,
+  "categories": [
+    {
+      "id": "laboratory-tests",
+      "title": "Лабораторные исследования"
+    }
+  ],
+  "tests": [
+    {
+      "id": "sgb-smp-aptt",
+      "categoryId": "laboratory-tests",
+      "code": "A12.05.039",
+      "title": "АЧТВ",
+      "price": 320
+    },
+    {
+      "id": "sgb-smp-antithrombin-iii",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.047",
+      "title": "Исследование уровня антитромбина III",
+      "price": 440
+    },
+    {
+      "id": "sgb-smp-reticulocytes",
+      "categoryId": "laboratory-tests",
+      "code": "A12.05.123",
+      "title": "Исследование уровня ретикулоцитов в крови",
+      "price": 320
+    },
+    {
+      "id": "sgb-smp-platelets",
+      "categoryId": "laboratory-tests",
+      "code": "A12.05.120",
+      "title": "Исследование уровня тромбоцитов в крови",
+      "price": 320
+    },
+    {
+      "id": "sgb-smp-fibrinogen",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.050",
+      "title": "Исследование уровня фибриногена в крови",
+      "price": 320
+    },
+    {
+      "id": "sgb-smp-leukocyte-formula",
+      "categoryId": "laboratory-tests",
+      "code": "A12.05.121",
+      "title": "Лейкоцитарная формула",
+      "price": 340
+    },
+    {
+      "id": "sgb-smp-flora-smear",
+      "categoryId": "laboratory-tests",
+      "code": "A26.20.001",
+      "title": "Мазок на флору",
+      "price": 480
+    },
+    {
+      "id": "sgb-smp-complete-blood-count",
+      "categoryId": "laboratory-tests",
+      "code": "B03.016.003",
+      "title": "Общий (клинический) анализ крови развернутый",
+      "price": 570
+    },
+    {
+      "id": "sgb-smp-urinalysis",
+      "categoryId": "laboratory-tests",
+      "code": "B03.016.006",
+      "title": "Общий анализ мочи",
+      "price": 340
+    },
+    {
+      "id": "sgb-smp-d-dimer",
+      "categoryId": "laboratory-tests",
+      "code": "A09.05.051.001",
+      "title": "Определение концентрации D-димера",
+      "price": 1150
+    },
+    {
+      "id": "sgb-smp-pti-inr",
+      "categoryId": "laboratory-tests",
+      "code": "A12.05.027",
+      "title": "Определение ПТИ с расчетом МНО",
+      "price": 320
+    },
+    {
+      "id": "sgb-smp-esr",
+      "categoryId": "laboratory-tests",
+      "code": "A12.05.001",
+      "title": "Определение скорости оседания эритроцитов",
+      "price": 160
+    },
+    {
+      "id": "sgb-smp-thrombin-time",
+      "categoryId": "laboratory-tests",
+      "code": "A12.05.028",
+      "title": "Определение тромбинового времени",
+      "price": 320
+    },
+    {
+      "id": "sgb-smp-scrapings-punctures-cytology",
+      "categoryId": "laboratory-tests",
+      "code": null,
+      "title": "Цитологическое исследование соскобов и пунктатов",
+      "price": 500
+    },
+    {
+      "id": "sgb-smp-cervix-uterine-cavity-cytology",
+      "categoryId": "laboratory-tests",
+      "code": "A08.20.012",
+      "title": "Цитологическое исследование шейки матки и полости матки",
+      "price": 500
+    }
+  ]
+}

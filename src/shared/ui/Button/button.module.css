@@ -1,0 +1,112 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  box-sizing: border-box;
+
+  border: 1px solid transparent;
+  border-radius: 12px;
+
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+
+  cursor: pointer;
+
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+/* Цветовые варианты */
+.button_variant_primary {
+  color: #ffffff;
+  background-color: #18a85a;
+  border-color: #18a85a;
+}
+
+.button_variant_primary:hover:not(:disabled) {
+  background-color: #108b49;
+  border-color: #108b49;
+  box-shadow: 0 6px 16px rgb(24 168 90 / 24%);
+  transform: translateY(-1px);
+}
+
+.button_variant_outline {
+  color: #18a85a;
+  background-color: transparent;
+  border-color: #18a85a;
+}
+
+.button_variant_outline:hover:not(:disabled) {
+  color: #ffffff;
+  background-color: #18a85a;
+}
+
+.button_variant_light {
+  color: #087d7c;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.button_variant_light:hover:not(:disabled) {
+  color: #056568;
+  background-color: #dff5ed;
+  border-color: #dff5ed;
+}
+
+/* Только готовые пресеты. Используются только при передаче size. */
+.button_size_small {
+  min-height: 40px;
+  padding: 0 18px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.button_size_medium {
+  min-height: 40px;
+  padding: 0 24px;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+.button_size_large {
+  min-height: 56px;
+  padding: 0 32px;
+  border-radius: 14px;
+  font-size: 17px;
+}
+
+.button_fullWidth {
+  width: 100%;
+}
+
+.button:focus-visible {
+  outline: 3px solid rgb(24 168 90 / 32%);
+  outline-offset: 3px;
+}
+
+.button:active:not(:disabled) {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.button_size_appointment {
+  min-width: 140px;
+  min-height: 48px;
+  padding: 0 18px;
+  border-radius: 10px;
+  font-size: 14px;
+}

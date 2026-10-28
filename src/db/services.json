@@ -1,0 +1,193 @@
+[
+  {
+    "id": "lab-tests",
+    "slug": "lab-tests",
+    "title": "Анализы, диагностика, исследования",
+    "icon": "lab-tests",
+    "description": "Обследования для оценки здоровья",
+    "specializationIds": [],
+    "isActive": true
+  },
+  {
+    "id": "hirudotherapy",
+    "slug": "hirudotherapy",
+    "title": "Гирудотерапия",
+    "icon": "hirudotherapy",
+    "description": "Лечение медицинскими пиявками",
+    "specializationIds": [
+      "hirudotherapist"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "specialist-consultation",
+    "slug": "specialist-consultation",
+    "title": "Консультации специалистов",
+    "icon": "specialist-consultation",
+    "description": "Консультации врачей по вопросам здоровья",
+    "specializationIds": [],
+    "isActive": true
+  },
+  {
+    "id": "medication-blockade",
+    "slug": "medication-blockade",
+    "title": "Медикаментозные блокады (БМУ)",
+    "icon": "medication-blockade",
+    "description": "Инъекции для облегчения боли.",
+    "specializationIds": [],
+    "isActive": true
+  },
+  {
+    "id": "orthopedics",
+    "slug": "orthopedics",
+    "title": "Прием врача-травматолога-ортопеда",
+    "icon": "orthopedics",
+    "description": "Консультация по травмам и болезням суставов",
+    "specializationIds": [
+      "orthopedicTraumatologist"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "gynecology",
+    "slug": "gynecology",
+    "title": "Прием гинеколога",
+    "icon": "gynecology",
+    "description": "Консультация по женскому здоровью",
+    "specializationIds": [
+      "gynecologist"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "dermatology",
+    "slug": "dermatology",
+    "title": "Прием дерматовенеролога",
+    "icon": "dermatology",
+    "description": "Консультация по кожным и венерическим заболеваниям",
+    "specializationIds": [
+      "dermatovenereologist",
+      "dermatologist"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "oncology",
+    "slug": "oncology",
+    "title": "Прием онколога",
+    "icon": "oncology",
+    "description": "Консультация по онкологическим заболеваниям",
+    "specializationIds": [
+      "oncologist",
+      "breastOncologist"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "ent",
+    "slug": "ent",
+    "title": "Прием оториноларинголога",
+    "icon": "ent",
+    "description": "Консультация по болезням уха, горла и носа",
+    "specializationIds": [
+      "otolaryngologist"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "ophthalmology",
+    "slug": "ophthalmology",
+    "title": "Прием офтальмолога",
+    "icon": "ophthalmology",
+    "description": "Консультация по зрению и заболеваниям глаз",
+    "specializationIds": [
+      "ophthalmologist"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "urology",
+    "slug": "urology",
+    "title": "Прием уролога",
+    "icon": "urology",
+    "description": "Консультация по заболеваниям мочеполовой системы",
+    "specializationIds": [
+      "urologist"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "surgery",
+    "slug": "surgery",
+    "title": "Прием хирурга",
+    "icon": "surgery",
+    "description": "Консультация по хирургическим заболеваниям",
+    "specializationIds": [
+      "surgeon"
+    ],
+    "isActive": true
+  },
+  {
+    "id": "checkups",
+    "slug": "checkups",
+    "title": "Проф. осмотры",
+    "icon": "checkups",
+    "description": "Медицинские осмотры для работы",
+    "specializationIds": [],
+    "isActive": true
+  },
+  {
+    "id": "treatment-room",
+    "slug": "treatment-room",
+    "title": "Процедурный кабинет",
+    "icon": "treatment-room",
+    "description": "Инъекции, капельницы и забор анализов",
+    "specializationIds": [],
+    "isActive": true
+  },
+  {
+    "id": "other-services",
+    "slug": "other-services",
+    "title": "Прочие услуги",
+    "icon": "other-services",
+    "description": "",
+    "specializationIds": [],
+    "isActive": true
+  },
+  {
+    "id": "kinesio-taping",
+    "slug": "kinesio-taping",
+    "title": "Тейпирование",
+    "icon": "kinesio-taping",
+    "description": "Наложение тейпов на мышцы и суставы",
+    "specializationIds": [],
+    "isActive": true
+  },
+  {
+    "id": "ultrasound",
+    "slug": "ultrasound",
+    "title": "УЗИ (Ультразвуковая диагностика)",
+    "icon": "ultrasound",
+    "description": "Исследование органов с помощью ультразвука",
+    "specializationIds": [],
+    "isActive": true
+  },
+  {
+    "id": "functional-diagnostics",
+    "slug": "functional-diagnostics",
+    "title": "Функциональная диагностика",
+    "icon": "functional-diagnostics",
+    "description": "Оценка работы органов и систем",
+    "specializationIds": [],
+    "isActive": true
+  },
+  {
+    "id": "aesthetic-gynecology",
+    "slug": "aesthetic-gynecology",
+    "title": "Эстетическая гинекология",
+    "icon": "aesthetic-gynecology",
+    "description": "Коррекция внешнего вида интимной зоны",
+    "specializationIds": [],
+    "isActive": true
+  }
+]

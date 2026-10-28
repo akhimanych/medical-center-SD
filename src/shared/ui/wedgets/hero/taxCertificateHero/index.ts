@@ -1,0 +1,1 @@
+export { TaxCertificateHero } from "./taxCertificateHero";

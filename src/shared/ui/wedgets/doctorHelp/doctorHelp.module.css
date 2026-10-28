@@ -1,0 +1,112 @@
+.widget {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px 28px;
+
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100px;
+  padding: 18px 24px;
+
+  border-radius: 10px;
+  background: rgb(24 168 90 / 12%);
+}
+
+/* Мягкий декоративный акцент справа */
+.widget::after {
+  position: absolute;
+  z-index: -1;
+  top: -60px;
+  right: 40px;
+
+  width: 150px;
+  height: 240px;
+
+  content: "";
+  background: rgba(255, 255, 255, 0.22);
+  transform: rotate(30deg);
+  pointer-events: none;
+}
+
+.content {
+  display: flex;
+  flex: 1 1 440px;
+  align-items: center;
+  gap: 28px;
+  min-width: 0;
+}
+
+.icon {
+  display: block;
+  flex: 0 0 56px;
+  width: 56px;
+  height: 64px;
+  color: #119858;
+}
+
+.text {
+  min-width: 0;
+}
+
+.title {
+  margin: 0 0 4px;
+
+  color: #104d35;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.description {
+  margin: 0;
+
+  color: #597079;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.contactButton {
+  flex: 0 0 auto;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  min-height: 38px;
+  padding: 11px 20px;
+
+  border: 1px solid #109b59;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #13a663, #079651);
+
+  text-decoration: none;
+  color: #fff;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.contactButton:hover {
+  background: #078b4a;
+  box-shadow: 0 4px 12px rgba(7, 139, 74, 0.15);
+}
+
+.contactButton:focus-visible {
+  outline: 2px solid #104d35;
+  outline-offset: 3px;
+}

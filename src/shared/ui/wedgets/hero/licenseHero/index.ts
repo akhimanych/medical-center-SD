@@ -1,0 +1,1 @@
+export { LicensesHero } from "./licenseHero";

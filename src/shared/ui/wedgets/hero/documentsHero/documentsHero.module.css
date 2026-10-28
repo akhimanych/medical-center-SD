@@ -1,0 +1,301 @@
+.hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+
+  background: linear-gradient(
+    180deg,
+    #d9efe3 0%,
+    #eaf6ef 100%
+  );
+
+  color: #1c4036;
+  border-radius: 14px;
+}
+
+.container {
+  position: relative;
+
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1240px;
+  min-height: 360px;
+
+  margin-inline: auto;
+  padding: 40px 24px;
+}
+
+/* Текст */
+
+.content {
+  position: relative;
+  z-index: 1;
+
+  width: 70%;
+  min-width: 0;
+
+  text-align: left;
+}
+
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7px;
+
+  margin-bottom: 22px;
+
+  color: #71887d;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.breadcrumbs a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  color: #169b73;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.breadcrumbs a:focus-visible {
+  outline: 2px solid #169b73;
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+.title {
+  margin: 0 0 22px;
+
+  color: #1c4036;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  text-align: left;
+  padding-top: 35px;
+  overflow-wrap: break-word;
+}
+
+.description {
+  max-width: 660px;
+  margin: 0;
+
+  color: #476d60;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* Полупрозрачные фигуры */
+
+.decoration {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  width: 48%;
+
+  pointer-events: none;
+}
+
+.shapeFirst,
+.shapeSecond {
+  position: absolute;
+  display: block;
+
+  border-radius: 50%;
+  background: rgb(109 192 147 / 10%);
+}
+
+.shapeFirst {
+  top: -34px;
+  right: 215px;
+
+  width: 300px;
+  height: 350px;
+
+  transform: rotate(21deg);
+}
+
+.shapeSecond {
+  top: 70px;
+  right: 28px;
+
+  width: 365px;
+  height: 245px;
+
+  transform: rotate(-33deg);
+}
+
+/* SVG документов */
+
+.icon {
+  position: absolute;
+  top: 50%;
+  right: 128px;
+
+  width: 86px;
+
+  color: #16876c;
+
+  transform: translateY(-50%);
+}
+
+.icon svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Планшеты */
+
+@media (max-width: 1023px) {
+  .container {
+    min-height: 270px;
+    padding: 48px 24px;
+  }
+
+  .content {
+    width: 70%;
+  }
+
+  .title {
+    font-size: 48px;
+  }
+
+  .description {
+    max-width: 480px;
+    font-size: 17px;
+  }
+
+  .decoration {
+    width: 40%;
+  }
+
+  .shapeFirst {
+    top: -30px;
+    right: 115px;
+
+    width: 250px;
+    height: 320px;
+  }
+
+  .shapeSecond {
+    top: 75px;
+    right: -55px;
+
+    width: 310px;
+    height: 220px;
+  }
+
+  .icon {
+    right: 64px;
+    width: 76px;
+  }
+}
+
+/* Телефоны */
+
+@media (max-width: 767px) {
+  .container {
+    min-height: 0;
+    padding: 30px 20px 36px;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .breadcrumbs {
+    margin-bottom: 26px;
+  }
+
+  .title {
+    margin-bottom: 16px;
+    font-size: 40px;
+    line-height: 1.12;
+  }
+
+  .description {
+    max-width: 460px;
+    font-size: 16px;
+  }
+
+  /*
+   * Иконка занимает отдельную область под текстом,
+   * чтобы длинный заголовок не пересекался с ней.
+   */
+  .decoration {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+
+    width: 100%;
+    height: 100px;
+    margin-top: 16px;
+  }
+
+  .shapeFirst {
+    top: -120px;
+    right: 40px;
+
+    width: 200px;
+    height: 300px;
+  }
+
+  .shapeSecond {
+    top: -20px;
+    right: -100px;
+
+    width: 270px;
+    height: 180px;
+  }
+
+  .icon {
+    top: 0;
+    right: 20px;
+
+    width: 72px;
+
+    transform: none;
+  }
+}
+
+/* Узкие телефоны */
+
+@media (max-width: 374px) {
+  .container {
+    padding-inline: 16px;
+  }
+
+  .breadcrumbs {
+    gap: 6px;
+  }
+
+  .title {
+    font-size: 34px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+
+  .decoration {
+    height: 88px;
+  }
+
+  .icon {
+    right: 12px;
+    width: 64px;
+  }
+}

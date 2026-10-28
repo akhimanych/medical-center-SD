@@ -1,0 +1,355 @@
+.content {
+  --heading-color: #103f38;
+  --link-color: #178361;
+  width: 100%;
+  min-width: 0;
+  padding: 40px 0 32px;
+  color: #254e47;
+  text-align: left;
+}
+.content,
+.content * {
+  box-sizing: border-box;
+}
+.introGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 1fr);
+  gap: 64px;
+  align-items: start;
+}
+.heading {
+  margin: 0;
+  color: var(--heading-color);
+  font-family: var(--font-heading, Georgia, "Times New Roman", serif);
+  font-size: clamp(27px, 2.6vw, 36px);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.3px;
+  text-align: left;
+}
+.introText {
+  padding-top: 12px;
+}
+.introText p {
+  max-width: 470px;
+  margin: 20px 0 0;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: left;
+}
+.visitCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 28px;
+  border-radius: 16px;
+  background: #eff9f5;
+}
+.visitIcon {
+  flex: 0 0 36px;
+  margin-top: 2px;
+  color: var(--link-color);
+}
+.visitContent {
+  min-width: 0;
+}
+.visitContent h3 {
+  margin: 0;
+  color: var(--heading-color);
+  font-family: var(--font-heading, Georgia, "Times New Roman", serif);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: left;
+}
+.visitContent nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 22px;
+}
+.visitContent a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 28px;
+  color: var(--link-color);
+  font-size: 15px;
+  line-height: 1.5;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+.visitContent a:hover {
+  color: #0d6046;
+}
+.visitContent a:focus-visible {
+  outline: 2px solid #178361;
+  outline-offset: 5px;
+  border-radius: 2px;
+}
+.visitContent a svg {
+  flex-shrink: 0;
+}
+.gallerySection {
+  margin-top: 48px;
+  scroll-margin-top: 100px;
+}
+.subtitle {
+  margin: 12px 0 26px;
+  color: #315b52;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.topGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  align-items: stretch;
+}
+.photoCard {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid #dfeae4;
+  border-radius: 10px;
+  background: #fff;
+}
+.imageWrap {
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  background: #eef4f0;
+}
+.imageWrap img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.caption {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-height: 54px;
+  margin: 0;
+  padding: 13px 16px;
+  color: #174c42;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: left;
+}
+.bottomGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.94fr) minmax(0, 1.08fr) minmax(0, 0.94fr);
+  gap: 24px;
+  align-items: stretch;
+  margin-top: 24px;
+}
+.middleStack {
+  display: grid;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  min-width: 0;
+}
+.middleStack .imageWrap {
+  aspect-ratio: 2.35;
+}
+.tallCard .imageWrap {
+  aspect-ratio: auto;
+  flex: 1;
+  min-height: 0;
+  position: relative;
+}
+.tallCard .imageWrap img {
+  position: absolute;
+  inset: 0;
+}
+.tallCard .caption {
+  flex: 0 0 auto;
+}
+.disclaimer {
+  margin: 16px 0 0;
+  color: #79908a;
+  font-size: 12px;
+  line-height: 1.6;
+  text-align: left;
+}
+@media (max-width: 1000px) {
+  .introGrid {
+    gap: 36px;
+  }
+  .visitCard {
+    padding: 24px;
+    gap: 14px;
+  }
+  .visitContent h3 {
+    font-size: 23px;
+  }
+  .topGrid,
+  .bottomGrid {
+    gap: 18px;
+  }
+  .bottomGrid {
+    margin-top: 18px;
+  }
+  .middleStack {
+    gap: 18px;
+  }
+  .caption {
+    padding: 11px 12px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 760px) {
+  .content {
+    padding: 28px 0;
+  }
+  .introGrid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+  .introText {
+    padding-top: 0;
+  }
+  .introText p {
+    max-width: 100%;
+    margin-top: 14px;
+  }
+  .visitCard {
+    max-width: 100%;
+  }
+  .gallerySection {
+    margin-top: 36px;
+  }
+  .topGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .topGrid > :last-child {
+    grid-column: 1/-1;
+  }
+  .topGrid > :last-child .imageWrap {
+    aspect-ratio: 2;
+  }
+  .bottomGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .middleStack {
+    display: contents;
+  }
+  .bottomGrid > .tallCard:first-child {
+    grid-column: 1;
+    grid-row: 1/3;
+  }
+  .bottomGrid > .tallCard:last-child {
+    grid-column: 1/-1;
+  }
+  .bottomGrid > .tallCard:last-child .imageWrap {
+    aspect-ratio: 1.7;
+    flex: none;
+  }
+  .middleStack .imageWrap {
+    aspect-ratio: 1.6;
+  }
+}
+@media (max-width: 480px) {
+  .heading {
+    font-size: 28px;
+  }
+  .introText p {
+    font-size: 15px;
+  }
+  .visitCard {
+    padding: 22px 18px;
+    gap: 12px;
+  }
+  .visitContent h3 {
+    font-size: 22px;
+  }
+  .topGrid,
+  .bottomGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .middleStack {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .topGrid > :last-child .imageWrap,
+  .middleStack .imageWrap {
+    aspect-ratio: 4/3;
+  }
+  .tallCard .imageWrap {
+    aspect-ratio: 4/5;
+    flex: none;
+  }
+  .bottomGrid > .tallCard:last-child .imageWrap {
+    aspect-ratio: 4/5;
+  }
+  .caption {
+    min-height: 50px;
+    padding: 12px 14px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .heading {
+    text-align: center;
+  }
+
+  .visitCard {
+    display: grid;
+    grid-template-columns: 36px minmax(0, max-content);
+    justify-content: center;
+    align-items: center;
+    gap: 0 12px;
+  }
+
+  .visitIcon {
+    position: static;
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0;
+  }
+
+  .visitIcon svg {
+    display: block;
+  }
+
+  .visitContent {
+    display: contents;
+  }
+
+  .visitContent h3 {
+    grid-column: 2;
+    grid-row: 1;
+
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+    overflow-wrap: anywhere;
+  }
+
+  .visitContent nav {
+    grid-column: 2;
+    grid-row: 2;
+
+    margin-top: 22px;
+    padding: 0;
+    align-items: flex-start;
+  }
+
+  .information > .heading {
+    width: 100%;
+    text-align: center;
+  }
+}

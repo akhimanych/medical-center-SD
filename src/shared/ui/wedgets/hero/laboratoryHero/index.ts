@@ -1,0 +1,1 @@
+export { LaboratoryHero } from "./laboratoryHero";

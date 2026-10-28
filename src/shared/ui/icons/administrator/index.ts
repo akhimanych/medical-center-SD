@@ -1,0 +1,1 @@
+export { AdministratorIcon } from "./administratorIcon";

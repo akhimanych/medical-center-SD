@@ -1,0 +1,4669 @@
+{
+  "id": "biotechmed",
+  "slug": "biotechmed",
+  "title": "БиоТехМед",
+  "currency": "RUB",
+  "priceVerifiedAt": null,
+  "categories": [
+    {
+      "id": "allergological-status",
+      "title": "Аллергологический статус"
+    },
+    {
+      "id": "anemia",
+      "title": "Анемия"
+    },
+    {
+      "id": "autoimmune-pathology",
+      "title": "Аутоиммунная патология"
+    },
+    {
+      "id": "osteoporosis",
+      "title": "Остеопороз"
+    },
+    {
+      "id": "diabetes-assessment",
+      "title": "Оценка диабета"
+    },
+    {
+      "id": "gastrointestinal-pathology",
+      "title": "Патология желудочно-кишечного тракта"
+    },
+    {
+      "id": "prenatal-diagnostics",
+      "title": "Пренатальная диагностика"
+    },
+    {
+      "id": "multiple-sclerosis",
+      "title": "Рассеянный склероз"
+    },
+    {
+      "id": "cardiovascular-pathology",
+      "title": "Сердечно-сосудистая патология"
+    },
+    {
+      "id": "bacteriology",
+      "title": "Бактериологические исследования"
+    },
+    {
+      "id": "biochemistry",
+      "title": "Биохимические исследования"
+    },
+    {
+      "id": "hormones",
+      "title": "Гормоны"
+    },
+    {
+      "id": "smears",
+      "title": "Мазки"
+    },
+    {
+      "id": "infections",
+      "title": "Исследования на инфекции"
+    },
+    {
+      "id": "trace-elements",
+      "title": "Микроэлементы"
+    },
+    {
+      "id": "genetic-predisposition",
+      "title": "Выявление генетической предрасположенности"
+    },
+    {
+      "id": "general-clinical",
+      "title": "Общеклинические исследования"
+    },
+    {
+      "id": "tumor-markers",
+      "title": "Онкомаркеры"
+    },
+    {
+      "id": "hms-osipov",
+      "title": "ХМС (маркер по Осипову)"
+    },
+    {
+      "id": "cytology-histology",
+      "title": "Цитологические и гистологические исследования"
+    }
+  ],
+  "tests": [
+    {
+      "id": "biotechmed-001",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Alternaria tenius",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-002",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Aspergillus flavus",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-003",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Aspergillus fumigatus",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-004",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Aspergillus niger",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-005",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Branhamella catarrhalis",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-006",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Candida albicans",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-007",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Candida kruzei",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-008",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Cladosporium herbar",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-009",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "D.Farinae",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-010",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "D.Pteronissinus",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-011",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Escherichia coli",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-012",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Fusarium oxyspora",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-013",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Haemophilus influensa",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-014",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Klebsiella pneumoniae",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-015",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Mucor pusillus",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-016",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Penicillinum tardum",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-017",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Penicillum expansum",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-018",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Proteus mirabilis",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-019",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Proteus vulgaris",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-020",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Pseudomonas aeruginosa",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-021",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Rizopus nigricans",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-022",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Saccharomyces cerevisia",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-023",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Staphylococcus aureus",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-024",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Staphylococcus epidermidis",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-025",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Streptococcus mutants",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-026",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Streptococcus pneumonae",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-027",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Streptococcus pyogenes",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-028",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Абрикос",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-029",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Авокадо",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-030",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Азитромицин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-031",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Акация",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-032",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Амброксол",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-033",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Амоксициллин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-034",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Ампициллин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-035",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Анальгин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-036",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Ананас",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-037",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Апельсин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-038",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Арахис",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-039",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Арбуз",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-040",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Аспирин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-041",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Ацетилцистеин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-042",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Баклажан",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-043",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Банан",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-044",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Баранина",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-045",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Белок яйца кур",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-046",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Бензокаин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-047",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Береза",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-048",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Бобы",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-049",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Боромгексал",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-050",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Брусника",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-051",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Вата",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-052",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Виноград",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-053",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Витамин В10",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-054",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Витамин В12",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-055",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Витамин С",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-056",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Вишня",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-057",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Волос человека",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-058",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Гвоздика",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-059",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Гентамицин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-060",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Глютен",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-061",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Говядина",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-062",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Горбуша",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-063",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Горох",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-064",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Горчица",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-065",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Гранат",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-066",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Грейпфрут",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-067",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Грецкий орех",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-068",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Греча",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-069",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Грибы лесные",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-070",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Груша",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-071",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Дафния (клещи)",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-072",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Диклофенак",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-073",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Доксициклин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-074",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Дрожжи пекарские",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-075",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Дрожжи пивные",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-076",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Дыня",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-077",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Ель",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-078",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Желток яйца кур",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-079",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Животный белок",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-080",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Ибупрофен",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-081",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Икра красная",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-082",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Индометацин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-083",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Инсулин (чел)",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-084",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Йогурт",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-085",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Кабачки",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-086",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Казеин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-087",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Какао",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-088",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Кальмары",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-089",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Каптоприл",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-090",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Капуста белокочанная",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-091",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Капуста морская",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-092",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Капуста цветная",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-093",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Картофель",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-094",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Кетопрофен",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-095",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Кефир",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-096",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Кешью",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-097",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Киви",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-098",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Клубника",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-099",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Клюква",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-100",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Кокос",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-101",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Колбаса вареная",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-102",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Колбаса копченая",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-103",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Комар",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-104",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Кофе молотый",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-105",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Кофе растворимый",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-106",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Красная смородина",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-107",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Крахмал",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-108",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Креветки",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-109",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Крупа гречневая",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-110",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Крупа овсяная",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-111",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Крупа перловая",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-112",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Крупа рисовая",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-113",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Крупа ячменная",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-114",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Крыжовник",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-115",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Кукуруза",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-116",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Латекс",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-117",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Лебеда",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-118",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Лидокаин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-119",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Лимон",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-120",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Лосось",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-121",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Лук зеленый",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-122",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Лук репчатый",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-123",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Майонез",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-124",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Малина",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-125",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Мандарин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-126",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Масло оливковое",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-127",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Масло растительное",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-128",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Масло сливочное",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-129",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Мёд",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-130",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Мепивакаин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-131",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Метронидазол",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-132",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Микст луговых трав",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-133",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Микст пыльцы деревьев",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-134",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Микст сорных трав",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-135",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Миндаль",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-136",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Минтай",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-137",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Молоко козье",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-138",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Молоко коровье",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-139",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Молоко сухое",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-140",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Морковь",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-141",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Мука пшеничная",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-142",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Мука ржаная",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-143",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Муравей огненный",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-144",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Муха домашняя",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-145",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Мясо индейки",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-146",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Мясо кролика",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-147",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Мясо курицы",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-148",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Мясо утки",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-149",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Напроксен",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-150",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Неомицин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-151",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Новокаин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-152",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Норфлоксацин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-153",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Огурец",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-154",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Одуванчик",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-155",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Оксациллин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-156",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Окунь",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-157",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Оливки",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-158",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Ольха",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-159",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Парацетамол",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-160",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Пенициллин G",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-161",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Перец болгарский",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-162",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Перец черный",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-163",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Перечень одновременно определяемых аллергенов (90 пищевых аллергенов)",
+      "price": 14000
+    },
+    {
+      "id": "biotechmed-164",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Перо подушки",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-165",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Перо попугая",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-166",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Персик",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-167",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Печень говяжья",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-168",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Полиамидное волокно",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-169",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Преднизолон",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-170",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Пшеница",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-171",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Пшено",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-172",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Пыль библиотечная",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-173",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Пыль домашняя",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-174",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Рис",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-175",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Рифампицин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-176",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Рябина черноплодная",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-177",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Салат",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-178",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Сахар",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-179",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Свекла",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-180",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Свинина",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-181",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Сельдь",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-182",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Семга",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-183",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Семечки",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-184",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Сирень",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-185",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Скумбрия",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-186",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Слива",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-187",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Сметана",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-188",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Сорбит (заменитель сахара)",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-189",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Соя",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-190",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Стрептомицин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-191",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Табак",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-192",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Творог",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-193",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Телятина",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-194",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Теофиллин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-195",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Тетрациклин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-196",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Томаты",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-197",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Тополь",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-198",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Треска",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-199",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Тыква",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-200",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Укроп",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-201",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Ультракаин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-202",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Фадиатоп",
+      "price": 2450
+    },
+    {
+      "id": "biotechmed-203",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Фасоль",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-204",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Финики",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-205",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Фисташки",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-206",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Форель",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-207",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Фруктоза",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-208",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Фундук",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-209",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Хурма",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-210",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Цефаклор",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-211",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Цефалоспорин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-212",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Ципрофлоксацин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-213",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Чай черный",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-214",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Черешня",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-215",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Черная смородина",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-216",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Черника",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-217",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Чеснок",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-218",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Шерсть кошки",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-219",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Шерсть кролика",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-220",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Шерсть морской свинки",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-221",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Шерсть овцы",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-222",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Шерсть собаки",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-223",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Шоколад",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-224",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Щука",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-225",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Эозинофильный катионный протеин (ЕСР)",
+      "price": 2120
+    },
+    {
+      "id": "biotechmed-226",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Эритромицин",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-227",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Яблоко",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-228",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Яйцо куриное",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-229",
+      "categoryId": "allergological-status",
+      "code": "B03.002.004",
+      "title": "Яйцо перепелиное",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-230",
+      "categoryId": "anemia",
+      "code": null,
+      "title": "В 12",
+      "price": 850
+    },
+    {
+      "id": "biotechmed-231",
+      "categoryId": "anemia",
+      "code": "A09.05.007",
+      "title": "Железо",
+      "price": 250
+    },
+    {
+      "id": "biotechmed-232",
+      "categoryId": "anemia",
+      "code": null,
+      "title": "Железосвязывающая способность плазмы",
+      "price": 390
+    },
+    {
+      "id": "biotechmed-233",
+      "categoryId": "anemia",
+      "code": "A09.05.008",
+      "title": "Трансферрин",
+      "price": 610
+    },
+    {
+      "id": "biotechmed-234",
+      "categoryId": "anemia",
+      "code": "A09.05.076",
+      "title": "Ферритин",
+      "price": 600
+    },
+    {
+      "id": "biotechmed-235",
+      "categoryId": "anemia",
+      "code": "A09.05.080",
+      "title": "Фолиевая кислота",
+      "price": 980
+    },
+    {
+      "id": "biotechmed-236",
+      "categoryId": "anemia",
+      "code": "A09.05.082",
+      "title": "Эритропоэтин",
+      "price": 1250
+    },
+    {
+      "id": "biotechmed-237",
+      "categoryId": "autoimmune-pathology",
+      "code": null,
+      "title": "ENA-скрин (антитела к экстрагируемому нуклеарному антигену) (Ig A, G, M)",
+      "price": 1270
+    },
+    {
+      "id": "biotechmed-238",
+      "categoryId": "autoimmune-pathology",
+      "code": "A12.06.034",
+      "title": "HLA-В27 типирование",
+      "price": 1900
+    },
+    {
+      "id": "biotechmed-239",
+      "categoryId": "autoimmune-pathology",
+      "code": "A12.06.003",
+      "title": "LE клетки",
+      "price": 510
+    },
+    {
+      "id": "biotechmed-240",
+      "categoryId": "autoimmune-pathology",
+      "code": null,
+      "title": "SMA (антитела к гладкой мускулатуре)",
+      "price": 1800
+    },
+    {
+      "id": "biotechmed-241",
+      "categoryId": "autoimmune-pathology",
+      "code": null,
+      "title": "АЦЦП/anti-CCP (антитела к циклическому цитруллин-содержащему пептиду) (Ig A, G, M)",
+      "price": 2200
+    },
+    {
+      "id": "biotechmed-242",
+      "categoryId": "autoimmune-pathology",
+      "code": "A09.05.122",
+      "title": "Активность ангиотензинпревращающего фермента (Ig A, G, M)",
+      "price": 2420
+    },
+    {
+      "id": "biotechmed-243",
+      "categoryId": "autoimmune-pathology",
+      "code": null,
+      "title": "Аннексин V (Ig A, G, M)",
+      "price": 2310
+    },
+    {
+      "id": "biotechmed-244",
+      "categoryId": "autoimmune-pathology",
+      "code": "A12.06.043",
+      "title": "Анти ГРУППОВЫЕ антитела (Ig A, G, M)",
+      "price": 900
+    },
+    {
+      "id": "biotechmed-245",
+      "categoryId": "autoimmune-pathology",
+      "code": null,
+      "title": "Анти ОВАРИАЛЬНЫЕ антитела (Ig A, G, M)",
+      "price": 1470
+    },
+    {
+      "id": "biotechmed-246",
+      "categoryId": "autoimmune-pathology",
+      "code": null,
+      "title": "Анти РЕЗУСНЫЕ антитела (Ig A, G, M)",
+      "price": 850
+    },
+    {
+      "id": "biotechmed-247",
+      "categoryId": "autoimmune-pathology",
+      "code": "A12.06.028",
+      "title": "Анти СПЕРМАЛЬНЫЕ антитела (Ig A, G, M)",
+      "price": 1300
+    },
+    {
+      "id": "biotechmed-248",
+      "categoryId": "autoimmune-pathology",
+      "code": null,
+      "title": "Антикератиновые антитела (Ig A, G, M)",
+      "price": 1210
+    },
+    {
+      "id": "biotechmed-249",
+      "categoryId": "autoimmune-pathology",
+      "code": null,
+      "title": "Антиперинуклеарный фактор (Ig A, G, M)",
+      "price": 1110
+    },
+    {
+      "id": "biotechmed-250",
+      "categoryId": "autoimmune-pathology",
+      "code": null,
+      "title": "Антитела к Zona pelucida (Ig A, G, M)",
+      "price": 1800
+    },
+    {
+      "id": "biotechmed-251",
+      "categoryId": "autoimmune-pathology",
+      "code": null,
+      "title": "Антитела к аннексину V (Ig A, G, M)",
+      "price": 2310
+    },
+    {
+      "id": "biotechmed-252",
+      "categoryId": "autoimmune-pathology",
+      "code": "A12.06.009",
+      "title": "Антитела к базальной мембране клубочка (Ig A, G, M)",
+      "price": 1540
+    },
+    {
+      "id": "biotechmed-253",
+      "categoryId": "autoimmune-pathology",
+      "code": null,
+      "title": "Антитела к бета-2 гликопротеину (Ig G)",
+      "price": 1390
+    },
+    {
+      "id": "biotechmed-254",
+      "categoryId": "autoimmune-pathology",
+      "code": null,
+      "title": "Антитела к виментину (Ig A, G, M)",
+      "price": 1390
+    },
+    {
+      "id": "biotechmed-255",
+      "categoryId": "autoimmune-pathology",
+      "code": "A12.06.010",
+      "title": "Антитела к двуспиральной ДНК (Ig G)",
+      "price": 1110
+    },
+    {
+      "id": "biotechmed-256",
+      "categoryId": "autoimmune-pathology",
+      "code": "A12.06.029",
+      "title": "Антитела к кардиолипину (Ig G)",
+      "price": 1790
+    },
+    {
+      "id": "biotechmed-257",
+      "categoryId": "autoimmune-pathology",
+      "code": null,
+      "title": "Антитела к миелопероксидазе (Ig A, G, M)",
+      "price": 1330
+    },
+    {
+      "id": "biotechmed-258",
+      "categoryId": "autoimmune-pathology",
+      "code": "A12.06.035",
+      "title": "Антитела к митохондриям (Ig A, G, M)",
+      "price": 1760
+    },
+    {
+      "id": "biotechmed-259",
+      "categoryId": "autoimmune-pathology",
+      "code": null,
+      "title": "Антитела к нуклеосомам (Ig G)",
+      "price": 1380
+    },
+    {
+      "id": "biotechmed-260",
+      "categoryId": "autoimmune-pathology",
+      "code": null,
+      "title": "Антитела к протеиназе 3 (Ig A, G, M)",
+      "price": 1380
+    },
+    {
+      "id": "biotechmed-261",
+      "categoryId": "autoimmune-pathology",
+      "code": null,
+      "title": "Антитела к тканевой трансглутамазе (Ig A)",
+      "price": 1800
+    },
+    {
+      "id": "biotechmed-262",
+      "categoryId": "autoimmune-pathology",
+      "code": null,
+      "title": "Антитела к ткани плаценты (Ig A, G, M)",
+      "price": 2000
+    },
+    {
+      "id": "biotechmed-263",
+      "categoryId": "autoimmune-pathology",
+      "code": "A12.06.037",
+      "title": "Антитела к цитоплазме нейтрофилов (АНЦА) (Ig A, G, M)",
+      "price": 1470
+    },
+    {
+      "id": "biotechmed-264",
+      "categoryId": "autoimmune-pathology",
+      "code": null,
+      "title": "Антитела к эндомизию (Ig A, G, M)",
+      "price": 1500
+    },
+    {
+      "id": "biotechmed-265",
+      "categoryId": "autoimmune-pathology",
+      "code": null,
+      "title": "Антитела к эндотелию (Ig A, G, M)",
+      "price": 1760
+    },
+    {
+      "id": "biotechmed-266",
+      "categoryId": "autoimmune-pathology",
+      "code": "A12.06.030",
+      "title": "Антифосфолипидные антитела (Ig A, G, M)",
+      "price": 1160
+    },
+    {
+      "id": "biotechmed-267",
+      "categoryId": "autoimmune-pathology",
+      "code": null,
+      "title": "Антиядерные антитела (антинуклеарный фактор) (Ig A, G, M)",
+      "price": 1150
+    },
+    {
+      "id": "biotechmed-268",
+      "categoryId": "autoimmune-pathology",
+      "code": null,
+      "title": "Определение резус-фактора плода по крови матери",
+      "price": 5830
+    },
+    {
+      "id": "biotechmed-269",
+      "categoryId": "autoimmune-pathology",
+      "code": "A09.05.074",
+      "title": "ЦИК (циркулирующие иммунные комплексы)",
+      "price": 710
+    },
+    {
+      "id": "biotechmed-270",
+      "categoryId": "osteoporosis",
+      "code": "A09.05.221",
+      "title": "25 (ОН) Витамин D",
+      "price": 1800
+    },
+    {
+      "id": "biotechmed-271",
+      "categoryId": "osteoporosis",
+      "code": null,
+      "title": "Beta-Cross laps",
+      "price": 1100
+    },
+    {
+      "id": "biotechmed-272",
+      "categoryId": "osteoporosis",
+      "code": null,
+      "title": "P1NP (маркер синтеза кости)",
+      "price": 2200
+    },
+    {
+      "id": "biotechmed-273",
+      "categoryId": "osteoporosis",
+      "code": "A09.05.224",
+      "title": "Остеокальцин",
+      "price": 940
+    },
+    {
+      "id": "biotechmed-274",
+      "categoryId": "osteoporosis",
+      "code": "A09.05.058",
+      "title": "Паратгормон",
+      "price": 850
+    },
+    {
+      "id": "biotechmed-275",
+      "categoryId": "osteoporosis",
+      "code": null,
+      "title": "Пиридинолин (моча) ДПИД",
+      "price": 2000
+    },
+    {
+      "id": "biotechmed-276",
+      "categoryId": "osteoporosis",
+      "code": "A09.05.212",
+      "title": "Соматомедин (ИФР-1)",
+      "price": 1560
+    },
+    {
+      "id": "biotechmed-277",
+      "categoryId": "diabetes-assessment",
+      "code": null,
+      "title": "Антитела к GAD",
+      "price": 1950
+    },
+    {
+      "id": "biotechmed-278",
+      "categoryId": "diabetes-assessment",
+      "code": "A12.06.039",
+      "title": "Антитела к инсулину",
+      "price": 960
+    },
+    {
+      "id": "biotechmed-279",
+      "categoryId": "diabetes-assessment",
+      "code": null,
+      "title": "Антитела к клеткам Лангерганса",
+      "price": 1360
+    },
+    {
+      "id": "biotechmed-280",
+      "categoryId": "diabetes-assessment",
+      "code": "A09.30.011",
+      "title": "Гликозилированный Нb",
+      "price": 700
+    },
+    {
+      "id": "biotechmed-281",
+      "categoryId": "diabetes-assessment",
+      "code": "A09.05.023",
+      "title": "Глюкоза",
+      "price": 240
+    },
+    {
+      "id": "biotechmed-282",
+      "categoryId": "diabetes-assessment",
+      "code": "A09.05.056",
+      "title": "Инсулин",
+      "price": 680
+    },
+    {
+      "id": "biotechmed-283",
+      "categoryId": "diabetes-assessment",
+      "code": "A09.05.159",
+      "title": "Лептин",
+      "price": 970
+    },
+    {
+      "id": "biotechmed-284",
+      "categoryId": "diabetes-assessment",
+      "code": "A09.28.003.001",
+      "title": "Микроальбумин мочи",
+      "price": 760
+    },
+    {
+      "id": "biotechmed-285",
+      "categoryId": "diabetes-assessment",
+      "code": null,
+      "title": "Проинсулин",
+      "price": 1170
+    },
+    {
+      "id": "biotechmed-286",
+      "categoryId": "diabetes-assessment",
+      "code": "A09.05.205",
+      "title": "С-пептид",
+      "price": 700
+    },
+    {
+      "id": "biotechmed-287",
+      "categoryId": "diabetes-assessment",
+      "code": null,
+      "title": "Фруктозамин",
+      "price": 800
+    },
+    {
+      "id": "biotechmed-288",
+      "categoryId": "gastrointestinal-pathology",
+      "code": null,
+      "title": "Ig A к дезаминированным пептидам глиадина",
+      "price": 920
+    },
+    {
+      "id": "biotechmed-289",
+      "categoryId": "gastrointestinal-pathology",
+      "code": null,
+      "title": "Ig G к дезаминированным пептидам глиадина",
+      "price": 920
+    },
+    {
+      "id": "biotechmed-290",
+      "categoryId": "gastrointestinal-pathology",
+      "code": "A12.06.026",
+      "title": "Антитела к париетальным клеткам желудка",
+      "price": 1550
+    },
+    {
+      "id": "biotechmed-291",
+      "categoryId": "gastrointestinal-pathology",
+      "code": "A09.05.057",
+      "title": "Гастрин",
+      "price": 1380
+    },
+    {
+      "id": "biotechmed-292",
+      "categoryId": "gastrointestinal-pathology",
+      "code": null,
+      "title": "Пепсиноген I",
+      "price": 1300
+    },
+    {
+      "id": "biotechmed-293",
+      "categoryId": "gastrointestinal-pathology",
+      "code": null,
+      "title": "Пепсиноген II",
+      "price": 1300
+    },
+    {
+      "id": "biotechmed-294",
+      "categoryId": "gastrointestinal-pathology",
+      "code": null,
+      "title": "Уреазный дыхательный тест на Helicobacter pylori с С-мочевиной",
+      "price": 2600
+    },
+    {
+      "id": "biotechmed-295",
+      "categoryId": "prenatal-diagnostics",
+      "code": null,
+      "title": "PAPP-A и ХГЧ на сроке 9-13 недель",
+      "price": 1500
+    },
+    {
+      "id": "biotechmed-296",
+      "categoryId": "prenatal-diagnostics",
+      "code": null,
+      "title": "АФП и ХГЧ на сроке 15-18 недель",
+      "price": 1100
+    },
+    {
+      "id": "biotechmed-297",
+      "categoryId": "multiple-sclerosis",
+      "code": "A09.05.106.005",
+      "title": "Олигоклонаотный Ig G, каппа и лямбда цепи в сыворотке крови и ликворе",
+      "price": 4070
+    },
+    {
+      "id": "biotechmed-298",
+      "categoryId": "cardiovascular-pathology",
+      "code": null,
+      "title": "Pro-BNP (ранний маркер сердечно-сосудистой недостаточности)",
+      "price": 2900
+    },
+    {
+      "id": "biotechmed-299",
+      "categoryId": "cardiovascular-pathology",
+      "code": "A12.06.023",
+      "title": "Антитела к миокарду",
+      "price": 1150
+    },
+    {
+      "id": "biotechmed-300",
+      "categoryId": "cardiovascular-pathology",
+      "code": "A09.05.043",
+      "title": "Креатинкиназа МВ",
+      "price": 590
+    },
+    {
+      "id": "biotechmed-301",
+      "categoryId": "cardiovascular-pathology",
+      "code": "A09.05.006",
+      "title": "Миоглобин",
+      "price": 850
+    },
+    {
+      "id": "biotechmed-302",
+      "categoryId": "cardiovascular-pathology",
+      "code": "A09.05.193",
+      "title": "Тропонин I",
+      "price": 850
+    },
+    {
+      "id": "biotechmed-303",
+      "categoryId": "bacteriology",
+      "code": null,
+      "title": "Candida spp с определением чувствительности микроорганизмов к антибиотикам",
+      "price": 880
+    },
+    {
+      "id": "biotechmed-304",
+      "categoryId": "bacteriology",
+      "code": "A26.20.004",
+      "title": "Chlamydia trachomatis с определением чувствительности микроорганизмов к антибиотикам",
+      "price": 880
+    },
+    {
+      "id": "biotechmed-305",
+      "categoryId": "bacteriology",
+      "code": null,
+      "title": "Gardnerella vaginalis с определением чувствительности микроорганизмов к антибиотикам",
+      "price": 880
+    },
+    {
+      "id": "biotechmed-306",
+      "categoryId": "bacteriology",
+      "code": null,
+      "title": "Haemophilus spp (посев на гемофильную палочку)",
+      "price": 700
+    },
+    {
+      "id": "biotechmed-307",
+      "categoryId": "bacteriology",
+      "code": null,
+      "title": "Mycoplasma hominis с определением чувствительности микроорганизмов к антибиотикам",
+      "price": 880
+    },
+    {
+      "id": "biotechmed-308",
+      "categoryId": "bacteriology",
+      "code": "A26.20.002",
+      "title": "Neisseria gonorrhoeae с определением чувствительности микроорганизмов к антибиотикам",
+      "price": 880
+    },
+    {
+      "id": "biotechmed-309",
+      "categoryId": "bacteriology",
+      "code": null,
+      "title": "Neisseria meningitis с определением чувствительности микроорганизмов к антибиотикам",
+      "price": 880
+    },
+    {
+      "id": "biotechmed-310",
+      "categoryId": "bacteriology",
+      "code": null,
+      "title": "Staphylococcus aureus с определением чувствительности к антибиотикам",
+      "price": 700
+    },
+    {
+      "id": "biotechmed-311",
+      "categoryId": "bacteriology",
+      "code": null,
+      "title": "Streptococcus spp с определением чувствительности микроорганизмов к антибиотикам",
+      "price": 700
+    },
+    {
+      "id": "biotechmed-312",
+      "categoryId": "bacteriology",
+      "code": null,
+      "title": "Trichomonas vaginalis с определением чувствительности микроорганизмов к антибиотикам",
+      "price": 880
+    },
+    {
+      "id": "biotechmed-313",
+      "categoryId": "bacteriology",
+      "code": "A26.20.005",
+      "title": "Ureaplasma urealitucum с определением чувствительности микроорганизмов к антибиотикам",
+      "price": 880
+    },
+    {
+      "id": "biotechmed-314",
+      "categoryId": "bacteriology",
+      "code": null,
+      "title": "Бактериологическое исследование материала на микрофлору с определением чувствительности к антибиотикам",
+      "price": 1100
+    },
+    {
+      "id": "biotechmed-315",
+      "categoryId": "bacteriology",
+      "code": null,
+      "title": "Микроскопическое исследование на Corynebacterium pseudodiphtheriticum (дифтерия)",
+      "price": 700
+    },
+    {
+      "id": "biotechmed-316",
+      "categoryId": "bacteriology",
+      "code": null,
+      "title": "Посев на возбудителей дизентерии и сальмонеллеза",
+      "price": 700
+    },
+    {
+      "id": "biotechmed-317",
+      "categoryId": "bacteriology",
+      "code": null,
+      "title": "Посев на иерсинии",
+      "price": 700
+    },
+    {
+      "id": "biotechmed-318",
+      "categoryId": "bacteriology",
+      "code": null,
+      "title": "Посев на кампилобактерии",
+      "price": 880
+    },
+    {
+      "id": "biotechmed-319",
+      "categoryId": "bacteriology",
+      "code": null,
+      "title": "Посев на патогенные грибы и дерматофиты с определением чувствительности к антимикотикам",
+      "price": 1100
+    },
+    {
+      "id": "biotechmed-320",
+      "categoryId": "bacteriology",
+      "code": null,
+      "title": "Посев на условно-патогенных возбудителей кишечных инфекций",
+      "price": 880
+    },
+    {
+      "id": "biotechmed-321",
+      "categoryId": "biochemistry",
+      "code": "A09.05.042",
+      "title": "АЛТ (Аланинаминотрансфераза)",
+      "price": 240
+    },
+    {
+      "id": "biotechmed-322",
+      "categoryId": "biochemistry",
+      "code": "A09.05.011",
+      "title": "Альбумин",
+      "price": 270
+    },
+    {
+      "id": "biotechmed-323",
+      "categoryId": "biochemistry",
+      "code": "A09.05.045",
+      "title": "Альфа-амилаза",
+      "price": 270
+    },
+    {
+      "id": "biotechmed-324",
+      "categoryId": "biochemistry",
+      "code": "A09.05.073",
+      "title": "Альфа1-антитрипсин",
+      "price": 830
+    },
+    {
+      "id": "biotechmed-325",
+      "categoryId": "biochemistry",
+      "code": "A12.06.015",
+      "title": "Антистрептолизин-О (ASL-O)",
+      "price": 440
+    },
+    {
+      "id": "biotechmed-326",
+      "categoryId": "biochemistry",
+      "code": null,
+      "title": "Аполипопротеин А1",
+      "price": 690
+    },
+    {
+      "id": "biotechmed-327",
+      "categoryId": "biochemistry",
+      "code": null,
+      "title": "Аполипопротеин В",
+      "price": 670
+    },
+    {
+      "id": "biotechmed-328",
+      "categoryId": "biochemistry",
+      "code": "A09.05.041",
+      "title": "АСТ (Аспартатаминотрансфераза)",
+      "price": 240
+    },
+    {
+      "id": "biotechmed-329",
+      "categoryId": "biochemistry",
+      "code": "A09.05.014",
+      "title": "Белковые фракции",
+      "price": 610
+    },
+    {
+      "id": "biotechmed-330",
+      "categoryId": "biochemistry",
+      "code": "A09.05.021",
+      "title": "Билирубин (общий, прямой, непрямой)",
+      "price": 420
+    },
+    {
+      "id": "biotechmed-331",
+      "categoryId": "biochemistry",
+      "code": "A09.05.044",
+      "title": "Гамма-ГТ (Гамма-глутамилтрансфераза)",
+      "price": 240
+    },
+    {
+      "id": "biotechmed-332",
+      "categoryId": "biochemistry",
+      "code": "A09.05.214",
+      "title": "Гомоцистеин",
+      "price": 1550
+    },
+    {
+      "id": "biotechmed-333",
+      "categoryId": "biochemistry",
+      "code": "A09.05.031",
+      "title": "Калий",
+      "price": 260
+    },
+    {
+      "id": "biotechmed-334",
+      "categoryId": "biochemistry",
+      "code": null,
+      "title": "Калий, Натрий, Кальций ионизированный",
+      "price": 470
+    },
+    {
+      "id": "biotechmed-335",
+      "categoryId": "biochemistry",
+      "code": "A09.05.032",
+      "title": "Кальций общий",
+      "price": 270
+    },
+    {
+      "id": "biotechmed-336",
+      "categoryId": "biochemistry",
+      "code": "A09.05.020",
+      "title": "Креатинин",
+      "price": 240
+    },
+    {
+      "id": "biotechmed-337",
+      "categoryId": "biochemistry",
+      "code": "A09.05.043",
+      "title": "КФК (Креатинфосфокиназа)",
+      "price": 320
+    },
+    {
+      "id": "biotechmed-338",
+      "categoryId": "biochemistry",
+      "code": null,
+      "title": "Лактат",
+      "price": 750
+    },
+    {
+      "id": "biotechmed-339",
+      "categoryId": "biochemistry",
+      "code": "A09.05.039",
+      "title": "ЛДГ (Лактатдегидрогеназа)",
+      "price": 220
+    },
+    {
+      "id": "biotechmed-340",
+      "categoryId": "biochemistry",
+      "code": null,
+      "title": "ЛДГ (Лактатдегидрогеназа) 1й изофермент",
+      "price": 520
+    },
+    {
+      "id": "biotechmed-341",
+      "categoryId": "biochemistry",
+      "code": "A09.05.173",
+      "title": "Липаза",
+      "price": 380
+    },
+    {
+      "id": "biotechmed-342",
+      "categoryId": "biochemistry",
+      "code": "A09.05.024",
+      "title": "Липидный спектр (холестерин, триглицериды, ЛПВП, ЛПНП, ЛПОНП, индекс атерогенности)",
+      "price": 720
+    },
+    {
+      "id": "biotechmed-343",
+      "categoryId": "biochemistry",
+      "code": "A09.05.004",
+      "title": "Липопротеин (а)",
+      "price": 1050
+    },
+    {
+      "id": "biotechmed-344",
+      "categoryId": "biochemistry",
+      "code": "A09.05.127",
+      "title": "Магний",
+      "price": 270
+    },
+    {
+      "id": "biotechmed-345",
+      "categoryId": "biochemistry",
+      "code": "A09.05.018",
+      "title": "Мочевая кислота",
+      "price": 240
+    },
+    {
+      "id": "biotechmed-346",
+      "categoryId": "biochemistry",
+      "code": "A09.05.017",
+      "title": "Мочевина",
+      "price": 240
+    },
+    {
+      "id": "biotechmed-347",
+      "categoryId": "biochemistry",
+      "code": "A09.05.030",
+      "title": "Натрий",
+      "price": 260
+    },
+    {
+      "id": "biotechmed-348",
+      "categoryId": "biochemistry",
+      "code": "A09.05.010",
+      "title": "Общий белок",
+      "price": 240
+    },
+    {
+      "id": "biotechmed-349",
+      "categoryId": "biochemistry",
+      "code": "A09.05.045",
+      "title": "Панкреатическая амилаза",
+      "price": 460
+    },
+    {
+      "id": "biotechmed-350",
+      "categoryId": "biochemistry",
+      "code": "A12.06.019",
+      "title": "Ревматоидный фактор",
+      "price": 460
+    },
+    {
+      "id": "biotechmed-351",
+      "categoryId": "biochemistry",
+      "code": "A09.05.009",
+      "title": "С-Реактивный белок",
+      "price": 460
+    },
+    {
+      "id": "biotechmed-352",
+      "categoryId": "biochemistry",
+      "code": "A09.05.025",
+      "title": "Триглицериды",
+      "price": 240
+    },
+    {
+      "id": "biotechmed-353",
+      "categoryId": "biochemistry",
+      "code": null,
+      "title": "Фосфатаза кислая",
+      "price": 400
+    },
+    {
+      "id": "biotechmed-354",
+      "categoryId": "biochemistry",
+      "code": "A09.05.046",
+      "title": "Фосфатаза щелочная",
+      "price": 230
+    },
+    {
+      "id": "biotechmed-355",
+      "categoryId": "biochemistry",
+      "code": "A09.05.033",
+      "title": "Фосфор",
+      "price": 270
+    },
+    {
+      "id": "biotechmed-356",
+      "categoryId": "biochemistry",
+      "code": "A09.05.034",
+      "title": "Хлор",
+      "price": 370
+    },
+    {
+      "id": "biotechmed-357",
+      "categoryId": "biochemistry",
+      "code": "A09.05.026",
+      "title": "Холестерин общий",
+      "price": 250
+    },
+    {
+      "id": "biotechmed-358",
+      "categoryId": "biochemistry",
+      "code": "A09.05.174",
+      "title": "Холинэстераза",
+      "price": 400
+    },
+    {
+      "id": "biotechmed-359",
+      "categoryId": "biochemistry",
+      "code": "A09.05.077",
+      "title": "Церулоплазмин",
+      "price": 820
+    },
+    {
+      "id": "biotechmed-360",
+      "categoryId": "hormones",
+      "code": "A09.05.139",
+      "title": "17-OH Прогестерон",
+      "price": 630
+    },
+    {
+      "id": "biotechmed-361",
+      "categoryId": "hormones",
+      "code": "A09.05.067",
+      "title": "АКТГ",
+      "price": 820
+    },
+    {
+      "id": "biotechmed-362",
+      "categoryId": "hormones",
+      "code": "A09.05.069",
+      "title": "Альдостерон",
+      "price": 880
+    },
+    {
+      "id": "biotechmed-363",
+      "categoryId": "hormones",
+      "code": "A09.05.146",
+      "title": "Андростендион",
+      "price": 1030
+    },
+    {
+      "id": "biotechmed-364",
+      "categoryId": "hormones",
+      "code": "A09.05.225",
+      "title": "Антимюллеровский гормон",
+      "price": 1400
+    },
+    {
+      "id": "biotechmed-365",
+      "categoryId": "hormones",
+      "code": "A12.06.046",
+      "title": "Антитела к рецепторам ТТГ",
+      "price": 1760
+    },
+    {
+      "id": "biotechmed-366",
+      "categoryId": "hormones",
+      "code": "A09.05.117",
+      "title": "АТ-ТГ (Антитела к тиреоглобулину)",
+      "price": 580
+    },
+    {
+      "id": "biotechmed-367",
+      "categoryId": "hormones",
+      "code": "A12.06.045",
+      "title": "АТ-ТПО",
+      "price": 560
+    },
+    {
+      "id": "biotechmed-368",
+      "categoryId": "hormones",
+      "code": "A09.05.150",
+      "title": "Дигидротестостерон (ДГТ)",
+      "price": 1600
+    },
+    {
+      "id": "biotechmed-369",
+      "categoryId": "hormones",
+      "code": "A09.05.149",
+      "title": "ДЭА-S (дигидроэпиандростерона сульфат)",
+      "price": 520
+    },
+    {
+      "id": "biotechmed-370",
+      "categoryId": "hormones",
+      "code": "A09.05.218",
+      "title": "Ингибин В",
+      "price": 1520
+    },
+    {
+      "id": "biotechmed-371",
+      "categoryId": "hormones",
+      "code": "A09.05.119",
+      "title": "Кальцитонин",
+      "price": 1220
+    },
+    {
+      "id": "biotechmed-372",
+      "categoryId": "hormones",
+      "code": "A09.05.135",
+      "title": "Кортизол",
+      "price": 440
+    },
+    {
+      "id": "biotechmed-373",
+      "categoryId": "hormones",
+      "code": "A09.05.031",
+      "title": "ЛГ (Лютеинизирующий гормон)",
+      "price": 470
+    },
+    {
+      "id": "biotechmed-374",
+      "categoryId": "hormones",
+      "code": "A09.05.210",
+      "title": "Макропролактин",
+      "price": 900
+    },
+    {
+      "id": "biotechmed-375",
+      "categoryId": "hormones",
+      "code": "A09.05.153",
+      "title": "Прогестерон",
+      "price": 470
+    },
+    {
+      "id": "biotechmed-376",
+      "categoryId": "hormones",
+      "code": "A09.05.209",
+      "title": "Прокальцитонин",
+      "price": 2100
+    },
+    {
+      "id": "biotechmed-377",
+      "categoryId": "hormones",
+      "code": "A09.05.087",
+      "title": "Пролактин",
+      "price": 465
+    },
+    {
+      "id": "biotechmed-378",
+      "categoryId": "hormones",
+      "code": "A09.05.210",
+      "title": "Пролактин (мономер)",
+      "price": 650
+    },
+    {
+      "id": "biotechmed-379",
+      "categoryId": "hormones",
+      "code": "A09.05.121",
+      "title": "Ренин",
+      "price": 1330
+    },
+    {
+      "id": "biotechmed-380",
+      "categoryId": "hormones",
+      "code": "A09.05.160",
+      "title": "Секс, связывающий глобулин (ГСПГ, ССГ, SHBG)",
+      "price": 520
+    },
+    {
+      "id": "biotechmed-381",
+      "categoryId": "hormones",
+      "code": "A09.05.066",
+      "title": "СТГ (Соматотропный гормон)",
+      "price": 620
+    },
+    {
+      "id": "biotechmed-382",
+      "categoryId": "hormones",
+      "code": null,
+      "title": "Т-захват",
+      "price": 880
+    },
+    {
+      "id": "biotechmed-383",
+      "categoryId": "hormones",
+      "code": "A09.05.060",
+      "title": "Т3 (Трийодтиронин)",
+      "price": 460
+    },
+    {
+      "id": "biotechmed-384",
+      "categoryId": "hormones",
+      "code": "A09.05.061",
+      "title": "Т3 свободный",
+      "price": 460
+    },
+    {
+      "id": "biotechmed-385",
+      "categoryId": "hormones",
+      "code": "A09.05.064",
+      "title": "Т4 (Тироксин)",
+      "price": 460
+    },
+    {
+      "id": "biotechmed-386",
+      "categoryId": "hormones",
+      "code": "A09.05.063",
+      "title": "Т4 свободный",
+      "price": 460
+    },
+    {
+      "id": "biotechmed-387",
+      "categoryId": "hormones",
+      "code": "A09.05.078",
+      "title": "Тестостерон",
+      "price": 460
+    },
+    {
+      "id": "biotechmed-388",
+      "categoryId": "hormones",
+      "code": "A09.05.078",
+      "title": "Тестостерон свободный",
+      "price": 1050
+    },
+    {
+      "id": "biotechmed-389",
+      "categoryId": "hormones",
+      "code": "A09.05.065",
+      "title": "ТТГ (Тиреотропный гормон)",
+      "price": 410
+    },
+    {
+      "id": "biotechmed-390",
+      "categoryId": "hormones",
+      "code": "A09.05.132",
+      "title": "ФСГ (Фолликулостимулирующий гормон)",
+      "price": 460
+    },
+    {
+      "id": "biotechmed-391",
+      "categoryId": "hormones",
+      "code": "A09.05.154",
+      "title": "Эстрадиол (Е 2)",
+      "price": 470
+    },
+    {
+      "id": "biotechmed-392",
+      "categoryId": "smears",
+      "code": "A08.20.012",
+      "title": "Мазок на онкоцитологию",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-393",
+      "categoryId": "smears",
+      "code": "A26.20.001",
+      "title": "Мазок на флору",
+      "price": 450
+    },
+    {
+      "id": "biotechmed-394",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Adenovirus (аденовирусы) ПЦР",
+      "price": 750
+    },
+    {
+      "id": "biotechmed-395",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Bacteroides spp. (бактероиды) ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-396",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Bordеtella pertussis (коклюш) ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-397",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Bordеtella pertussis (коклюш, паракоклюш) РА",
+      "price": 750
+    },
+    {
+      "id": "biotechmed-398",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Candida albicans ИФА Ig A (антитела класса А)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-399",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Candida albicans ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-400",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Candida albicans ИФА Ig М (антитела класса М)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-401",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Candida albicans посев на культуральные среды",
+      "price": 830
+    },
+    {
+      "id": "biotechmed-402",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Candida albicans ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-403",
+      "categoryId": "infections",
+      "code": "A26.06.016",
+      "title": "Chlamidia pneumoniaе ИФА Ig A (антитела класса А)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-404",
+      "categoryId": "infections",
+      "code": "A26.06.016",
+      "title": "Chlamidia pneumoniaе ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-405",
+      "categoryId": "infections",
+      "code": "A26.06.016",
+      "title": "Chlamidia pneumoniaе ИФА Ig М (антитела класса М)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-406",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Chlamidia pneumoniaе ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-407",
+      "categoryId": "infections",
+      "code": "A26.06.018",
+      "title": "Chlamydia trachomatis ИФА Ig A (антитела класса А)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-408",
+      "categoryId": "infections",
+      "code": "A26.06.018",
+      "title": "Chlamydia trachomatis ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-409",
+      "categoryId": "infections",
+      "code": "A26.06.018",
+      "title": "Chlamydia trachomatis ИФА Ig М (антитела класса М)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-410",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Chlamydia trachomatis Количественный ПЦР (REAL TIME)",
+      "price": 570
+    },
+    {
+      "id": "biotechmed-411",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Chlamydia trachomatis посев на культуральные среды с антибактериальной чувствительностью",
+      "price": 850
+    },
+    {
+      "id": "biotechmed-412",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Chlamydia trachomatis ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-413",
+      "categoryId": "infections",
+      "code": "A26.06.022",
+      "title": "CMV (цитомегаловирус – HHV5) ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-414",
+      "categoryId": "infections",
+      "code": null,
+      "title": "CMV (цитомегаловирус – HHV5) ИФА Ig G титр (антитела класса G)",
+      "price": 550
+    },
+    {
+      "id": "biotechmed-415",
+      "categoryId": "infections",
+      "code": "A26.06.022",
+      "title": "CMV (цитомегаловирус – HHV5) ИФА Ig М (антитела класса М)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-416",
+      "categoryId": "infections",
+      "code": null,
+      "title": "CMV (цитомегаловирус – HHV5) ИФА АВИДНОСТЬ Ig G",
+      "price": 600
+    },
+    {
+      "id": "biotechmed-417",
+      "categoryId": "infections",
+      "code": null,
+      "title": "CMV (цитомегаловирус – HHV5) ИФА антитела к предраннему белку",
+      "price": 470
+    },
+    {
+      "id": "biotechmed-418",
+      "categoryId": "infections",
+      "code": null,
+      "title": "CMV (цитомегаловирус – HHV5) количественный ПЦР(REAL TIME)",
+      "price": 570
+    },
+    {
+      "id": "biotechmed-419",
+      "categoryId": "infections",
+      "code": null,
+      "title": "CMV (цитомегаловирус – HHV5) ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-420",
+      "categoryId": "infections",
+      "code": null,
+      "title": "E. colli (кишечная палочка) ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-421",
+      "categoryId": "infections",
+      "code": "A26.06.029",
+      "title": "EBV (вирус Эпштейн-Барра – HHV4) ИФА Ig G (антитела класса G к капсидному антигену)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-422",
+      "categoryId": "infections",
+      "code": "A26.06.029",
+      "title": "EBV (вирус Эпштейн-Барра – HHV4) ИФА Ig М (антитела класса М к капсидному антигену)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-423",
+      "categoryId": "infections",
+      "code": "A26.06.030",
+      "title": "EBV (вирус Эпштейн-Барра – HHV4) ИФА а/т к раннему антигену",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-424",
+      "categoryId": "infections",
+      "code": "A26.06.030",
+      "title": "EBV (вирус Эпштейн-Барра – HHV4) ИФА а/т к ядерному антигену",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-425",
+      "categoryId": "infections",
+      "code": null,
+      "title": "EBV (вирус Эпштейн-Барра – HHV4) ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-426",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Enterovirus (энтеровирусы) ПЦР",
+      "price": 700
+    },
+    {
+      "id": "biotechmed-427",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Gardnerella vaginalis ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-428",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Gardnerella vaginalis количественный ПЦР (REAL TIME)",
+      "price": 570
+    },
+    {
+      "id": "biotechmed-429",
+      "categoryId": "infections",
+      "code": "A26.06.047",
+      "title": "HHV 6 (вирус герпеса 6 типа) ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-430",
+      "categoryId": "infections",
+      "code": null,
+      "title": "HHV 6 (вирус герпеса 6 типа) ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-431",
+      "categoryId": "infections",
+      "code": "A26.06.047",
+      "title": "HHV 8 (вирус герпеса 8 типа) ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-432",
+      "categoryId": "infections",
+      "code": null,
+      "title": "HHV 8 (вирус герпеса 8 типа) ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-433",
+      "categoryId": "infections",
+      "code": null,
+      "title": "HPV (вирус папилломы человека) скрининг ПЦР (16, 18, 31, 33, 35, 39, 45, 52, 53, 56, 58, 59, 66, 70)",
+      "price": 570
+    },
+    {
+      "id": "biotechmed-434",
+      "categoryId": "infections",
+      "code": null,
+      "title": "HPV (вирус папилломы) генотип ПЦР (16, 18, 31, 33, 35, 39, 45, 52, 56, 58, 59)",
+      "price": 1000
+    },
+    {
+      "id": "biotechmed-435",
+      "categoryId": "infections",
+      "code": null,
+      "title": "HPV (вирус папилломы) скрининг количественно+ онкогены (Е6)",
+      "price": 1500
+    },
+    {
+      "id": "biotechmed-436",
+      "categoryId": "infections",
+      "code": null,
+      "title": "HPV (вирус папилломы) скрининг количественный ПЦР (REAL TIME)",
+      "price": 1700
+    },
+    {
+      "id": "biotechmed-437",
+      "categoryId": "infections",
+      "code": null,
+      "title": "HPV 16 (вирус папилломы) КОЛИЧЕСТВЕННЫЙ ПЦР(REAL TIME)",
+      "price": 570
+    },
+    {
+      "id": "biotechmed-438",
+      "categoryId": "infections",
+      "code": null,
+      "title": "HPV 16, 18 (вирус папилломы) ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-439",
+      "categoryId": "infections",
+      "code": null,
+      "title": "HPV 18 (вирус папилломы) КОЛИЧЕСТВЕННЫЙ ПЦР(REAL TIME)",
+      "price": 570
+    },
+    {
+      "id": "biotechmed-440",
+      "categoryId": "infections",
+      "code": null,
+      "title": "HPV 26/51 (вирус папилломы) ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-441",
+      "categoryId": "infections",
+      "code": null,
+      "title": "HPV 31/33 (вирус папилломы) ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-442",
+      "categoryId": "infections",
+      "code": null,
+      "title": "HPV 6/11 (вирус папилломы) ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-443",
+      "categoryId": "infections",
+      "code": null,
+      "title": "HSV 1 (вирус герпеса 1 типа) ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-444",
+      "categoryId": "infections",
+      "code": "A26.06.045",
+      "title": "HSV 1, 2 (вирус герпеса 1, 2 типа) ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-445",
+      "categoryId": "infections",
+      "code": "A26.06.045",
+      "title": "HSV 1, 2 (вирус герпеса 1, 2 типа) ИФА Ig G титр (антитела класса G)",
+      "price": 550
+    },
+    {
+      "id": "biotechmed-446",
+      "categoryId": "infections",
+      "code": "A26.06.045",
+      "title": "HSV 1, 2 (вирус герпеса 1, 2 типа) ИФА Ig М (антитела класса М)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-447",
+      "categoryId": "infections",
+      "code": "A26.06.046",
+      "title": "HSV 1, 2 (вирус герпеса 1, 2 типа) ИФА АВИДНОСТЬ Ig G",
+      "price": 600
+    },
+    {
+      "id": "biotechmed-448",
+      "categoryId": "infections",
+      "code": null,
+      "title": "HSV 1, 2 (вирус герпеса 1, 2 типа) ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-449",
+      "categoryId": "infections",
+      "code": null,
+      "title": "HSV 2 (вирус герпеса 2 типа) ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-450",
+      "categoryId": "infections",
+      "code": null,
+      "title": "HSV 2 (вирус герпеса 2 типа) ИФА Ig G титр (антитела класса G)",
+      "price": 550
+    },
+    {
+      "id": "biotechmed-451",
+      "categoryId": "infections",
+      "code": null,
+      "title": "HSV 2 (вирус герпеса 2 типа) ИФА Ig М (антитела класса М)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-452",
+      "categoryId": "infections",
+      "code": null,
+      "title": "HSV 2 (вирус герпеса 2 типа) ИФА АВИДНОСТЬ Ig G",
+      "price": 600
+    },
+    {
+      "id": "biotechmed-453",
+      "categoryId": "infections",
+      "code": null,
+      "title": "HSV 2 (вирус герпеса 2 типа) ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-454",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Helicobacter pylori ИФА (суммарные антитела)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-455",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Helicobacter pylori ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-456",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Helicobacter pylori антиген в кале",
+      "price": 900
+    },
+    {
+      "id": "biotechmed-457",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Lactobacillus spp. (лактобактерии) ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-458",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Mobiluncus curtisii (мобилюнкусы) ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-459",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Mycobacterium tuberculos anti- (IgА, М, G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-460",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Mycobacterium tuberculosis ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-461",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Mycoplasma genitalium ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-462",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Mycoplasma genitalium количественный ПЦР(REAL TIME)",
+      "price": 570
+    },
+    {
+      "id": "biotechmed-463",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Mycoplasma hominis ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-464",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Mycoplasma hominis ИФА Ig А (антитела класса А)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-465",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Mycoplasma hominis ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-466",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Mycoplasma hominis количественный ПЦР (REAL TIME)",
+      "price": 570
+    },
+    {
+      "id": "biotechmed-467",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Mycoplasma hominis посев на культуральные среды с антибактериальной чувствительностью",
+      "price": 850
+    },
+    {
+      "id": "biotechmed-468",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Mycoplasma pneumoniaе ИФА Ig A (антитела класса А)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-469",
+      "categoryId": "infections",
+      "code": "A26.06.057",
+      "title": "Mycoplasma pneumoniaе ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-470",
+      "categoryId": "infections",
+      "code": "A26.06.057",
+      "title": "Mycoplasma pneumoniaе ИФА Ig М (антитела класса М)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-471",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Mycoplasma pneumoniaе ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-472",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Neisseria gonorrhoeae ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-473",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Комплексное обследование на кишечные инфекции (ротовирусы группы А, норвовирус, астровирус) ПЦР",
+      "price": 1000
+    },
+    {
+      "id": "biotechmed-474",
+      "categoryId": "infections",
+      "code": "A26.06.071",
+      "title": "Rubella (краснуха) ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-475",
+      "categoryId": "infections",
+      "code": "A26.06.071",
+      "title": "Rubella (краснуха) ИФА Ig М (антитела класса М)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-476",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Rubella (краснуха) ИФА АВИДНОСТЬ Ig G",
+      "price": 600
+    },
+    {
+      "id": "biotechmed-477",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Staphylococcus agalactiae (гр В) ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-478",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Staphylococcus agalactiae (гр В) ПЦР количественный ПЦР (REAL TIME)",
+      "price": 570
+    },
+    {
+      "id": "biotechmed-479",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Staphylococcus aureus ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-480",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Streptococcus pyogenes (гр А) ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-481",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Streptococcus spp. ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-482",
+      "categoryId": "infections",
+      "code": "A26.06.081",
+      "title": "Toxoplasma gondii ИФА Ig A (антитела класса А)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-483",
+      "categoryId": "infections",
+      "code": "A26.06.081",
+      "title": "Toxoplasma gondii ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-484",
+      "categoryId": "infections",
+      "code": "A26.06.081",
+      "title": "Toxoplasma gondii ИФА Ig М (антитела класса М)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-485",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Toxoplasma gondii ИФА АВИДНОСТЬ Ig G",
+      "price": 600
+    },
+    {
+      "id": "biotechmed-486",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Toxoplasma gondii ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-487",
+      "categoryId": "infections",
+      "code": "A12.06.011",
+      "title": "Treponema pallidum ИФА (суммарные антитела)",
+      "price": 450
+    },
+    {
+      "id": "biotechmed-488",
+      "categoryId": "infections",
+      "code": "A26.06.082.002",
+      "title": "Treponema pallidum ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-489",
+      "categoryId": "infections",
+      "code": "A26.06.082.002",
+      "title": "Treponema pallidum ИФА Ig G титр (антитела класса G)",
+      "price": 550
+    },
+    {
+      "id": "biotechmed-490",
+      "categoryId": "infections",
+      "code": "A26.06.082.002",
+      "title": "Treponema pallidum ИФА Ig М (антитела класса М)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-491",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Treponema pallidum ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-492",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Treponema pallidum РИT",
+      "price": 1300
+    },
+    {
+      "id": "biotechmed-493",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Treponema pallidum РИФ абс",
+      "price": 1300
+    },
+    {
+      "id": "biotechmed-494",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Treponema pallidum РИФ количественная",
+      "price": 1300
+    },
+    {
+      "id": "biotechmed-495",
+      "categoryId": "infections",
+      "code": "A26.06.082.003",
+      "title": "Treponema pallidum РПГА",
+      "price": 450
+    },
+    {
+      "id": "biotechmed-496",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Treponema pallidum микрореакция",
+      "price": 400
+    },
+    {
+      "id": "biotechmed-497",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Trichomonas vaginalis ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-498",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Trichomonas vaginalis ИФА Ig А (антитела класса А)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-499",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Trichomonas vaginalis ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-500",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Trichomonas vaginalis количественный ПЦР (REAL TIME)",
+      "price": 570
+    },
+    {
+      "id": "biotechmed-501",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Trichomonas vaginalis посев на культуральные среды с антибактериальной чувствительностью",
+      "price": 850
+    },
+    {
+      "id": "biotechmed-502",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Trichophytum interdigitalis ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-503",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Trichophytum rubrum ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-504",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Ureaplasma pаrvo количественный ПЦР (REAL TIME)",
+      "price": 570
+    },
+    {
+      "id": "biotechmed-505",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Ureaplasma pаrvo/urealyticum (ПЦР)",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-506",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Ureaplasma spp. ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-507",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Ureaplasma spp. ИФА Ig А (антитела класса А)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-508",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Ureaplasma spp. ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-509",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Ureaplasma spp. количественный ПЦР(REAL TIME)",
+      "price": 570
+    },
+    {
+      "id": "biotechmed-510",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Ureaplasma spp. посев на культуральные среды с антибактериальной чувствительностью",
+      "price": 850
+    },
+    {
+      "id": "biotechmed-511",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Ureaplasma urealyticum количественный ПЦР (REAL TIME)",
+      "price": 570
+    },
+    {
+      "id": "biotechmed-512",
+      "categoryId": "infections",
+      "code": "A26.06.084",
+      "title": "VZV (вирус варицеллы зостер – HHV3) ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-513",
+      "categoryId": "infections",
+      "code": "A26.06.084",
+      "title": "VZV (вирус варицеллы зостер – HHV3) ИФА Ig М (антитела класса М)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-514",
+      "categoryId": "infections",
+      "code": null,
+      "title": "VZV (вирус варицеллы зостер – HHV3) ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-515",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Анализы для госпитализации RW (Treponema pallidum а/т) + Ф-50 АнтиВИЧ1/2 + ИФА HBsAg + ИФА anti-HCV IgG",
+      "price": 1210
+    },
+    {
+      "id": "biotechmed-516",
+      "categoryId": "infections",
+      "code": "A026.06.024",
+      "title": "Андрофлор",
+      "price": 3050
+    },
+    {
+      "id": "biotechmed-517",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Антитела к 4-м паразитам: описторхисов, токсокар, трихинелл, эхинококков",
+      "price": 1200
+    },
+    {
+      "id": "biotechmed-518",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Антитела к коронавирусу SARS-CoV-2, Ig M",
+      "price": 1200
+    },
+    {
+      "id": "biotechmed-519",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Антитела к коронавирусу SARS-CoV-2, Ig G",
+      "price": 1200
+    },
+    {
+      "id": "biotechmed-520",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Аскаридоз ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-521",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Аспергиллез",
+      "price": 950
+    },
+    {
+      "id": "biotechmed-522",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Боррелиоз (болезнь Лайма) ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-523",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Боррелиоз (болезнь Лайма) ИФА Ig М (антитела класса М)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-524",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Боррелиоз (болезнь Лайма) ПЦР",
+      "price": 850
+    },
+    {
+      "id": "biotechmed-525",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Брюшной тиф РПГА",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-526",
+      "categoryId": "infections",
+      "code": null,
+      "title": "ВИЧ (Ф-50 АнтиВИЧ 1/2)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-527",
+      "categoryId": "infections",
+      "code": "A26.06.034",
+      "title": "Гепатит A ИФА anti-HAV IgG",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-528",
+      "categoryId": "infections",
+      "code": "A26.06.034",
+      "title": "Гепатит A ИФА anti-HAV IgM",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-529",
+      "categoryId": "infections",
+      "code": "A26.06.036",
+      "title": "Гепатит B ИФА HBsAg (для госпитализации)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-530",
+      "categoryId": "infections",
+      "code": "A26.06.036",
+      "title": "Гепатит B ИФА Hbs Ag",
+      "price": 550
+    },
+    {
+      "id": "biotechmed-531",
+      "categoryId": "infections",
+      "code": "A26.06.039",
+      "title": "Гепатит B ИФА anti-HBc (общ)",
+      "price": 550
+    },
+    {
+      "id": "biotechmed-532",
+      "categoryId": "infections",
+      "code": "A26.06.039",
+      "title": "Гепатит B ИФА anti-HBc IgM",
+      "price": 550
+    },
+    {
+      "id": "biotechmed-533",
+      "categoryId": "infections",
+      "code": "A26.06.040",
+      "title": "Гепатит B ИФА anti-HBsAg",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-534",
+      "categoryId": "infections",
+      "code": "A26.06.039",
+      "title": "Гепатит B ИФА anti-HBе IgG",
+      "price": 550
+    },
+    {
+      "id": "biotechmed-535",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Гепатит B Количественная вирусная нагрузка HBV",
+      "price": 3600
+    },
+    {
+      "id": "biotechmed-536",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Гепатит B ПЦР HВV (качественно)",
+      "price": 550
+    },
+    {
+      "id": "biotechmed-537",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Гепатит C Генотипирование HСV",
+      "price": 1100
+    },
+    {
+      "id": "biotechmed-538",
+      "categoryId": "infections",
+      "code": "A26.06.041",
+      "title": "Гепатит C ИФА anti-HCV IgG+М (для госпитализации)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-539",
+      "categoryId": "infections",
+      "code": "A26.06.041",
+      "title": "Гепатит C ИФА anti-HCV IgM",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-540",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Гепатит C ИФА anti-HCV cor_NS",
+      "price": 550
+    },
+    {
+      "id": "biotechmed-541",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Гепатит C ПЦР HСV (качественно)",
+      "price": 550
+    },
+    {
+      "id": "biotechmed-542",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Гепатит C количественная вирусная нагрузка HСV",
+      "price": 3600
+    },
+    {
+      "id": "biotechmed-543",
+      "categoryId": "infections",
+      "code": "A26.06.043",
+      "title": "Гепатит D ИФАanti-HDV AB(общ)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-544",
+      "categoryId": "infections",
+      "code": "A26.06.043",
+      "title": "Гепатит D ИФА anti-HDV IgM",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-545",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Дизентерия РПГА",
+      "price": 550
+    },
+    {
+      "id": "biotechmed-546",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Дифтерия РПГА",
+      "price": 650
+    },
+    {
+      "id": "biotechmed-547",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Дифтерия РПГА ПЦР",
+      "price": 350
+    },
+    {
+      "id": "biotechmed-548",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Исследование клеща для выявления возбудителей инфекций, передаваемых иксодовыми клещами: клещевого энцефалита, боррелиоза, анаплазмоза, эрлихиоза",
+      "price": 2300
+    },
+    {
+      "id": "biotechmed-549",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Кишечный иерсиниоз, псевдотуберкулез РНГА",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-550",
+      "categoryId": "infections",
+      "code": "A26.06.088",
+      "title": "Клещевой энцефалит ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-551",
+      "categoryId": "infections",
+      "code": "A26.06.088",
+      "title": "Клещевой энцефалит ИФА Ig М (антитела класса М)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-552",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Корь ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-553",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Корь ИФА Ig G титр (антитела класса G)",
+      "price": 550
+    },
+    {
+      "id": "biotechmed-554",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Корь ИФА Ig М (антитела класса М)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-555",
+      "categoryId": "infections",
+      "code": "A26.06.032",
+      "title": "Лямблиоз ИФА Ig М (антитела класса М)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-556",
+      "categoryId": "infections",
+      "code": "A26.06.032",
+      "title": "Лямблиоз ИФА суммарные антитела (для гастроэнтеролога)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-557",
+      "categoryId": "infections",
+      "code": "A26.06.062",
+      "title": "Описторхоз ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-558",
+      "categoryId": "infections",
+      "code": "A26.06.062",
+      "title": "Описторхоз ИФА Ig М (антитела класса М)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-559",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Паротит ИФА Ig G (антитела класса G)",
+      "price": 550
+    },
+    {
+      "id": "biotechmed-560",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Паротит ИФА Ig М (антитела класса М)",
+      "price": 550
+    },
+    {
+      "id": "biotechmed-561",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Сальмонеллез РНГА",
+      "price": 550
+    },
+    {
+      "id": "biotechmed-562",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Токсокароз ИФА Ig G (антитела класса G)",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-563",
+      "categoryId": "infections",
+      "code": "A026.06.079",
+      "title": "Трихинеллез ИФА Ig G (антитела класса G)",
+      "price": 550
+    },
+    {
+      "id": "biotechmed-564",
+      "categoryId": "infections",
+      "code": "A026.06.079",
+      "title": "Трихинеллез ИФА Ig М (антитела класса М)",
+      "price": 550
+    },
+    {
+      "id": "biotechmed-565",
+      "categoryId": "infections",
+      "code": "A26.20.032.000.01",
+      "title": "Фемофлор 16",
+      "price": 3100
+    },
+    {
+      "id": "biotechmed-566",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Фемофлор 8",
+      "price": 2100
+    },
+    {
+      "id": "biotechmed-567",
+      "categoryId": "infections",
+      "code": null,
+      "title": "Фемофлор скрин",
+      "price": 2650
+    },
+    {
+      "id": "biotechmed-568",
+      "categoryId": "infections",
+      "code": "A026.06.024",
+      "title": "Эхинококкоз ИФА Ig G (антитела класса G)",
+      "price": 550
+    },
+    {
+      "id": "biotechmed-569",
+      "categoryId": "trace-elements",
+      "code": "A09.05.181",
+      "title": "Медь в крови",
+      "price": 730
+    },
+    {
+      "id": "biotechmed-570",
+      "categoryId": "trace-elements",
+      "code": null,
+      "title": "Цинк в крови",
+      "price": 900
+    },
+    {
+      "id": "biotechmed-571",
+      "categoryId": "trace-elements",
+      "code": null,
+      "title": "Цинк в моче",
+      "price": 900
+    },
+    {
+      "id": "biotechmed-572",
+      "categoryId": "genetic-predisposition",
+      "code": null,
+      "title": "Генетическая предрасположенность к привычному невынашиванию",
+      "price": 9000
+    },
+    {
+      "id": "biotechmed-573",
+      "categoryId": "genetic-predisposition",
+      "code": null,
+      "title": "Кариотипирование",
+      "price": 9000
+    },
+    {
+      "id": "biotechmed-574",
+      "categoryId": "genetic-predisposition",
+      "code": null,
+      "title": "Мужское бесплодие (анализ генов AZF)",
+      "price": 8000
+    },
+    {
+      "id": "biotechmed-575",
+      "categoryId": "genetic-predisposition",
+      "code": null,
+      "title": "Нарушение обмена гомоцистеина (анализ генов. ответственных за обем гомоцистеина: МТНFR, МТRR)",
+      "price": 3000
+    },
+    {
+      "id": "biotechmed-576",
+      "categoryId": "genetic-predisposition",
+      "code": null,
+      "title": "Обмен гомоцистеина 2 маркера",
+      "price": 3000
+    },
+    {
+      "id": "biotechmed-577",
+      "categoryId": "genetic-predisposition",
+      "code": null,
+      "title": "Остеопороз",
+      "price": 2200
+    },
+    {
+      "id": "biotechmed-578",
+      "categoryId": "genetic-predisposition",
+      "code": null,
+      "title": "Предрасположенность к тромбофилии (панель 6 генов)",
+      "price": 5800
+    },
+    {
+      "id": "biotechmed-579",
+      "categoryId": "genetic-predisposition",
+      "code": null,
+      "title": "Предрасположенность к тромбофилии (панель 8 генов)",
+      "price": 7800
+    },
+    {
+      "id": "biotechmed-580",
+      "categoryId": "genetic-predisposition",
+      "code": null,
+      "title": "Рак молочной железы и яичников (анализ генов риска семейных форм: BRCA1, BRCA2)",
+      "price": 7000
+    },
+    {
+      "id": "biotechmed-581",
+      "categoryId": "genetic-predisposition",
+      "code": null,
+      "title": "Синдром Жильбера",
+      "price": 7500
+    },
+    {
+      "id": "biotechmed-582",
+      "categoryId": "general-clinical",
+      "code": "A09.28.036",
+      "title": "17-ОКС (моча)",
+      "price": 2160
+    },
+    {
+      "id": "biotechmed-583",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Альфа-амилаза мочи",
+      "price": 290
+    },
+    {
+      "id": "biotechmed-584",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Анализ мочи по Нечипоренко",
+      "price": 310
+    },
+    {
+      "id": "biotechmed-585",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Аскариды ПЦР",
+      "price": 1050
+    },
+    {
+      "id": "biotechmed-586",
+      "categoryId": "general-clinical",
+      "code": "B03.016.016",
+      "title": "Бактериологический посев мочи и определение чувствительности выявленных микроорганизмов к антибиотикам",
+      "price": 1100
+    },
+    {
+      "id": "biotechmed-587",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Белок Бенс-Джонса в моче",
+      "price": 2270
+    },
+    {
+      "id": "biotechmed-588",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Группа крови и резус-фактор",
+      "price": 560
+    },
+    {
+      "id": "biotechmed-589",
+      "categoryId": "general-clinical",
+      "code": "A26.01.017",
+      "title": "Исследование мазка на энтеробиоз",
+      "price": 330
+    },
+    {
+      "id": "biotechmed-590",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Исследование соскобов кожи на демодекс",
+      "price": 420
+    },
+    {
+      "id": "biotechmed-591",
+      "categoryId": "general-clinical",
+      "code": "A26.19.010",
+      "title": "Исследования кала на яйца и личинки гельминтов",
+      "price": 290
+    },
+    {
+      "id": "biotechmed-592",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Кальпротектин фекальный",
+      "price": 2920
+    },
+    {
+      "id": "biotechmed-593",
+      "categoryId": "general-clinical",
+      "code": "A09.28.012",
+      "title": "Кальций (суточная моча)",
+      "price": 360
+    },
+    {
+      "id": "biotechmed-594",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Кальций и фосфор в суточной моче",
+      "price": 670
+    },
+    {
+      "id": "biotechmed-595",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Колонофлор",
+      "price": 3900
+    },
+    {
+      "id": "biotechmed-596",
+      "categoryId": "general-clinical",
+      "code": "B03.016.010",
+      "title": "Копрограмма",
+      "price": 480
+    },
+    {
+      "id": "biotechmed-597",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Лактоферрин (кал)",
+      "price": 920
+    },
+    {
+      "id": "biotechmed-598",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Лейкоцитарная формула (микроскопия)",
+      "price": 180
+    },
+    {
+      "id": "biotechmed-599",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Лямблии ПЦР",
+      "price": 1050
+    },
+    {
+      "id": "biotechmed-600",
+      "categoryId": "general-clinical",
+      "code": "A09.28.057",
+      "title": "Медь (суточная моча)",
+      "price": 930
+    },
+    {
+      "id": "biotechmed-601",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Микроскопическое и биохимическое (белок, глюкоза) исследование суставной жидкости",
+      "price": 460
+    },
+    {
+      "id": "biotechmed-602",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Микроскопическое исследование ногтей на микоз",
+      "price": 700
+    },
+    {
+      "id": "biotechmed-603",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Микроскопическое исследование секрета предстательной железы",
+      "price": 380
+    },
+    {
+      "id": "biotechmed-604",
+      "categoryId": "general-clinical",
+      "code": "B03.016.003",
+      "title": "Общий анализ крови (18 параметров) без СОЭ и ретикулоцитов",
+      "price": 280
+    },
+    {
+      "id": "biotechmed-605",
+      "categoryId": "general-clinical",
+      "code": "A09.09.006",
+      "title": "Общий анализ мокроты",
+      "price": 400
+    },
+    {
+      "id": "biotechmed-606",
+      "categoryId": "general-clinical",
+      "code": "B03.016.006",
+      "title": "Общий анализ мочи",
+      "price": 290
+    },
+    {
+      "id": "biotechmed-607",
+      "categoryId": "general-clinical",
+      "code": "A26.06.100",
+      "title": "Общий иммуноглобулин Ig A",
+      "price": 390
+    },
+    {
+      "id": "biotechmed-608",
+      "categoryId": "general-clinical",
+      "code": "A09.05.054.001",
+      "title": "Общий иммуноглобулин Ig E",
+      "price": 500
+    },
+    {
+      "id": "biotechmed-609",
+      "categoryId": "general-clinical",
+      "code": "A26.06.100",
+      "title": "Общий иммуноглобулин Ig G",
+      "price": 390
+    },
+    {
+      "id": "biotechmed-610",
+      "categoryId": "general-clinical",
+      "code": "A26.06.100",
+      "title": "Общий иммуноглобулин Ig M",
+      "price": 390
+    },
+    {
+      "id": "biotechmed-611",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Острицы ПЦР",
+      "price": 1050
+    },
+    {
+      "id": "biotechmed-612",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Порфобилиноген-аминолевуленовая кислота в моче",
+      "price": 2150
+    },
+    {
+      "id": "biotechmed-613",
+      "categoryId": "general-clinical",
+      "code": "A26.05.016",
+      "title": "Посев кала на дисбактериоз",
+      "price": 1380
+    },
+    {
+      "id": "biotechmed-614",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Проба Зимницкого",
+      "price": 660
+    },
+    {
+      "id": "biotechmed-615",
+      "categoryId": "general-clinical",
+      "code": "A09.28.006",
+      "title": "Проба Реберга (кровь+моча)",
+      "price": 360
+    },
+    {
+      "id": "biotechmed-616",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Рентгенофазовый анализ почечного камня",
+      "price": 4800
+    },
+    {
+      "id": "biotechmed-617",
+      "categoryId": "general-clinical",
+      "code": "A12.05.123",
+      "title": "Ретикулоциты",
+      "price": 290
+    },
+    {
+      "id": "biotechmed-618",
+      "categoryId": "general-clinical",
+      "code": "A12.05.001",
+      "title": "СОЭ (скорость оседания эритроцитов)",
+      "price": 200
+    },
+    {
+      "id": "biotechmed-619",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Скорость клубочковой фильтрации",
+      "price": 240
+    },
+    {
+      "id": "biotechmed-620",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Скрининг гельминты ПЦР",
+      "price": 2500
+    },
+    {
+      "id": "biotechmed-621",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Скрининг на простейшие ПЦР",
+      "price": 2500
+    },
+    {
+      "id": "biotechmed-622",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Суточная потеря белка с мочой",
+      "price": 420
+    },
+    {
+      "id": "biotechmed-623",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "Углеводы в кале",
+      "price": 940
+    },
+    {
+      "id": "biotechmed-624",
+      "categoryId": "general-clinical",
+      "code": "A09.28.026",
+      "title": "Фосфор (суточная моча)",
+      "price": 360
+    },
+    {
+      "id": "biotechmed-625",
+      "categoryId": "general-clinical",
+      "code": "A09.19.010",
+      "title": "Эластаза в кале",
+      "price": 3150
+    },
+    {
+      "id": "biotechmed-626",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "CHEK UP Профилактика инсульта",
+      "price": 10200
+    },
+    {
+      "id": "biotechmed-627",
+      "categoryId": "general-clinical",
+      "code": null,
+      "title": "CHEK UP Обследование для поступления в стационар",
+      "price": 8500
+    },
+    {
+      "id": "biotechmed-628",
+      "categoryId": "tumor-markers",
+      "code": "A09.05.202",
+      "title": "CA-125 (антиген яичников и матки)",
+      "price": 700
+    },
+    {
+      "id": "biotechmed-629",
+      "categoryId": "tumor-markers",
+      "code": "A09.05.231",
+      "title": "CA-15-3 (антиген молочной железы)",
+      "price": 770
+    },
+    {
+      "id": "biotechmed-630",
+      "categoryId": "tumor-markers",
+      "code": "A09.05.201",
+      "title": "CA-19-9 (антиген поджелудочной железы)",
+      "price": 720
+    },
+    {
+      "id": "biotechmed-631",
+      "categoryId": "tumor-markers",
+      "code": null,
+      "title": "CA-242 (маркер рака поджелудочной железы, толстого и тонкого кишечника)",
+      "price": 1510
+    },
+    {
+      "id": "biotechmed-632",
+      "categoryId": "tumor-markers",
+      "code": "A09.05.200",
+      "title": "CA-72-4 (антиген желудка и кишечника)",
+      "price": 1050
+    },
+    {
+      "id": "biotechmed-633",
+      "categoryId": "tumor-markers",
+      "code": null,
+      "title": "Cyfra 21-1 (маркер рака мочевого пузыря и легких)",
+      "price": 1140
+    },
+    {
+      "id": "biotechmed-634",
+      "categoryId": "tumor-markers",
+      "code": null,
+      "title": "HE4 (маркер рака яичников)",
+      "price": 1850
+    },
+    {
+      "id": "biotechmed-635",
+      "categoryId": "tumor-markers",
+      "code": null,
+      "title": "NSE (нейронспецифическая енолаза)",
+      "price": 1380
+    },
+    {
+      "id": "biotechmed-636",
+      "categoryId": "tumor-markers",
+      "code": null,
+      "title": "PAPP-A",
+      "price": 830
+    },
+    {
+      "id": "biotechmed-637",
+      "categoryId": "tumor-markers",
+      "code": null,
+      "title": "ROMA оценка риска овариальной малигнизации (Са125+НЕ4)",
+      "price": 2000
+    },
+    {
+      "id": "biotechmed-638",
+      "categoryId": "tumor-markers",
+      "code": null,
+      "title": "SСС (маркер рака шейки матки, плоскоклеточных карцином)",
+      "price": 1820
+    },
+    {
+      "id": "biotechmed-639",
+      "categoryId": "tumor-markers",
+      "code": "A09.05.089",
+      "title": "Альфафетопротеин (АФП)",
+      "price": 470
+    },
+    {
+      "id": "biotechmed-640",
+      "categoryId": "tumor-markers",
+      "code": null,
+      "title": "Белок S-100 (маркер меланомы и повреждения мозга)",
+      "price": 3260
+    },
+    {
+      "id": "biotechmed-641",
+      "categoryId": "tumor-markers",
+      "code": null,
+      "title": "Бета-2 микроглобулин",
+      "price": 1610
+    },
+    {
+      "id": "biotechmed-642",
+      "categoryId": "tumor-markers",
+      "code": "A09.05.075",
+      "title": "Кислая фосфатаза простатическая",
+      "price": 510
+    },
+    {
+      "id": "biotechmed-643",
+      "categoryId": "tumor-markers",
+      "code": "A09.05.130",
+      "title": "ПСА (простата специфический антиген)",
+      "price": 600
+    },
+    {
+      "id": "biotechmed-644",
+      "categoryId": "tumor-markers",
+      "code": "A09.05.130",
+      "title": "ПСА свободный (простата специфический антиген)",
+      "price": 600
+    },
+    {
+      "id": "biotechmed-645",
+      "categoryId": "tumor-markers",
+      "code": "A09.05.195",
+      "title": "РЭА (раковый эмбриональный антиген)",
+      "price": 700
+    },
+    {
+      "id": "biotechmed-646",
+      "categoryId": "tumor-markers",
+      "code": null,
+      "title": "Свободная бета субъединица ХГЧ",
+      "price": 730
+    },
+    {
+      "id": "biotechmed-647",
+      "categoryId": "tumor-markers",
+      "code": "A09.05.117",
+      "title": "Тиреоглобулин (ТГ)",
+      "price": 750
+    },
+    {
+      "id": "biotechmed-648",
+      "categoryId": "tumor-markers",
+      "code": null,
+      "title": "Тумор-М2 пируваткиназа (кал) (маркер рака толстого кишечника)",
+      "price": 3500
+    },
+    {
+      "id": "biotechmed-649",
+      "categoryId": "tumor-markers",
+      "code": "A09.05.090",
+      "title": "ХГЧ",
+      "price": 450
+    },
+    {
+      "id": "biotechmed-650",
+      "categoryId": "tumor-markers",
+      "code": null,
+      "title": "Хромогранин А (маркер рака нейроэндокринных опухолей)",
+      "price": 5500
+    },
+    {
+      "id": "biotechmed-651",
+      "categoryId": "hms-osipov",
+      "code": null,
+      "title": "Анализ биологического материала (1 вид) методом ХМС",
+      "price": 2760
+    },
+    {
+      "id": "biotechmed-652",
+      "categoryId": "cytology-histology",
+      "code": null,
+      "title": "PAP-тест (цитологическое исследование биоматериала шейки матки)",
+      "price": 1330
+    },
+    {
+      "id": "biotechmed-653",
+      "categoryId": "cytology-histology",
+      "code": "A08.30.046",
+      "title": "Гистологическое исследование биопсийного материала (1 элемент)",
+      "price": 1600
+    },
+    {
+      "id": "biotechmed-654",
+      "categoryId": "cytology-histology",
+      "code": null,
+      "title": "Цитологическое исследование (1 локализация)",
+      "price": 500
+    }
+  ]
+}

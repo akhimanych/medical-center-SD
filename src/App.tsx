@@ -1,10 +1,5 @@
 import { useLayoutEffect } from "react";
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  useLocation,
-} from "react-router";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router";
 
 import HomePage from "@/pages/home/home-page";
 import ServicePage from "@/pages/services/services-page";
@@ -49,7 +44,7 @@ function ScrollToTop() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <ScrollToTop />
 
       <Routes>
@@ -57,17 +52,11 @@ export default function App() {
 
         <Route path="/services" element={<ServicePage />} />
 
-        <Route
-          path="/services/:serviceId"
-          element={<ServiceDetailsPage />}
-        />
+        <Route path="/services/:serviceId" element={<ServiceDetailsPage />} />
 
         <Route path="/doctors" element={<SpecialtiesPage />} />
 
-        <Route
-          path="/doctors/:specializationSlug"
-          element={<DoctorsPage />}
-        />
+        <Route path="/doctors/:specializationSlug" element={<DoctorsPage />} />
 
         <Route
           path="/doctors/:specializationSlug/:doctorSlug"
@@ -76,10 +65,7 @@ export default function App() {
 
         <Route path="/contacts" element={<ContactPage />} />
 
-        <Route
-          path="/services/lab-tests"
-          element={<LaboratoryPage />}
-        />
+        <Route path="/services/lab-tests" element={<LaboratoryPage />} />
 
         <Route
           path="/services/lab-tests/prices/:laboratorySlug"
@@ -92,17 +78,11 @@ export default function App() {
 
         <Route path="/documents" element={<DocumentsPage />} />
 
-        <Route
-          path="/supervisory-authorities"
-          element={<AuthoritiesPage />}
-        />
+        <Route path="/supervisory-authorities" element={<AuthoritiesPage />} />
 
         <Route path="/management" element={<ManagementPage />} />
 
-        <Route
-          path="/tax-deduction"
-          element={<TaxCertificatePage />}
-        />
+        <Route path="/tax-deduction" element={<TaxCertificatePage />} />
 
         <Route path="/about" element={<AboutCenterPage />} />
       </Routes>

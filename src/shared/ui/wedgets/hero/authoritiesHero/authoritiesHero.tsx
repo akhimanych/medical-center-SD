@@ -1,6 +1,6 @@
 import { IconHealthcareAuthority } from "@/shared/ui/icons/healthcareAuthorityIcon";
 
-import styles from "./AuthoritiesHero.module.css";
+import styles from "./authoritiesHero.module.css";
 
 export function AuthoritiesHero() {
   return (

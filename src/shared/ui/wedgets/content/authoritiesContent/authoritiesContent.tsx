@@ -7,7 +7,7 @@ import {
   IconRospotrebnadzor,
 } from "@/shared/ui/icons/authoritiesIcon";
 
-import styles from "./AuthoritiesContent.module.css";
+import styles from "./authoritiesContent.module.css";
 
 export type AuthorityItem = {
   id: string;

@@ -42,10 +42,13 @@ function normalizeSpecializationId(id: string) {
 
 function getDoctorSpecializationIds(doctor: Doctor): string[] {
   const value = doctor.specializationIds ?? doctor.specializationId;
+
   if (!value) {
     return [];
   }
+
   const ids = Array.isArray(value) ? value : [value];
+
   return ids.map(normalizeSpecializationId);
 }
 
@@ -55,11 +58,17 @@ function getDoctorFullName(doctor: Doctor) {
     .join(" ");
 }
 
-function getPhotoSrc(photo?: string) {
-  if (!photo) {
+function getPhotoSrc(photo?: string): string | undefined {
+  const path = photo
+    ?.trim()
+    .replace(/^\/?public\//, "")
+    .replace(/^\/+/, "");
+
+  if (!path) {
     return undefined;
   }
-  return photo.replace(/^\/?public\//, "/");
+
+  return `${import.meta.env.BASE_URL}${path}`;
 }
 
 export default function DoctorsPage() {
@@ -84,6 +93,7 @@ export default function DoctorsPage() {
   return (
     <>
       <Header />
+
       <main className={styles.block}>
         <DoctorsHero
           title={
@@ -110,6 +120,7 @@ export default function DoctorsPage() {
             specialization?.title ?? "Специальность не найдена"
           }
         />
+
         <section className={styles.section} aria-label="Список врачей">
           <div className={styles.container}>
             <Link className={styles.backLink} to="/doctors">
@@ -162,14 +173,18 @@ export default function DoctorsPage() {
                                 </div>
                               )}
                             </div>
+
                             <div className={styles.cardContent}>
                               <p className={styles.specialization}>
                                 {specialization.title}
                               </p>
+
                               <h2 className={styles.name}>{fullName}</h2>
+
                               {(doctor.category || doctor.academicDegrees) && (
                                 <div className={styles.qualifications}>
                                   {doctor.category && <p>{doctor.category}</p>}
+
                                   {doctor.academicDegrees && (
                                     <p>{doctor.academicDegrees}</p>
                                   )}
@@ -182,6 +197,7 @@ export default function DoctorsPage() {
                     );
                   })}
                 </ul>
+
                 <div style={{ marginTop: 32 }}>
                   <PersonalDataNotice />
                 </div>
@@ -189,9 +205,11 @@ export default function DoctorsPage() {
             )}
           </div>
         </section>
+
         <DoctorHelp />
         <AppointmentBanner />
       </main>
+
       <Footer
         imageSrc={medicalCenterImage}
         directionsUrl="https://yandex.ru/maps/-/CXeXNR6n"

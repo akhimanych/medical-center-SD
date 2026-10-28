@@ -39,7 +39,16 @@ function getFullName(doctor: Doctor): string {
 }
 
 function getPhotoSrc(photo: string): string {
-  return photo.replace(/^\/?public\//, "/");
+  const path = photo
+    .trim()
+    .replace(/^\/?public\//, "")
+    .replace(/^\/+/, "");
+
+  if (!path) {
+    return "";
+  }
+
+  return `${import.meta.env.BASE_URL}${path}`;
 }
 
 export default function DoctorPage() {
@@ -67,17 +76,21 @@ export default function DoctorPage() {
     return (
       <>
         <Header />
+
         <main className={styles.page}>
           <div className={styles.container}>
             <h1 className={styles.notFoundTitle}>Врач не найден</h1>
+
             <p className={styles.notFoundText}>
               Проверьте адрес страницы или выберите врача из списка.
             </p>
+
             <Link className={styles.backLink} to="/doctors">
               Перейти к специальностям
             </Link>
           </div>
         </main>
+
         <Footer
           imageSrc={medicalCenterImage}
           directionsUrl="https://yandex.ru/maps/-/CXeXNR6n"
@@ -94,6 +107,7 @@ export default function DoctorPage() {
         const specializationItem = specializationsData.find(
           (item) => normalizeSpecializationId(item.id) === id,
         );
+
         return specializationItem ? [specializationItem.title] : [];
       }),
     ),
@@ -107,6 +121,7 @@ export default function DoctorPage() {
   return (
     <>
       <Header />
+
       <main className={styles.page}>
         <div className={styles.container}>
           <nav className={styles.breadcrumbs} aria-label="Хлебные крошки">
@@ -116,11 +131,13 @@ export default function DoctorPage() {
                   Главная
                 </Link>
               </li>
+
               <li className={styles.breadcrumbItem}>
                 <Link className={styles.breadcrumbLink} to="/doctors">
                   Врачи
                 </Link>
               </li>
+
               <li className={styles.breadcrumbItem}>
                 <Link
                   className={styles.breadcrumbLink}
@@ -129,6 +146,7 @@ export default function DoctorPage() {
                   {specialization.title}
                 </Link>
               </li>
+
               <li className={styles.breadcrumbItem}>
                 <span className={styles.breadcrumbCurrent} aria-current="page">
                   {fullName}
@@ -150,8 +168,10 @@ export default function DoctorPage() {
             <PersonalDataNotice />
           </div>
         </div>
+
         <AppointmentBanner />
       </main>
+
       <Footer
         imageSrc={medicalCenterImage}
         directionsUrl="https://yandex.ru/maps/-/CXeXNR6n"

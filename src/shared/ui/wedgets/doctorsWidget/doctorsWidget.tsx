@@ -31,6 +31,24 @@ type DoctorsWidgetProps = {
 
 const PLACEHOLDER_PHOTO = `${import.meta.env.BASE_URL}images/doctors/NonPhoto.jpg`;
 
+const PLACEHOLDER_PHOTO_NAMES = new Set([
+  "nonphotoman.png",
+  "nonphotowoman.png",
+  "nonphoto.jpg",
+]);
+
+function hasRealPhoto(photo: string): boolean {
+  const path = photo.trim().toLowerCase();
+
+  if (!path) {
+    return false;
+  }
+
+  const fileName = path.split(/[?#]/)[0].split("/").pop();
+
+  return Boolean(fileName && !PLACEHOLDER_PHOTO_NAMES.has(fileName));
+}
+
 function getSpecializationIds(value: string | string[]): string[] {
   return Array.isArray(value) ? value : [value];
 }
@@ -139,12 +157,15 @@ function ArrowIcon({ left = false }: { left?: boolean }) {
 }
 
 export function DoctorsWidget({
+  limit = 5,
   specializationIds,
   title = "Профессионалы, которым доверяют",
   eyebrow = "Наши врачи",
   randomize = true,
   showAllLink = true,
   showDetailsLink = true,
+  showAll = specializationIds !== undefined,
+  onlyWithPhoto = specializationIds === undefined,
 }: DoctorsWidgetProps) {
   const titleId = useId();
   const listId = useId();
@@ -167,9 +188,15 @@ export function DoctorsWidget({
           ),
         );
 
-  const visibleDoctors = matchingDoctors.filter((doctor) =>
-    Boolean(getDoctorUrl(doctor, specializationIds)),
+  const eligibleDoctors = matchingDoctors.filter(
+    (doctor) =>
+      (!onlyWithPhoto || hasRealPhoto(doctor.photo)) &&
+      Boolean(getDoctorUrl(doctor, specializationIds)),
   );
+
+  const visibleDoctors = showAll
+    ? eligibleDoctors
+    : eligibleDoctors.slice(0, Math.max(0, limit));
 
   const visibleKey = visibleDoctors.map((doctor) => doctor.slug).join("|");
 

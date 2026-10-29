@@ -3,6 +3,7 @@ import { Link } from "react-router";
 
 import doctorsData from "@/db/doctors.json";
 import specializationsData from "@/db/specializations.json";
+
 import styles from "./doctorsWidget.module.css";
 
 type Doctor = {
@@ -24,25 +25,11 @@ type DoctorsWidgetProps = {
   randomize?: boolean;
   showAllLink?: boolean;
   showDetailsLink?: boolean;
+  showAll?: boolean;
+  onlyWithPhoto?: boolean;
 };
 
 const PLACEHOLDER_PHOTO = `${import.meta.env.BASE_URL}images/doctors/NonPhoto.jpg`;
-
-const PLACEHOLDER_PHOTO_NAMES = new Set([
-  "nonphotoman.png",
-  "nonphotowoman.png",
-  "nonphoto.jpg",
-]);
-
-function hasRealPhoto(photo: string): boolean {
-  const path = photo.trim().toLowerCase();
-
-  if (!path) return false;
-
-  const fileName = path.split(/[?#]/)[0].split("/").pop();
-
-  return Boolean(fileName && !PLACEHOLDER_PHOTO_NAMES.has(fileName));
-}
 
 function getSpecializationIds(value: string | string[]): string[] {
   return Array.isArray(value) ? value : [value];
@@ -74,7 +61,9 @@ function getDoctorUrl(
       .map((id) => specializationsData.find((item) => item.id === id))
       .find((item) => item !== undefined);
 
-  if (!specialization) return undefined;
+  if (!specialization) {
+    return undefined;
+  }
 
   return `/doctors/${encodeURIComponent(
     specialization.slug,
@@ -87,7 +76,9 @@ function getPhotoPath(photo: string): string {
     .replace(/^\/?public\//, "")
     .replace(/^\/+/, "");
 
-  if (!path) return PLACEHOLDER_PHOTO;
+  if (!path) {
+    return PLACEHOLDER_PHOTO;
+  }
 
   return `${import.meta.env.BASE_URL}${path}`;
 }
@@ -148,7 +139,6 @@ function ArrowIcon({ left = false }: { left?: boolean }) {
 }
 
 export function DoctorsWidget({
-  limit = 5,
   specializationIds,
   title = "Профессионалы, которым доверяют",
   eyebrow = "Наши врачи",
@@ -177,23 +167,23 @@ export function DoctorsWidget({
           ),
         );
 
-  const visibleDoctors = matchingDoctors
-    .filter(
-      (doctor) =>
-        hasRealPhoto(doctor.photo) &&
-        Boolean(getDoctorUrl(doctor, specializationIds)),
-    )
-    .slice(0, Math.max(0, limit));
+  const visibleDoctors = matchingDoctors.filter((doctor) =>
+    Boolean(getDoctorUrl(doctor, specializationIds)),
+  );
 
   const visibleKey = visibleDoctors.map((doctor) => doctor.slug).join("|");
 
   useEffect(() => {
     const list = listRef.current;
 
-    if (!list) return;
+    if (!list) {
+      return;
+    }
 
     function updateScrollState() {
-      if (!list) return;
+      if (!list) {
+        return;
+      }
 
       const maxScroll = list.scrollWidth - list.clientWidth;
 
@@ -212,18 +202,26 @@ export function DoctorsWidget({
       );
     }
 
-    list.scrollTo({ left: 0, behavior: "instant" });
+    list.scrollTo({
+      left: 0,
+      behavior: "instant",
+    });
+
     updateScrollState();
 
     const observer = new ResizeObserver(updateScrollState);
 
     observer.observe(list);
-    Array.from(list.children).forEach((child) => observer.observe(child));
+
+    Array.from(list.children).forEach((child) => {
+      observer.observe(child);
+    });
 
     list.addEventListener("scroll", updateScrollState, { passive: true });
 
     return () => {
       observer.disconnect();
+
       list.removeEventListener("scroll", updateScrollState);
     };
   }, [visibleKey]);
@@ -232,7 +230,9 @@ export function DoctorsWidget({
     const list = listRef.current;
     const first = list?.firstElementChild;
 
-    if (!list || !(first instanceof HTMLElement)) return;
+    if (!list || !(first instanceof HTMLElement)) {
+      return;
+    }
 
     const gap = parseFloat(window.getComputedStyle(list).columnGap) || 0;
 
@@ -246,7 +246,9 @@ export function DoctorsWidget({
     });
   }
 
-  if (visibleDoctors.length === 0) return null;
+  if (visibleDoctors.length === 0) {
+    return null;
+  }
 
   return (
     <section className={styles.section} aria-labelledby={titleId}>
@@ -278,7 +280,9 @@ export function DoctorsWidget({
 
             const doctorUrl = getDoctorUrl(doctor, specializationIds);
 
-            if (!doctorUrl) return null;
+            if (!doctorUrl) {
+              return null;
+            }
 
             return (
               <li className={styles.item} key={doctor.slug}>
@@ -298,9 +302,12 @@ export function DoctorsWidget({
                         onError={(event) => {
                           const image = event.currentTarget;
 
-                          if (image.dataset.fallback === "true") return;
+                          if (image.dataset.fallback === "true") {
+                            return;
+                          }
 
                           image.dataset.fallback = "true";
+
                           image.src = PLACEHOLDER_PHOTO;
                         }}
                       />

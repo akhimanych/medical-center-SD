@@ -423,6 +423,43 @@
   display: block;
 }
 
+@media (max-width: 1024px) {
+  .layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .helpCard {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .formCard {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .helpHeading {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .helpHeading h2 {
+    min-width: 0;
+    text-align: center;
+  }
+
+  .helpHeading svg {
+    margin-top: 0;
+  }
+
+  .formCard > .title,
+  .fieldset > .legend {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+}
+
 @media (max-width: 1000px) {
   .layout {
     grid-template-columns: minmax(0, 1.9fr) minmax(230px, 1fr);

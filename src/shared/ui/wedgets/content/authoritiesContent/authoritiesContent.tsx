@@ -2,9 +2,12 @@ import type { ReactNode } from "react";
 
 import {
   IconMinzdrav,
-  IconMedicalCrossAuthority,
-  IconRoszdravnadzor,
-  IconRospotrebnadzor,
+    IconMedicalCrossAuthority,
+    IconRoszdravnadzor,
+    IconRospotrebnadzor,
+    IconMinzdravArkhangelsk,
+    IconTFOMSArkhangelsk,
+    IconRoszdravnadzorArkhangelsk,
 } from "@/shared/ui/icons/authoritiesIcon";
 
 import styles from "./authoritiesContent.module.css";
@@ -48,19 +51,19 @@ const regional: AuthorityItem[] = [
     id: "regional-minzdrav",
     name: "Министерство здравоохранения Архангельской области",
     href: "https://minzdrav29.ru/",
-    icon: <IconMinzdrav />,
+    icon: <IconMinzdravArkhangelsk />,
   },
   {
     id: "tfoms",
     name: "Территориальный фонд ОМС Архангельской области",
     href: "https://www.arhofoms.ru/",
-    icon: <IconMedicalCrossAuthority />,
+    icon: <IconTFOMSArkhangelsk />,
   },
   {
     id: "regional-roszdravnadzor",
     name: "Территориальный орган Росздравнадзора Архангельской области",
     href: "https://29reg.roszdravnadzor.gov.ru/",
-    icon: <IconRoszdravnadzor />,
+    icon: <IconRoszdravnadzorArkhangelsk />,
   },
 ];
 

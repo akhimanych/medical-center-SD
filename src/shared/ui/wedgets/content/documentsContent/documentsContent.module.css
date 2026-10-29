@@ -150,7 +150,7 @@
 
 /* Планшеты */
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .section {
     padding-block: 36px 44px;
   }
@@ -179,6 +179,14 @@
     gap: 8px;
     padding-inline: 14px;
     font-size: 13px;
+  }
+  .container > .title {
+    width: 100%;
+    text-align: center;
+  }
+  .cardContent {
+    width: 100%;
+    text-align: center;
   }
 }
 

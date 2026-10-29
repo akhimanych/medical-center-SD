@@ -3,11 +3,7 @@
   isolation: isolate;
   overflow: hidden;
 
-  background: linear-gradient(
-    180deg,
-    #d9efe3 0%,
-    #eaf6ef 100%
-  );
+  background: linear-gradient(180deg, #d9efe3 0%, #eaf6ef 100%);
 
   color: #1c4036;
   border-radius: 14px;
@@ -155,48 +151,71 @@
 
 /* Планшеты */
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .container {
     min-height: 270px;
-    padding: 48px 24px;
+    padding: 30px 24px 24px;
   }
 
   .content {
-    width: 68%;
+    width: 100%;
   }
 
   .title {
-    font-size: 50px;
+    padding-right: 0;
   }
 
   .description {
-    max-width: 480px;
-    font-size: 17px;
+    max-width: 620px;
+    padding-right: 0;
   }
 
   .decoration {
-    width: 42%;
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+
+    display: grid;
+    place-items: center;
+
+    width: 100%;
+    min-height: 170px;
+    margin-top: 24px;
   }
 
   .shapeFirst {
-    top: -30px;
-    right: 115px;
+    top: 0;
+    right: auto;
+    left: 50%;
 
     width: 250px;
-    height: 320px;
+    height: 160px;
+
+    transform: translateX(-65%) rotate(-25deg);
   }
 
   .shapeSecond {
-    top: 75px;
-    right: -55px;
+    top: 10px;
+    right: auto;
+    left: 50%;
 
-    width: 310px;
-    height: 220px;
+    width: 250px;
+    height: 160px;
+
+    transform: translateX(-35%) rotate(-25deg);
   }
 
   .icon {
-    right: 64px;
-    width: 76px;
+    position: relative;
+    z-index: 1;
+    top: auto;
+    right: auto;
+
+    width: 82px;
+    max-width: 100%;
+
+    transform: none;
   }
 }
 
@@ -204,60 +223,22 @@
 
 @media (max-width: 767px) {
   .container {
-    min-height: 240px;
-    padding: 30px 20px 36px;
-  }
-
-  .content {
-    width: 100%;
-  }
-
-  .breadcrumbs {
-    margin-bottom: 28px;
-  }
-
-  .title {
-    margin-bottom: 16px;
-    padding-right: 92px;
-
-    font-size: 42px;
-  }
-
-  .description {
-    max-width: 460px;
-    padding-right: 92px;
-
-    font-size: 16px;
-    line-height: 1.5;
+    padding: 28px 20px 20px;
   }
 
   .decoration {
-    width: 100%;
-  }
-
-  .shapeFirst {
-    top: -25px;
-    right: -10px;
-
-    width: 180px;
-    height: 280px;
-  }
-
-  .shapeSecond {
-    top: 100px;
-    right: -110px;
-
-    width: 250px;
-    height: 175px;
+    min-height: 150px;
+    margin-top: 20px;
   }
 
   .icon {
-    top: 100px;
-    right: 25px;
+    width: 72px;
+  }
 
-    width: 62px;
-
-    transform: none;
+  .shapeFirst,
+  .shapeSecond {
+    width: 210px;
+    height: 140px;
   }
 }
 
@@ -268,22 +249,7 @@
     padding-inline: 16px;
   }
 
-  .breadcrumbs {
-    gap: 6px;
-  }
-
-  .title {
-    padding-right: 76px;
-    font-size: 36px;
-  }
-
-  .description {
-    padding-right: 76px;
-    font-size: 15px;
-  }
-
   .icon {
-    right: 18px;
-    width: 52px;
+    width: 64px;
   }
 }

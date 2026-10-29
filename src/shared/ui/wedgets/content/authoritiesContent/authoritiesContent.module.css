@@ -44,11 +44,7 @@
 
   border: 1px solid #cde9dd;
   border-radius: 8px;
-  background: linear-gradient(
-    125deg,
-    #f5fbf8 0%,
-    #fbfefd 100%
-  );
+  background: linear-gradient(125deg, #f5fbf8 0%, #fbfefd 100%);
 
   transition:
     border-color 180ms ease,
@@ -183,6 +179,44 @@
 .resource .button {
   flex-shrink: 0;
   margin-top: 0;
+}
+
+@media (max-width: 1024px) {
+  .sectionTitle {
+    width: 100%;
+    text-align: center;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: max-content minmax(0, 1fr);
+    align-items: start;
+    gap: 20px 18px;
+  }
+
+  .card > .authorityIcon {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .cardContent {
+    display: contents;
+  }
+
+  .cardTitle {
+    grid-column: 2;
+    grid-row: 1;
+    min-width: 0;
+  }
+
+  .card .button {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-self: center;
+    align-self: end;
+
+    max-width: 100%;
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 767px) {

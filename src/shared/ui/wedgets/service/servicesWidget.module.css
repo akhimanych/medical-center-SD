@@ -6,7 +6,9 @@
 }
 
 .container,
-.container * {
+.container *,
+.container *::before,
+.container *::after {
   box-sizing: border-box;
 }
 
@@ -15,10 +17,13 @@
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: end;
   gap: 24px;
+
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
 }
+
+/* Заголовок */
 
 .heading {
   min-width: 0;
@@ -27,6 +32,7 @@
 
 .eyebrow {
   margin: 0 0 8px;
+
   color: #667b73;
   font-size: 11px;
   font-weight: 600;
@@ -37,6 +43,7 @@
 
 .title {
   margin: 0;
+
   color: #163d32;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(26px, 3vw, 36px);
@@ -46,15 +53,19 @@
   overflow-wrap: break-word;
 }
 
+/* Ссылка на все услуги */
+
 .allLink {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   justify-self: end;
   gap: 8px;
+
   min-height: 44px;
   margin: 0;
   padding: 8px 0;
+
   color: #16884c;
   font-size: 13px;
   font-weight: 600;
@@ -62,43 +73,57 @@
   text-decoration: none;
   white-space: nowrap;
 }
+
 .allLink svg {
   display: block;
   flex: 0 0 20px;
 }
+
 .allLink:hover {
   color: #117a42;
 }
+
+/* Сетка услуг */
 
 .grid {
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
   gap: 20px;
+
   min-width: 0;
   margin: 0;
   padding: 0;
+
   list-style: none;
 }
+
 .item {
   min-width: 0;
 }
+
+/* Карточка: одинаковые базовые размеры на всех экранах */
 
 .card {
   display: grid;
   grid-template-columns: 44px minmax(0, 1fr) 20px;
   align-items: start;
   gap: 12px;
+
   height: 100%;
   min-height: 112px;
   padding: 16px;
+
   border: 1px solid #e7efea;
   border-radius: 14px;
   background: #f1faf5;
   box-shadow: 0 4px 16px rgb(22 61 50 / 4%);
+
   color: #163d32;
   text-align: left;
   text-decoration: none;
+
   transition:
     background-color 180ms ease,
     border-color 180ms ease,
@@ -106,26 +131,36 @@
     transform 180ms ease;
 }
 
+.card:active {
+  background: #e8f6ee;
+}
+
 .iconWrapper {
   display: flex;
   align-items: center;
   justify-content: center;
+
   width: 44px;
   height: 44px;
+
   border-radius: 50%;
   background: #d9f0e3;
 }
+
 .iconWrapper svg {
   display: block;
   width: 28px;
   height: 28px;
 }
+
 .content {
   min-width: 0;
   text-align: left;
 }
+
 .name {
   margin: 2px 0 0;
+
   color: #163d32;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 16px;
@@ -135,171 +170,264 @@
   white-space: normal;
   overflow-wrap: anywhere;
 }
+
 .description {
   margin: 6px 0 0;
+
   color: #667b73;
   font-size: 12px;
   line-height: 1.5;
   text-align: left;
   overflow-wrap: anywhere;
 }
+
 .arrow {
   display: flex;
   align-self: end;
   justify-self: end;
+
   color: #18a85a;
 }
+
 .arrow svg {
   display: block;
 }
+
+/* Подсказка и управление лентой */
+
+.controls {
+  display: none;
+  grid-column: 1 / -1;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+
+  min-width: 0;
+}
+
+.swipeHint {
+  max-width: 200px;
+  margin: 0;
+
+  color: #667b73;
+  font-size: 12px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.scrollButtons {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 10px;
+}
+
+.scrollButton {
+  display: inline-flex;
+  flex: 0 0 44px;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+  padding: 0;
+
+  border: 1px solid #cde4d6;
+  border-radius: 50%;
+  background: #fff;
+  color: #167d47;
+
+  cursor: pointer;
+
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease;
+}
+
+.scrollButton svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.scrollButton:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+/* Фокус */
+
 .allLink:focus-visible,
-.card:focus-visible {
+.card:focus-visible,
+.scrollButton:focus-visible {
   outline: 2px solid #18a85a;
   outline-offset: 4px;
 }
 
-@media (hover: hover) and (pointer: fine) {
-  .card:hover {
-    transform: translateY(-3px);
-    border-color: #b8dfc9;
-    background: #e8f6ee;
-    box-shadow: 0 10px 24px rgb(22 61 50 / 9%);
-  }
-}
-.card:active {
-  background: #e8f6ee;
-}
+/* Планшет и телефон: горизонтальная лента */
 
-@media (min-width: 600px) and (max-width: 1099px) {
+@media (max-width: 1099px) {
   .grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: none;
+    grid-template-rows: auto;
+    grid-auto-flow: column;
+    grid-auto-columns: 46%;
     gap: 16px;
+
+    width: 100%;
+    padding: 6px 6px 14px;
+
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: 6px;
+
+    scrollbar-width: none;
   }
-  .title {
-    font-size: clamp(28px, 3.7vw, 36px);
+
+  .grid::-webkit-scrollbar {
+    display: none;
   }
+
+  .item {
+    scroll-snap-align: start;
+  }
+
   .titleBreak {
     display: none;
   }
-  .card {
-    min-height: 126px;
-    grid-template-columns: 42px minmax(0, 1fr);
-    gap: 8px 12px;
-  }
-  .iconWrapper {
-    width: 42px;
-    height: 42px;
-  }
-  .arrow {
-    grid-column: 2;
+
+  .controls[data-overflow="true"] {
+    display: flex;
   }
 }
+
+/* Планшет */
+
+@media (min-width: 600px) and (max-width: 1099px) {
+  .title {
+    font-size: clamp(28px, 3.7vw, 36px);
+  }
+}
+
+/* Небольшой планшет */
 
 @media (min-width: 600px) and (max-width: 799px) {
   .container {
     grid-template-columns: minmax(0, 1fr);
     gap: 16px;
   }
-  .allLink {
-    justify-self: end;
-  }
-  .card {
-    padding: 16px;
+
+  .grid {
+    grid-auto-columns: 64%;
   }
 }
+
+/* Телефон */
 
 @media (max-width: 599px) {
   .section {
     padding: 28px 0;
   }
+
   .container {
     grid-template-columns: minmax(0, 1fr);
     gap: 20px;
   }
-  .heading {
-    grid-row: 1;
-  }
+
   .eyebrow {
     margin-bottom: 10px;
     font-size: 10px;
     letter-spacing: 1.8px;
   }
+
   .title {
     max-width: 460px;
     font-size: clamp(28px, 7.7vw, 34px);
     line-height: 1.16;
   }
-  .titleBreak {
-    display: none;
-  }
+
   .grid {
-    grid-template-columns: minmax(0, 1fr);
+    grid-auto-columns: 86%;
+    gap: 14px;
+  }
+
+  .controls {
     gap: 12px;
   }
-  .card {
-    grid-template-columns: 42px minmax(0, 1fr) 20px;
-    gap: 12px;
-    min-height: 112px;
-    padding: 18px 16px;
+
+  .swipeHint {
+    max-width: 180px;
+    font-size: 11px;
   }
-  .iconWrapper {
-    width: 42px;
-    height: 42px;
+
+  .scrollButtons {
+    gap: 8px;
   }
-  .iconWrapper svg {
-    width: 26px;
-    height: 26px;
-  }
-  .name {
-    margin-top: 0;
-    font-size: 17px;
-    line-height: 1.35;
-  }
-  .description {
-    margin-top: 6px;
-    font-size: 12px;
-    line-height: 1.6;
-  }
+
+  /*
+   * Только ссылка переносится вниз.
+   * Заголовок, лента и управление сохраняют естественный порядок.
+   */
   .allLink {
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 4;
     justify-self: stretch;
+
     width: 100%;
     min-height: 48px;
     padding: 12px 18px;
+
     border: 1px solid #b8dfc9;
     border-radius: 10px;
     background: #fff;
+
     font-size: 14px;
   }
+
   .allLink:hover {
     background: #f1faf5;
   }
 }
 
+/* Узкие телефоны */
+
 @media (max-width: 359px) {
-  .card {
-    grid-template-columns: 38px minmax(0, 1fr) 18px;
-    gap: 10px;
-    padding: 16px 12px;
-  }
-  .iconWrapper {
-    width: 38px;
-    height: 38px;
-  }
-  .name {
-    font-size: 16px;
-  }
-  .arrow svg {
-    width: 18px;
-    height: 18px;
+  .grid {
+    grid-auto-columns: 92%;
+    gap: 12px;
   }
 }
 
+/* Эффекты наведения */
+
+@media (hover: hover) and (pointer: fine) {
+  .card:hover {
+    border-color: #b8dfc9;
+    background: #e8f6ee;
+    box-shadow: 0 10px 24px rgb(22 61 50 / 9%);
+  }
+
+  .scrollButton:hover:not(:disabled) {
+    border-color: #18a85a;
+    background: #edf8f3;
+  }
+}
+
+@media (min-width: 1100px) and (hover: hover) and (pointer: fine) {
+  .card:hover {
+    transform: translateY(-3px);
+  }
+}
+
+/* Снижение анимации */
+
 @media (prefers-reduced-motion: reduce) {
-  .card {
+  .card,
+  .scrollButton {
     transition: none;
   }
+
   .card:hover {
     transform: none;
   }

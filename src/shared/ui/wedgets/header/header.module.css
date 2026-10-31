@@ -1,33 +1,90 @@
+/* Хедер */
 
 .header {
   position: relative;
   z-index: 10;
-  width: 100%;
+
+  box-sizing: border-box;
+  width: min(calc(100% - 64px), 1280px);
+  margin: 16px auto 0;
+
+  border: 1px solid rgb(24 168 90 / 12%);
+  border-radius: 16px;
   background-color: #edf8f3;
-  border-bottom: 1px solid rgb(24 168 90 / 12%);
 }
+
 .container {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
   align-items: center;
   gap: 24px;
-  width: min(100% - 64px, 1280px);
+
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
   min-height: 92px;
-  margin: 0 auto;
+  margin: 0;
 }
-.logo { display: inline-flex; align-items: center; width: fit-content; min-width: 0; color: #173a36; text-decoration: none; }
-.logoIcon { display: block; flex: 0 0 auto; width: 260px; max-width: 100%; height: auto; aspect-ratio: 492 / 139; }
-.navigation { position: relative; justify-self: center; }
-.navigationList { display: flex; align-items: center; gap: clamp(20px, 2.3vw, 36px); margin: 0; padding: 0; list-style: none; }
-.navigationItem { margin: 0; padding: 0; }
+
+/* Логотип */
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+
+  width: fit-content;
+  min-width: 0;
+
+  color: #173a36;
+  text-decoration: none;
+}
+
+.logoIcon {
+  display: block;
+  flex: 0 0 auto;
+
+  width: 260px;
+  max-width: 100%;
+  height: auto;
+
+  aspect-ratio: 492 / 139;
+}
+
+/* Основная навигация */
+
+.navigation {
+  position: relative;
+  justify-self: center;
+}
+
+.navigationList {
+  display: flex;
+  align-items: center;
+  gap: clamp(20px, 2.3vw, 36px);
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.navigationItem {
+  margin: 0;
+  padding: 0;
+}
+
 .navigationLink {
   position: relative;
+
   display: inline-flex;
   align-items: center;
   gap: 6px;
+
   padding: 12px 0;
+
   border: 0;
   background: transparent;
+
   color: #163d32;
   font-family: inherit;
   font-size: 14px;
@@ -35,50 +92,222 @@
   line-height: 1.3;
   text-decoration: none;
   white-space: nowrap;
+
   cursor: pointer;
+
   transition: color 180ms ease;
 }
+
 .navigationLink::after {
-  position: absolute; right: 0; bottom: 3px; left: 0;
-  height: 2px; border-radius: 99px; background-color: currentColor;
-  content: ""; transform: scaleX(0); transform-origin: center; transition: transform 180ms ease;
+  position: absolute;
+  right: 0;
+  bottom: 3px;
+  left: 0;
+
+  height: 2px;
+
+  border-radius: 99px;
+  background-color: currentColor;
+
+  content: "";
+
+  transform: scaleX(0);
+  transform-origin: center;
+
+  transition: transform 180ms ease;
 }
+
 .navigationLink:hover,
 .navigationLink:focus-visible,
-.navigationLinkActive { color: #0f6b3a; text-decoration: none; }
+.navigationLinkActive {
+  color: #0f6b3a;
+  text-decoration: none;
+}
+
 .navigationLink:hover::after,
 .navigationLink:focus-visible::after,
-.navigationLinkActive::after { transform: scaleX(1); }
-.chevron { display: block; flex: 0 0 auto; transition: transform 180ms ease; }
-.chevronOpen { transform: rotate(180deg); }
-.vkLink { display: inline-flex; align-items: center; justify-content: center; justify-self: end; box-sizing: border-box; width: 48px; height: 48px; padding: 8px; border-radius: 10px; text-decoration: none; }
-.vkLink:hover { background: #e2f2e9; }
-.vkIcon { display: block; flex: 0 0 auto; width: 32px; height: 32px; }
-.mobileToggle { display: none; box-sizing: border-box; align-items: center; justify-content: center; width: 44px; height: 44px; padding: 0; border: 1px solid #cfe4d8; border-radius: 10px; background: transparent; color: #163d32; cursor: pointer; }
+.navigationLinkActive::after {
+  transform: scaleX(1);
+}
+
+/* Стрелки выпадающих меню */
+
+.chevron {
+  display: block;
+  flex: 0 0 auto;
+
+  transition: transform 180ms ease;
+}
+
+.chevronOpen {
+  transform: rotate(180deg);
+}
+
+/* ВКонтакте */
+
+.vkLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: end;
+
+  box-sizing: border-box;
+  width: 48px;
+  height: 48px;
+  padding: 8px;
+
+  border-radius: 10px;
+
+  text-decoration: none;
+}
+
+.vkLink:hover {
+  background: #e2f2e9;
+}
+
+.vkIcon {
+  display: block;
+  flex: 0 0 auto;
+
+  width: 32px;
+  height: 32px;
+}
+
+/* Кнопка мобильного меню */
+
+.mobileToggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+
+  border: 1px solid #cfe4d8;
+  border-radius: 10px;
+  background: transparent;
+
+  color: #163d32;
+
+  cursor: pointer;
+}
+
+/* Фокус */
+
 .navigationLink:focus-visible,
 .mobileToggle:focus-visible,
 .logo:focus-visible,
-.vkLink:focus-visible { outline: 2px solid #18a85a; outline-offset: 4px; }
+.vkLink:focus-visible {
+  outline: 2px solid #18a85a;
+  outline-offset: 4px;
+}
+
+/* Небольшие компьютеры */
+
 @media (max-width: 1199px) {
-  .container { gap: 20px; }
-  .navigationList { gap: 20px; }
-  .navigationLink { font-size: 13px; }
+  .container {
+    gap: 20px;
+  }
+
+  .navigationList {
+    gap: 20px;
+  }
+
+  .navigationLink {
+    font-size: 13px;
+  }
 }
+
+/* Планшеты и мобильная навигация */
+
 @media (max-width: 1099px) {
-  .container { grid-template-columns: minmax(0, 1fr) auto auto; width: min(100% - 48px, 1280px); min-height: 82px; gap: 12px; }
-  .logoIcon { width: 230px; }
-  .mobileToggle { display: inline-flex; grid-column: 2; grid-row: 1; }
-  .navigation { display: none; }
-  .vkLink { grid-column: 3; grid-row: 1; width: 44px; height: 44px; padding: 7px; }
-  .vkIcon { width: 28px; height: 28px; }
+  .header {
+    width: calc(100% - 48px);
+    margin-top: 12px;
+
+    border-radius: 14px;
+  }
+
+  .container {
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    gap: 12px;
+
+    min-height: 82px;
+    padding-inline: 16px;
+  }
+
+  .logoIcon {
+    width: 230px;
+  }
+
+  .mobileToggle {
+    display: inline-flex;
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .vkLink {
+    grid-column: 3;
+    grid-row: 1;
+
+    width: 44px;
+    height: 44px;
+    padding: 7px;
+  }
+
+  .vkIcon {
+    width: 28px;
+    height: 28px;
+  }
 }
+
+/* Телефоны */
+
 @media (max-width: 599px) {
-  .container { width: calc(100% - 32px); min-height: 76px; gap: 8px; }
-  .logoIcon { width: 190px; }
+  .header {
+    width: calc(100% - 32px);
+    margin-top: 10px;
+
+    border-radius: 12px;
+  }
+
+  .container {
+    gap: 8px;
+
+    min-height: 76px;
+    padding-inline: 12px;
+  }
+
+  .logoIcon {
+    width: 190px;
+  }
 }
+
+/* Узкие телефоны */
+
 @media (max-width: 380px) {
-  .logoIcon { width: 155px; }
+  .container {
+    gap: 6px;
+    padding-inline: 8px;
+  }
+
+  .logoIcon {
+    width: 155px;
+  }
 }
+
+/* Снижение анимации */
+
 @media (prefers-reduced-motion: reduce) {
-  .navigationLink, .navigationLink::after, .chevron { transition: none; }
+  .navigationLink,
+  .navigationLink::after,
+  .chevron {
+    transition: none;
+  }
 }
